@@ -266,7 +266,7 @@ Das Fehlen eines grammatischen Merkmals, wie z.B. der Artikel, bedeutet keinen M
 
 **Mehrsprachigkeit als Ressource:** Werden Herkunftssprachen aktiv genutzt, stärken sich Beziehungen im Klassenraum. Gemeinsam lässt sich interkulturelles Wissen vernetzen und Mehrsprachigkeit als Normalität etablieren. Organisiere Beiträge am besten so, dass alle mitdenken können.  
 
-!!! tip "Mehrsprachigkeit sichtbar machen: Karte nutzen!"
+!!! praxis "Mehrsprachigkeit sichtbar machen: Karte nutzen!"
     Nutzen Sie die [interaktive Karte](#herkunftssprachen-sprachfamilien) der Herkunftssprachen im Vollbildmodus. Lassen Sie Lernende die Sprachen, die sie selbst oder ihre Mitschüler:innen sprechen, auf der Karte verorten. So lässt sich Mehrsprachigkeit auch visuell sichtbar machen.  
 
 **Didaktische Konsequenz:** Kenntnisse über Herkunftssprachen und ein sensibler Umgang damit ermöglichen einen Unterricht, in dem Fehlerquellen erklärbar, Vorteile nutzbar und Potenziale mehrsprachiger Lernender sichtbar werden. Spanischlernen wird so nicht nur ein sprachlicher Gewinn, sondern auch ein metasprachlicher (Sprechen über Sprache/n). Die Einbindung von Sprachbewusstheit sorgt zusätzlich dafür, dass Lernende ihr gesamtes sprachliches Repertoire reflektiert nutzen, Unterschiede bewusst wahrnehmen und Lernstrategien für weitere Sprachen entwickeln.  

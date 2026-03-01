@@ -418,19 +418,16 @@ body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-footer a
 
 .md-typeset .admonition.expand,
 .md-typeset details.expand {
-  background: color-mix(in srgb, white 92%, var(--book-adm-expand));
+  background: color-mix(in srgb, var(--book-bg) 95%, var(--book-adm-expand));
   border: 1px solid rgba(0, 0, 0, 0.06);
-  border-left-width: .2rem;
-  border-left-color: color-mix(in srgb, var(--book-accent) 75%, transparent);
   border-radius: 0.4rem;
   box-shadow: none;
 }
 
 body[data-md-color-scheme="slate"] .md-typeset .admonition.expand,
 body[data-md-color-scheme="slate"] .md-typeset details.expand {
-  background: color-mix(in srgb, var(--book-surface-1) 86%, var(--book-adm-expand));
+  background: color-mix(in srgb, var(--book-surface-1) 88%, var(--book-adm-expand));
   border-color: rgba(255, 255, 255, 0.08);
-  border-left-color: color-mix(in srgb, var(--book-accent) 65%, transparent);
 }
 
 /* Admonition-Icon (Kompass) */
@@ -447,14 +444,9 @@ body[data-md-color-scheme="slate"] .md-typeset details.expand {
 
 .md-typeset .expand > .admonition-title:before,
 .md-typeset .expand > summary:before {
-  background-color: var(--book-adm-expand);
+  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
   -webkit-mask-image: var(--md-typeset-expand-icon);
   mask-image: var(--md-typeset-expand-icon);
-}
-
-body[data-md-color-scheme="slate"] .md-typeset .expand > .admonition-title:before,
-body[data-md-color-scheme="slate"] .md-typeset .expand > summary:before {
-  background-color: color-mix(in srgb, var(--book-adm-expand) 70%, white);
 }
 
 
@@ -1044,7 +1036,7 @@ body[data-md-color-scheme="slate"] .md-typeset details.cite {
   cursor: pointer;
   opacity: 0.65;
   transition: opacity 0.15s ease;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -1120,4 +1112,115 @@ body[data-md-color-scheme="slate"] .md-typeset details.summary {
 
 .md-typeset .admonition.summary > :not(.admonition-title) {
   margin-left: 0;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   CONTEXT: Hintergrundinformation / theoretischer Kontext
+   Variante: !!! context "…"
+   ────────────────────────────────────────────────────────────────────────── */
+
+.md-typeset .admonition.context,
+.md-typeset details.context {
+  background: color-mix(in srgb, var(--book-bg) 84%, var(--book-accent));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.context,
+body[data-md-color-scheme="slate"] .md-typeset details.context {
+  background: color-mix(in srgb, var(--book-surface-1) 85%, var(--book-accent));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.md-typeset .admonition.context {
+  --md-admonition-icon: var(--md-typeset-context-icon);
+}
+
+.md-typeset .admonition.context > .admonition-title,
+.md-typeset details.context > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+}
+
+.md-typeset .context > .admonition-title:before,
+.md-typeset .context > summary:before {
+  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
+  -webkit-mask-image: var(--md-typeset-context-icon);
+  mask-image: var(--md-typeset-context-icon);
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   PRAXIS: Unterrichtspraktische Hinweise und Aufgaben
+   Variante: !!! praxis "…"
+   ────────────────────────────────────────────────────────────────────────── */
+
+.md-typeset .admonition.praxis,
+.md-typeset details.praxis {
+  background: color-mix(in srgb, var(--book-bg) 86%, var(--book-accent));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.praxis,
+body[data-md-color-scheme="slate"] .md-typeset details.praxis {
+  background: color-mix(in srgb, var(--book-surface-1) 86%, var(--book-accent));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.md-typeset .admonition.praxis {
+  --md-admonition-icon: var(--md-typeset-praxis-icon);
+}
+
+.md-typeset .admonition.praxis > .admonition-title,
+.md-typeset details.praxis > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+}
+
+.md-typeset .praxis > .admonition-title:before,
+.md-typeset .praxis > summary:before {
+  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
+  -webkit-mask-image: var(--md-typeset-praxis-icon);
+  mask-image: var(--md-typeset-praxis-icon);
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   REGEL: Regeln, Tipps und Merkboxen
+   Variante: !!! regel "…"
+   ────────────────────────────────────────────────────────────────────────── */
+
+.md-typeset .admonition.regel,
+.md-typeset details.regel {
+  background: color-mix(in srgb, var(--book-bg) 86%, var(--book-accent));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.regel,
+body[data-md-color-scheme="slate"] .md-typeset details.regel {
+  background: color-mix(in srgb, var(--book-surface-1) 90%, var(--book-accent));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.md-typeset .admonition.regel {
+  --md-admonition-icon: var(--md-typeset-regel-icon);
+}
+
+.md-typeset .admonition.regel > .admonition-title,
+.md-typeset details.regel > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+}
+
+.md-typeset .regel > .admonition-title:before,
+.md-typeset .regel > summary:before {
+  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
+  -webkit-mask-image: var(--md-typeset-regel-icon);
+  mask-image: var(--md-typeset-regel-icon);
 }

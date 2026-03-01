@@ -132,7 +132,7 @@ Das Beispiel macht deutlich, dass der Wortakzent bedeutungsunterscheidend sein k
 
 Wichtig ist folglich, die betonte Silbe eines Wortes zu kennen. Im Spanischen ist das in rund 80 % aller Wörter die vorletzte Silbe. Nur in etwa 17 % wird auf der letzten Silbe und nur in etwa 3 % auf der dritt- oder viertletzten Silbe betont.  
 
-!!! note "Betonung im Sprachvergleich"
+!!! context "Betonung im Sprachvergleich"
     Damit unterscheidet sich das Spanische beispielsweise vom Italienischen, wo zwar ebenfalls die vorletzte Silbe überwiegt, aber auch die vorvorletzte Silbe sehr häufig betont wird. Im Französischen fällt der Wortakzent hingegen fast immer auf die letzte Silbe der jeweiligen Wortgruppe.
 
 Die häufigste Struktur – Betonung auf der vorletzten Silbe – betrifft beinahe immer Wörter, die auf Vokal, *n* oder *s* enden (*casa*, *joven*, *lunes*). Umgekehrt gilt: Wörter mit Betonung auf der letzten Silbe enden fast immer auf andere Konsonanten (*reloj*, *doctor*). Anders als im Deutschen lässt sich in den meisten Fällen also an der Endung der Wörter erkennen, welche der Silben betont wird. Das System ist also hochgradig regelmäßig. Auch bei bisher unbekannten Wörtern können Lernende sie somit sofort korrekt betonen. Es gibt aber – wie immer – ein paar Ausnahmen, doch zum Glück werden diese Ausnahmen im Spanischen immer mithilfe des geschriebenen Akzents, der Tilde, markiert. Wer also die Regeln der graphischen Markierung verinnerlicht hat, liegt bei der Aussprache immer richtig.  
@@ -147,7 +147,7 @@ Neben der graphischen Markierung des Wortakzents dient die Tilde auch zur Unters
     Wenn die spanische Orthographie in den letzten Jahrzehnten reformiert worden ist, dann vor allem in Bezug auf Akzentsetzungen, die homophone Wörter unterscheiden soll. In älteren Texten, manchmal noch heute in konservativen Schreibungen, finden sich also noch Akzente, die nach heutigen Regeln nicht mehr gesetzt werden: Abgeschafft wurde z.B. der Akzent auf *solo*, der früher zwischen *solo* ‘allein’ und *sólo* ‘nur’ differenzierte, oder die Akzente auf Demonstrativa wie *este* oder *esa* zur Unterscheidung von *éste/ése/aquéllo* als betonte Demonstrativpronomen von den adjektivischen Verwendungen in *este señor*, *esa mujer*, *aquel día*.
 
 
-!!! tip "Tipps zur graphischen Akzentsetzung im Spanischen"
+!!! regel "Tipps zur graphischen Akzentsetzung im Spanischen"
     1. Teile das Wort in Silben  
     2. Höre, welche Silbe betont ist  
     3. Wenn die letzte Silbe betont ist  
@@ -181,7 +181,7 @@ Bei Fremdwörtern zeigt sich die größte Flexibilität. Manche Wörter wurden i
 
 Für den Unterricht ist wichtig zu wissen, dass beide Formen als korrekt gelten. Lehrkräfte können Lernende darauf hinweisen, dass regionale Präferenzen bestehen und dass in Wörterbüchern wie dem *Diccionario de la lengua española* (DLE) die bevorzugte und alternative Form transparent verzeichnet ist. So kann Unsicherheit im Umgang mit verschiedenen Schreibweisen vermieden werden.  
 
-!!! note "Wie erkennt man gültige Varianten im Wörterbuch?"
+!!! context "Wie erkennt man gültige Varianten im Wörterbuch?"
     Im *Diccionario de la lengua española* (DLE) wird die übliche Form als Lemma angegeben. Alternative Schreibweisen erscheinen im Eintrag mit dem Hinweis „también“. Auf diese Weise wird deutlich, dass beide Formen korrekt sind, auch wenn eine als die bevorzugte Normform gilt.   
     Beispiel: Beim Lemma [*video*](https://dle.rae.es/video){:target="_blank" rel="noopener noreferrer"} findet sich die Angabe „también *vídeo*“.  
 

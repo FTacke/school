@@ -149,7 +149,7 @@ Im Plural zeigt sich die Anredevariation im Spanischen deutlich übersichtlicher
 
 In Hispanoamerika wird die Unterscheidung zwischen Nähe und Distanz im Plural nicht über das Pronomen selbst ausgedrückt. *Ustedes* ist hier die allgemeine und neutrale Form der Pluralanrede – unabhängig davon, ob vertraut oder formell gesprochen wird. So werden etwa Kinder, Freunde oder Familienangehörige im Plural ganz selbstverständlich mit *ustedes* angesprochen, ohne dass dies als distanziert empfunden würde. Die Kategorien des *trato de confianza* und des *trato de respeto* sind also systematisch neutralisiert (man denke auch an engl. *you*) und wird im Plural nicht über die Wahl des Pronomens ausgedrückt.
 
-!!! info "Warum *vosotros* in Hispanoamerika kaum vorkommt"
+!!! context "Warum *vosotros* in Hispanoamerika kaum vorkommt"
     Die Form *vosotros* hat sich in Hispanoamerika nicht als Teil des alltäglichen Anredesystems etabliert. Während sich auf der Iberischen Halbinsel früh ein System mit *vosotros* (vertraut) und *ustedes* (respektvoll) herausbildete, entwickelte sich in Amerika von Beginn an ein Pluralsystem ohne *vosotros*. *Ustedes* wurde dort früh zur allgemeinen Pluralform, insbesondere in institutionellen und öffentlichen Kontexten, und blieb dies bis heute.
     Vorkommen von *vosotros* in Hispanoamerika beschränken sich daher auf randständige Bereiche, etwa historische Texte, liturgische Sprache oder stark rhetorische Kontexte; im alltäglichen Sprachgebrauch spielt die Form keine Rolle.
 

@@ -54,7 +54,7 @@ Auch aus didaktischer Perspektive bietet das Thema zahlreiche Vorteile:
 * Es stärkt die aktive Wortproduktion, da Lernende Werkzeuge erhalten, um sich präziser und vielfältiger auszudrücken.
 * Es eröffnet sprachvergleichende Perspektiven, z.B. beim Gegenüberstellen spanischer und deutscher Wortbildungsprozesse, was besonders im mehrsprachigen Unterricht gewinnbringend ist.
 
-!!! info "Lehrplanbezug (Deutschlandweit)"
+!!! context "Lehrplanbezug (Deutschlandweit)"
     Zwar ist Wortbildung in den Bildungs- und Kerncurricula aller Bundesländer nicht als eigener Themenbereich ausgewiesen, sie ist aber fester Bestandteil der Kompetenzfelder **Sprachbewusstheit**, **Grammatik** und **Wortschatzarbeit**.
     Lernende sollen also nicht nur Vokabeln auswendig lernen, sondern Wortbildungs- und Strukturmuster erkennen und nutzen, um Bedeutungen eigenständig zu erschließen und Sprache reflektiert anzuwenden.
 
@@ -73,7 +73,7 @@ Im Folgenden werden die zentralen Wortbildungsprozesse vorgestellt:
 5. **Kontamination (Kofferwortbildung)** – Verschmelzung zweier Wörter zu einem neuen Ausdruck (*motel* aus *motor* + *hotel*, *emoticono* aus *emoción* + *icono*).  
 6. **Entlehnungen** und **Lehnübersetzungen** – Übernahme fremdsprachiger Wörter (*fútbol, wifi, sushi*) bzw. Nachbildung fremder Strukturen (*rascacielos* nach *skyscraper*, *luna de miel* nach *honeymoon*).
 
-!!! info "Was bedeutet ‚Produktivität‘ in der Wortbildung?"
+!!! context "Was bedeutet ‚Produktivität’ in der Wortbildung?"
     Nicht alle Wortbildungsprozesse werden gleich häufig genutzt. Manche Verfahren sind **hoch produktiv**, weil sie regelmäßig neue Wörter hervorbringen – etwa die **Derivation** mit Suffixen wie *-ción* (*educación*) oder Präfixen wie *re-* (*releer*). Andere Prozesse, wie **Kontaminationen** oder **Lehnübersetzungen**, sind seltener und gelten daher als weniger produktiv. Für den Unterricht ist dieser Unterschied wichtig, weil Lernende vor allem von produktiven Mustern profitieren, um neue Wörter selbständig zu erschließen.
 
 Jeder dieser Prozesse wird im Folgenden genauer erläutert – mit Beispielen, typischen Mustern und Hinweisen, wie sich das jeweilige Phänomen im Unterricht nutzen lässt.
@@ -144,7 +144,7 @@ Im Unterricht lässt sich die Derivation gut einsetzen, um Sprachbewusstheit und
     Nicht alle Affixe sind gleich produktiv (z.B. *-ción*, *re-* häufig), und die Transparenz variiert (*panadero* ist unmittelbarer als *hermoso → hermosura*).
 
 
-!!! tip "Affix-Plakat im Unterricht"
+!!! praxis "Affix-Plakat im Unterricht"
     Im Unterricht kann ein Affix-Plakat angelegt werden, auf dem neue Beispiele fortlaufend ergänzt und nach **Präfixen** und **Suffixen** geordnet werden. Jede Eintragung enthält 2–3 authentische Belege mit kurzer Bedeutungsangabe. So entsteht im Laufe der Zeit eine visuelle Übersicht produktiver Wortbildungsmuster, die Sprachbewusstheit und Wortschatzarbeit unterstützt.
 
 ### 2. Komposition (Zusammensetzung)
@@ -183,7 +183,7 @@ Für den Unterricht ist die Komposition besonders anschaulich: Lernende können 
     Komposita sind besonders transparent, wenn die Bestandteile leicht erkennbar bleiben. Im Unterricht kann dies genutzt werden, um Wortbedeutungen zu erschließen und Wortbildungsstrategien zu reflektieren.
 
 
-!!! tip "Komposita im Unterricht sichtbar machen"
+!!! praxis "Komposita im Unterricht sichtbar machen"
     Bitten Sie die Lernenden, zusammengesetzte Wörter aus authentischen Texten zu sammeln und ihre Bestandteile zu markieren. Anschließend kann gemeinsam überlegt werden, welche Struktur (Prä- oder Postdetermination) vorliegt und ob die Zusammensetzung auch im Deutschen oder in den [Herkunftssprachen](herkunftssprachen.md) der Lernenden vorkommt. So werden sprachübergreifende Muster sichtbar, die Sprachbewusstheit fördern und einen Vergleich mit Mehrsprachigkeitssituationen ermöglichen.
 
     
@@ -211,7 +211,7 @@ Diese Formen zeigen, wie flexibel Sprache auf neue Kommunikationssituationen rea
     Verkürzte Wörter behalten meist das Genus des Ursprungswortes (*el autobús → el bus*), können aber abweichen (*el servicio militar → la mili*).
 
 
-!!! tip "Abkürzungen erkennen und verstehen"
+!!! praxis "Abkürzungen erkennen und verstehen"
     Sammeln Sie mit der Klasse aktuelle Kürzungen aus Schlagzeilen oder digitalen Medien. Besprechen Sie, welche Art von Verkürzung vorliegt, und lassen Sie die Lernenden ähnliche Muster in den Herkunftssprachen suchen. So wird Sprachökonomie als universelles Prinzip sichtbar.
 
 
@@ -229,7 +229,7 @@ Im Spanischen wird der Wortartwechsel meist durch den Artikel markiert, während
       - *granate* (Substantiv) → *granate* (Adjektiv ‘granatrot’)
 
 
-!!! tip "Wortarten reflektieren"
+!!! praxis "Wortarten reflektieren"
     Arbeiten Sie mit authentischen Beispielen aus Presse oder Liedtexten, in denen Konversion vorkommt. Lassen Sie die Lernenden markieren, welche Wörter ihre Kategorie gewechselt haben, und vergleichen Sie anschließend ähnliche Strukturen im Deutschen und in den Herkunftssprachen.
 
 
@@ -247,7 +247,7 @@ Diese Wortbildungsart illustriert besonders deutlich sprachliche Kreativität: S
       - *almuerzo* + *desayuno* → *almuerzayuno* (‘Brunch’)
 
 
-!!! tip "Sprachkreativität fördern"
+!!! praxis "Sprachkreativität fördern"
     Lassen Sie Lernende neue Kofferwörter aus spanischen Wortpaaren bilden, ihre Bedeutung erklären und die Übersetzung ins Deutsche oder in die Herkunftssprachen diskutieren. So wird sichtbar, wie flexibel Sprache auf neue Konzepte reagiert.
 
 
@@ -274,7 +274,7 @@ Lehnübersetzungen wie [*rascacielos*](https://dle.rae.es/rascacielos){:target="
     Beide Prozesse zeigen den ständigen Austausch zwischen Sprachen. Manche Lehnwörter werden vollständig integriert (*fútbol*), andere bleiben als Fremdwörter markiert (*software*).
 
 
-!!! tip "Sprachkontakt erfahrbar machen"
+!!! praxis "Sprachkontakt erfahrbar machen"
     Sammeln Sie mit der Klasse aktuelle Entlehnungen aus spanischen Medien. Lassen Sie entscheiden, ob es sich um Lehnwörter oder Lehnübersetzungen handelt, und vergleichen Sie entsprechende Formen im Deutschen und in den Herkunftssprachen. Diskutieren Sie anschließend: Wie könnte man ein deutsches Wort wie „Homeoffice“ ins Spanische übersetzen? So wird deutlich, dass Mehrsprachigkeit ein Motor sprachlicher Innovation ist (vgl. Kapitel [Herkunftssprachen](herkunftssprachen.md)).
 
 
@@ -286,7 +286,7 @@ Diese Unterscheidung zeigt sich auch in alltäglichen Situationen: In Spielen wi
 
 Dabei gilt außerdem: Das DLE dokumentiert den Kern des allgemeinen Wortschatzes, nicht aber jede regionale oder zeitlich begrenzte Neuerung. Andere Wörterbücher erfassen zusätzliche Bereiche des Spanischen, etwa das [*Diccionario de Americanismos*](https://www.asale.org/damer/){:target="_blank" rel="noopener noreferrer"} für den hispanoamerikanischen Raum oder das [*Diccionario del español de México*](https://dem.colmex.mx/){:target="_blank" rel="noopener noreferrer"} für mexikanische Varietäten. Sprache bleibt also immer in Bewegung und kann nie vollständig abgebildet werden.
 
-!!! tip "Über Wörterbücher und lebendige Sprache sprechen"
+!!! praxis "Über Wörterbücher und lebendige Sprache sprechen"
     Im Unterricht kann es anregend sein, gemeinsam zu überlegen, welche neuen Wörter gerade verwendet werden, die (noch) nicht im Duden oder im DLE stehen – etwa *crush*, *stalkear* oder *emoji*. So wird sichtbar, dass Wörter nicht erst durch ihre Aufnahme ins Wörterbuch existieren, sondern durch den alltäglichen Gebrauch. Diese Reflexion fördert Sprachbewusstheit und zeigt, dass auch Jugendsprache Teil sprachlicher Kreativität ist.
 
 ---

@@ -124,7 +124,7 @@ Es gibt verschiedene Pro und Contra für beide Möglichkeiten, die man bedenken 
 
 -	Für die *distinción* spricht wiederum, dass sie in vielen Lehrwerken als Standard vorausgesetzt wird – ebenso in Prüfungsformaten, Hörtexten oder im schulischen Kanon insgesamt. Außerdem wird die Unterscheidung auch in der Orthographie gemacht. Solch praktische Erwägungen und die Nähe zu Spanien lassen sich nicht leugnen. Außerdem kann die bewusste Auseinandersetzung mit dem Interdentallaut <span class="meta">[θ]</span> sprachsensibilisierend wirken: Gerade der Vergleich mit dem Englischen, wo sich derselbe Laut hinter dem graphischen `<th>` (z.B. *think*, *author*, *path*) verbirgt, zeigt, dass der Interdental bereits aus einer anderen Fremdsprache bekannt ist (und dort nicht als ‚uncool‘ gilt). Solche sprachenübergreifenden Parallelen sind übrigens immer hilfreich, um stereotype Vorstellungen zu hinterfragen.
 
-!!! tip "*Seseantes* im Unterricht?"
+!!! praxis "*Seseantes* im Unterricht?"
     Viele Lehrkräfte und Schüler:innen sprechen bereits Spanisch (als Erstsprache) und bringen eigene sprachliche Prägungen mit – zum Beispiel durch Herkunft oder familiäre, kulturelle oder emotionale Bezüge zu Lateinamerika.  
 
     In solchen Fällen ist der *seseo* nicht nur eine legitime, sondern oft auch die authentische Variante. Er kann für Lernende wie Lehrkräfte ein Identifikationsangebot darstellen und die Motivation stärken.  
@@ -229,7 +229,7 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
 
 Für den Unterricht bedeutet das: Man kann dem *yeísmo* ganz entspannt begegnen. Wenn Lehrwerke noch die traditionelle lautliche Unterscheidung zwischen <span class="meta">/ʎ/</span> und <span class="meta">/ʝ/</span> erwähnen, lohnt es sich, das einzuordnen und kurz zu erklären, dass diese Unterscheidung in der Realität kaum noch vorkommt. Unterrichtet wird schließlich eine lebendige Sprache, keine reine „Schulbuchsprache“.
 
-!!! tip "Über sprachliche Identität ins Gespräch kommen"
+!!! praxis "Über sprachliche Identität ins Gespräch kommen"
     Das Phänomen *yeísmo* und seine Variation lässt sich wunderbar nutzen, um über regionale Eigenheiten und sprachliche Identität ins Gespräch zu kommen. In der Region um Buenos Aires zum Beispiel ist die *sh*-Aussprache ein Identifikationsmerkmal für die Sprecher:innen, das außerdem in der gesamten spanischsprachigen Welt mit Argentinien assoziiert wird (auch wenn es nicht typisch für alle Teile Argentiniens ist!).  
 
     Für viele Schüler:innen kann es spannend (und motivierend!) sein, solche Varianten auszuprobieren. Hier kann man natürlich darauf verweisen, dass es auch im Deutschen regionale Unterschiede gibt – etwa in der Aussprache von *Milch* als „Milsch“ <span class="meta">[mɪlʃ]</span> oder sogar „Mik“ <span class="meta">[mɪk]</span>, wie man sie aus verschiedenen süddeutschen Regionen kennt. Wichtig ist im Vergleich allerdings, dass *žeísmo* und *šeísmo* in Buenos Aires dort zur Aussprachenorm gehört und nicht als ‚falsch‘ oder ‚schlecht‘ bewertet wird.

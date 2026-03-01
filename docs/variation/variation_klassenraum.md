@@ -74,7 +74,7 @@ b) Bewusst über sprachliche Strukturen nachdenken und diese analysieren
 
 
 
-!!! info "Hinweis: Perzeptive Varietätenlinguistik und Spracheinstellungen"
+!!! context "Hinweis: Perzeptive Varietätenlinguistik und Spracheinstellungen"
     ```
     Hier evtl. noch einen Infokasten zu perzeptiver Varietätenlinguistik und Spracheinstellungen einfügen als Themen, die beim Unterrichten aufkommen können:  
     Stigmatisierung bestimmter Dialekte, *glotofobia*, *purismo*, *actitudes lingüísticas* diskutieren.  
@@ -149,12 +149,12 @@ Korpus als Überprüfung (wie suche ich gezielt nach Wörtern?)
 Beispielsuche
 
 
-!!! tip "Beispiel: Korpus für Kollokationsübungen"
+!!! praxis "Beispiel: Korpus für Kollokationsübungen"
     Beispielaufgabe: *hacer fila* vs. *hacer cola*  
     Vergleich: **ARG-Cht31414** vs. **SAL79462**  
     Ziel: Unterschiede in der Kollokationsverwendung erkennen und Varietätenbewusstsein fördern.
 
-!!! info "Zusammenfassende Gedanken"
+!!! context "Zusammenfassende Gedanken"
     Natürlich ist es nicht das Ziel, dass Lehrkräfte alle existierenden Varianten des Spanischen beherrschen – darum geht es bei plurizentrischem Unterrichten nicht.  
     Zentral ist vielmehr die **passive Varietätenkompetenz**, die dazu befähigt, zwischen den Varianten zu manövrieren und eine **metalinguistische Perspektive** einzunehmen.  
 

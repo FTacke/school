@@ -38,7 +38,7 @@ Was im Unterricht allzu schnell als immer noch falsch abgestempelt wird, kann au
 
 Bevor wir uns den verschiedenen Dimensionen sprachlicher Fehler widmen, klären wir zunächst etwas genauer, was im Kontext des Spracherwerbs überhaupt als Fehler gilt. Anschließend werfen wir einen Blick auf zentrale Fehlertypen, den möglichen Umgang mit ihnen im Unterricht – und die Frage, ob Fehler nicht mehr sind als bloße Abweichungen von der Norm.
 
-!!! info "Lernendensprache"
+!!! context "Lernendensprache"
     Die sogenannte Lernendensprache (auch: Interimsprache oder engl. *Interlanguage*) bezeichnet das individuelle, sich entwickelnde Sprachsystem von Lernenden. Es basiert auf dem Zusammenspiel von Elementen der Erst- und Zielsprache und folgt eigenen, teils systematischen Regeln. Fehler sind in diesem System nicht bloß Störungen, sondern Hinweise auf den jeweiligen Stand des Sprachlernprozesses. Ziel des Unterrichts ist es, diese Lernendensprache schrittweise an die Zielsprache heranzuführen.  
       
     Eine ausführlichere Darstellung dieses Konzepts und seiner didaktischen Relevanz findet sich bei Kreyer (2023, 30–32), weitere Literatur zum Thema findest Du unten.

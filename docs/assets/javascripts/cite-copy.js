@@ -34,36 +34,30 @@
   function getTextWithLineBreaks(node) {
     if (node.nodeType === Node.TEXT_NODE) return node.textContent;
     if (node.nodeName === 'BR') return '\n';
-    var text = '';
+    var chunks = [];
     node.childNodes.forEach(function (child) {
-      text += getTextWithLineBreaks(child);
+      chunks.push(getTextWithLineBreaks(child));
     });
+    var text = chunks.join('');
     /* Absätze (<p>) mit Zeilenumbruch abschließen */
     if (node.nodeName === 'P') text += '\n';
     return text;
   }
 
   function extractCiteText(box) {
-    var parts = [];
+    /* Zeilen direkt beim Traversieren sammeln und filtern */
+    var lines = [];
     box.childNodes.forEach(function (node) {
       if (node.nodeType === Node.ELEMENT_NODE &&
           node.classList.contains('admonition-title')) return;
-      var raw = getTextWithLineBreaks(node).trim();
-      if (raw) parts.push(raw);
+      getTextWithLineBreaks(node).split('\n').forEach(function (line) {
+        var t = line.trim();
+        if (!t) return;
+        if (/^CC[:\s]/i.test(t)) return; // Sicherheitsnetz
+        lines.push(t);
+      });
     });
-
-    var full = parts.join('\n');
-
-    /* Zeilen filtern: CC-Zeilen entfernen (Sicherheitsnetz) */
-    var lines = full.split('\n');
-    var filtered = lines.filter(function (line) {
-      var t = line.trim();
-      if (!t) return false;
-      if (/^CC[:\s]/i.test(t)) return false;
-      return true;
-    });
-
-    return filtered.join('\n').trim();
+    return lines.join('\n');
   }
 
   function copyToClipboard(text, btn) {
