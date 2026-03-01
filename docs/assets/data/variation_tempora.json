@@ -1,0 +1,40 @@
+[
+  {"Land": "Spanien", "Hauptstadt": "Madrid", "Koordinaten": [40.416775, -3.70379], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Spanien (Zentrum)", "Hauptstadt": "Madrid", "Koordinaten": [40.416775, -3.70379], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Spanien (Süden)", "Hauptstadt": "Sevilla", "Koordinaten": [37.392529, -5.994072], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Spanien (Nordwesten)", "Hauptstadt": "Santiago de Compostela", "Koordinaten": [42.878212, -8.544844], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Spanien (Galicien)", "Hauptstadt": "Santiago de Compostela", "Koordinaten": [42.878212, -8.544844], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Spanien (Kanarische Inseln)", "Hauptstadt": "Santa Cruz de Tenerife", "Koordinaten": [28.4682, -16.2546], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Mexiko", "Hauptstadt": "Mexiko-Stadt", "Koordinaten": [19.4326, -99.1332], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Mittelamerika (Region)", "Hauptstadt": "Managua", "Koordinaten": [12.114993, -86.236174], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Karibik (Region)", "Hauptstadt": "Santo Domingo", "Koordinaten": [18.483402, -69.929611], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Peru", "Hauptstadt": "Lima", "Koordinaten": [-12.046374, -77.042793], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Peru (Küste)", "Hauptstadt": "Lima", "Koordinaten": [-12.046374, -77.042793], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Peru (Andenraum)", "Hauptstadt": "Cusco", "Koordinaten": [-13.529427, -71.984978], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Bolivien", "Hauptstadt": "Cochabamba", "Koordinaten": [-17.413977, -66.165321], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Bolivien (Andenraum)", "Hauptstadt": "La Paz", "Koordinaten": [-16.489689, -68.119294], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Argentinien", "Hauptstadt": "Córdoba", "Koordinaten": [-31.416668, -64.183334], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Argentinien (Nordwesten)", "Hauptstadt": "Salta", "Koordinaten": [-24.782932, -65.412155], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Argentinien (Zentrum)", "Hauptstadt": "Córdoba", "Koordinaten": [-31.416668, -64.183334], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Argentinien (Süden)", "Hauptstadt": "Comodoro Rivadavia", "Koordinaten": [-45.86413, -67.49656], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Chile", "Hauptstadt": "Santiago", "Koordinaten": [-33.447487, -70.673676], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Uruguay", "Hauptstadt": "Montevideo", "Koordinaten": [-34.901113, -56.164531], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Paraguay", "Hauptstadt": "Asunción", "Koordinaten": [-25.26374, -57.575926], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Kolumbien (Andenraum)", "Hauptstadt": "Bogotá", "Koordinaten": [4.7110, -74.0721], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Venezuela", "Hauptstadt": "Caracas", "Koordinaten": [10.4806, -66.9036], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Ecuador", "Hauptstadt": "Quito", "Koordinaten": [-0.1807, -78.4678], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Äquatorialguinea", "Hauptstadt": "Malabo", "Koordinaten": [3.7504, 8.7371], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Kuba", "Hauptstadt": "Havanna", "Koordinaten": [23.1136, -82.3666], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+  {"Land": "Puerto Rico", "Hauptstadt": "San Juan", "Koordinaten": [18.4655, -66.1057], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"},
+
+  {"Land": "Andenraum (länderübergreifend)", "Hauptstadt": "Titicacasee-Region", "Koordinaten": [-15.76557, -69.526123], "Perfecto compuesto": "Daten folgen", "Perfecto simple": "Daten folgen", "Verwendung der Tempora": "Daten folgen"}
+]

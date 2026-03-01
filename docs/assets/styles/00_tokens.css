@@ -1,0 +1,109 @@
+/* ==========================================================================
+   00_tokens.css – Design Tokens only
+   Only Custom Properties. No layout rules, no selectors with real CSS rules
+   other than these token containers.
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   Global tokens (scheme-independent)
+   -------------------------------------------------------------------------- */
+:root {
+  /* Accent palette */
+  --book-accent:        #2b4460;
+  --book-accent-2:      #4e95d9;
+
+  /* Border radius */
+  --book-radius:        14px;
+  --book-radius-sm:     8px;
+
+  /* Shadows */
+  --book-shadow:        0 2px 8px rgba(0, 0, 0, 0.08);
+  --book-shadow-md:     0 4px 16px rgba(0, 0, 0, 0.12);
+
+  /* Focus ring */
+  --book-focus:         0 0 0 3px rgba(78, 149, 217, 0.35);
+
+  /* Spacing scale */
+  --s-1: 0.25rem;
+  --s-2: 0.5rem;
+  --s-3: 1rem;
+  --s-4: 1.5rem;
+  --s-5: 2.5rem;
+}
+
+/* --------------------------------------------------------------------------
+   Light mode tokens  (scheme = default)
+   -------------------------------------------------------------------------- */
+body[data-md-color-scheme="default"] {
+  --book-bg:            #f7f6f3;
+  --book-surface-1:     #eeecea;
+  --book-surface-2:     #e3e0db;
+  --book-fg:            #1c1c1c;
+  --book-muted:         #5a5855;
+  --book-border:        #d5d2cc;
+  --book-border-strong: #bcb9b4;
+  --book-accent:        #2b4460;
+  --book-accent-strong: #3a5a7a;
+  --nav-active-bg:      rgba(43, 68, 96, 0.10);
+  --nav-hover-bg:       rgba(43, 68, 96, 0.06);
+  --code-bg:            #ece9e4;
+  --code-inline-bg:     rgba(0, 0, 0, 0.05);
+  --book-link:          #2b4460;
+  --book-link-hover:    #4e95d9;
+  --book-link-dark:     #1e324a;
+  --hairline-color:     rgba(0, 0, 0, 0.08);
+
+  /* Admonition color tokens – reserved for future use */
+  --book-adm-info:      #1a6d8e;
+  --book-adm-tip:       #1e7a4e;
+  --book-adm-success:   #27a577;
+  --book-adm-note:      #2b4460;
+  --book-adm-warning:   #8a5f18;
+  --book-adm-danger:    #8a2020;
+  --book-adm-details:   #4e95d9;
+  --book-adm-hoermal:   #4f6b88;
+  --book-adm-expand:    #d9d4c8;
+
+  /* Material/Zensical accent mapping – keep UI consistent with book palette */
+  --md-accent-fg-color: var(--book-accent);
+  --md-typeset-a-color: var(--book-link);
+}
+
+/* --------------------------------------------------------------------------
+   Dark mode tokens  (scheme = slate)
+   -------------------------------------------------------------------------- */
+body[data-md-color-scheme="slate"] {
+  --book-bg:            #1a1d22;
+  --book-surface-1:     #20242b;
+  --book-surface-2:     #262b34;
+  --book-fg:            #e7e9ee;
+  --book-muted:         rgba(231, 233, 238, 0.74);
+  --book-border:        rgba(255, 255, 255, 0.10);
+  --book-border-strong: rgba(255, 255, 255, 0.16);
+  --book-accent:        #7ab0e8;
+  --book-accent-strong: #9cc9f3;
+  --book-accent-2:      #5a9fd4;
+  --nav-active-bg:      rgba(122, 176, 232, 0.14);
+  --nav-hover-bg:       rgba(122, 176, 232, 0.09);
+  --code-bg:            #15171c;
+  --code-inline-bg:     rgba(255, 255, 255, 0.06);
+  --book-link:          #7ab0e8;
+  --book-link-hover:    #a8ccf0;
+  --book-link-dark:     #5a96d8;
+  --hairline-color:     rgba(255, 255, 255, 0.08);
+
+  /* Admonition color tokens – reserved for future use */
+  --book-adm-info:      #5ab0d0;
+  --book-adm-tip:       #4aad78;
+  --book-adm-success:   #3dbf8a;
+  --book-adm-note:      #7ab0e8;
+  --book-adm-warning:   #c49040;
+  --book-adm-danger:    #c45050;
+  --book-adm-details:   #7ab0e8;
+  --book-adm-hoermal:   #82a4c7;
+  --book-adm-expand:    #3a3832;;
+
+  /* Material/Zensical accent mapping – keep UI consistent with book palette */
+  --md-accent-fg-color: var(--book-accent);
+  --md-typeset-a-color: var(--book-link);
+}

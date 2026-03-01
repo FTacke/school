@@ -1,0 +1,988 @@
+/* ==========================================================================
+   40_custom.css – Projektspezifische Stile: Custom Components
+   
+   NUR projektspezifische Sonderfälle – keine Tokens, keine generische Typo.
+   Tokens   → 00_tokens.css
+   Typo     → 10_typography.css
+   Layout   → 20_book.css
+   Kompon.  → 30_components.css
+   
+   Ladereihenfolge: 00 → 10 → 20 → 30 → 40
+   ========================================================================== */
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   COVER (v4): Hochkantiges Buchcover-Format
+   Variante: !!! cover (Admonition type="cover")
+   Modern, digital, Buchcover-Proportion (3:4), 3-Zonen-Layout
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* CSS Custom Properties für Cover-Spacing */
+.md-typeset .admonition.cover {
+  --cover-gap-lg: clamp(16px, 2.4vw, 24px);
+  --cover-gap-md: clamp(10px, 1.8vw, 14px);
+  --cover-gap-sm: clamp(6px, 1.2vw, 10px);
+  
+  /* Einheitliche Font-Familie: System Sans */
+  --cover-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+}
+
+/* Cover-Container: Basis-Styling (entfernt Admonition-Standard-Icon + -Title) */
+.md-typeset .admonition.cover {
+  max-width: 520px;
+  width: 100%;
+  margin-inline: auto;
+  background: #243041;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: clamp(12px, 2vw, 22px);
+  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.32);
+  padding: clamp(22px, 3vw, 16px) clamp(18px, 2.6vw, 42px);
+  
+  /* 3-Zonen-Layout: header, main, footer */
+  display: flex;
+  flex-direction: column;
+  gap: var(--cover-gap-md);
+  
+  font-family: var(--cover-font-family);
+  color: #EAF1F8;
+
+  margin-bottom: 4rem
+}
+
+/* Hochkantiges Buchcover-Verhältnis ab Tablet/Desktop */
+@media (min-width: 768px) {
+  .md-typeset .admonition.cover {
+    min-height: calc(min(580px, 100vw - 40px) * 1.15);
+  }
+}
+
+/* Verstecke Admonition-Icon und Title für Cover-Variante */
+.md-typeset .admonition.cover::before {
+  display: none;
+}
+
+.md-typeset .admonition.cover > .admonition-title {
+  display: none;
+}
+
+/* Cover Content: Direct children styling */
+.md-typeset .admonition.cover > *:not(.admonition-title) {
+  margin: 0;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   ZONE 1: Header (Titel + Subtitle)
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Cover Title Block */
+.md-typeset .admonition.cover .cover-title-block {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cover-gap-sm);
+}
+
+.md-typeset .admonition.cover .cover-title-block h1 {
+  font-family: var(--cover-font-family);
+  font-size: 1.9rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.04;
+  color: #EAF1F8;
+  margin: 0;
+  padding: 0;
+  max-width: 15ch;
+}
+
+/* Akzent für @School innerhalb Titel */
+.md-typeset .admonition.cover .cover-title-accent {
+  color: #7ab0e8;
+  font-weight: 700;
+}
+
+/* Cover Subtitle */
+.md-typeset .admonition.cover .cover-subtitle {
+  font-family: var(--cover-font-family);
+  font-size: 1.0rem;
+  font-weight: 500;
+  letter-spacing: 0.005em;
+  line-height: 1.35;
+  color: #EAF1F8;
+  opacity: 0.8;
+  margin: 0;
+}
+
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   ZONE 2: Main (Koordination + Autor:innen)
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* === Cover: shared spacing tokens ===================================== */
+.md-typeset .admonition.cover {
+  /* falls du schon Tokens hast, nimm deine; sonst so: */
+  --cover-meta-gap: 0.05rem;   /* Abstand Label -> Inhalt (einheitlich) */
+  --cover-name-size: 0.75rem;
+  --cover-name-lh: 1.05;       /* stabile Line-Height für 0.75rem */
+  --cover-label-size: 0.55rem;
+  --cover-label-lh: 0.9;
+}
+
+/* Cover Label (generic) */
+.md-typeset .admonition.cover .cover-label {
+  font-family: var(--cover-font-family);
+  font-size: var(--cover-label-size);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #EAF1F8;
+  opacity: 0.60;
+  display: block;
+  margin: 0;
+  line-height: var(--cover-label-lh);
+}
+
+/* Cover Name (generic) */
+.md-typeset .admonition.cover .cover-name {
+  font-family: var(--cover-font-family);
+  font-size: var(--cover-name-size);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: var(--cover-name-lh);
+  color: #EAF1F8;
+  opacity: 0.9;
+  margin: var(--cover-meta-gap) 0 0 0; /* EINHEITLICH: Label -> Inhalt */
+}
+
+/* Cover Coordination Section */
+.md-typeset .admonition.cover .cover-coordination {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cover-gap-sm);
+}
+
+/* Cover Authors Section */
+.md-typeset .admonition.cover .cover-authors {
+  display: flex;
+  flex-direction: column;
+  gap: var(--cover-gap-sm);
+}
+
+/* Authors List: Inline Reihe mit Flex-Wrap */
+.md-typeset .admonition.cover .cover-authors-list {
+  display: flex;
+  flex-wrap: wrap;
+
+  /* Wichtig: Zeilenabstand über row-gap, nicht über line-height-Tricks */
+  column-gap: 0.55rem;
+  row-gap: 0.42rem;
+
+  align-items: baseline;
+  margin: var(--cover-meta-gap) 0 0 0; /* EINHEITLICH: Label -> Inhalt */
+  padding: 0;
+
+  max-width: 35ch;
+}
+
+/* Jeder Name: Non-breaking (kein Umbruch zwischen Vor-/Nachname) */
+.md-typeset .admonition.cover .cover-authors-list .name {
+  font-family: var(--cover-font-family);
+  font-size: var(--cover-name-size);
+  font-weight: 450;
+  white-space: nowrap;
+
+  color: #EAF1F8;
+  opacity: 0.9;
+
+  letter-spacing: 0.005em;
+  line-height: var(--cover-name-lh); /* stabil, nicht <1 */
+  margin: 0;
+}
+
+/* Separator zwischen Namen (·) */
+.md-typeset .admonition.cover .cover-authors-list .separator {
+  color: #EAF1F8;
+  opacity: 0.60;
+  font-size: var(--cover-name-size);
+  line-height: var(--cover-name-lh);
+  margin: 0;
+}
+
+/* ──────────────────────────────────────────────────────────────────────────
+   ZONE 3: Footer (Uni + Jahr, immer unten)
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Cover Footer (Uni + Jahr, unten mit margin-top: auto) */
+.md-typeset .admonition.cover .cover-footer {
+  font-family: var(--cover-font-family);
+  font-size: 0.55rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.0;
+  color: #EAF1F8;
+  margin-top: auto;
+  padding-top: var(--cover-gap-md);
+  border-top: 0.5px solid #7ab0e8;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+/* Einzelne Zeilen im Footer */
+.md-typeset .admonition.cover .cover-footer > div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Obere Zeile: Uni + Hispanistica nebeneinander */
+.md-typeset .admonition.cover .cover-footer-top {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  padding: 0;
+}
+
+/* Untere Zeile: Jahr allein */
+.md-typeset .admonition.cover .cover-footer-year {
+  margin: 0;
+  padding: 0;
+}
+
+/* Links in cover footer: inherit text style, underline only */
+.md-typeset .admonition.cover .cover-footer a {
+  text-decoration:       none;
+  color: #7ab0e8;
+  font-weight: 600;
+  text-decoration-color: #7ab0e8;
+  text-underline-offset: 0.2em;
+}
+
+/* Dark Mode: Ensure contrast is maintained */
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover {
+  background: #243041;
+  border-color: rgba(255, 255, 255, 0.08);
+  color: #EAF1F8;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-title-block h1,
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-subtitle {
+  color: #EAF1F8;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-title-accent {
+  color: #7ab0e8;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-label {
+  color: #EAF1F8;
+  opacity: 0.55;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-name {
+  color: #EAF1F8;
+  opacity: 0.9;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-authors-list .name {
+  color: #EAF1F8;
+  opacity: 0.8;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-authors-list .separator {
+  color: #EAF1F8;
+  opacity: 0.55;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-footer {
+  color: #EAF1F8;
+  opacity: 0.65;
+  border-top-color: rgba(255, 255, 255, 0.06);
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-footer a {
+  color:                 inherit;
+  opacity:               inherit;
+  text-decoration:       underline;
+  text-decoration-color: #7ab0e8;
+}
+
+
+.cover-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto 2rem;
+  background-color: #4e95d9;
+}
+
+.logo-image {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 20px;
+}
+
+.cover-caption {
+  color: #fff;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  padding: 8px 0;
+  box-sizing: border-box;
+  margin: 0;
+  line-height: 1;
+  background-color: inherit;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.18);
+  border-radius: 20px;
+}
+
+.cover-caption .subtitle,
+.cover-caption .coordination,
+.cover-caption .authors {
+  margin: 0;
+  padding: 4px;
+  font-weight: normal;
+}
+
+.cover-caption .subtitle {
+  font-size: 1.15em;
+  margin: 12px 0 32px;
+}
+
+.cover-caption .coordination {
+  font-size: .8em;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.cover-caption .coordination-name {
+  font-size: .8em;
+  margin-bottom: 24px;
+}
+
+.cover-caption .authors {
+  font-size: .8em;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.cover-caption .author-names {
+  font-size: .8em;
+  line-height: 1.2;
+  margin-bottom: 36px;
+}
+
+.cover-caption .place {
+  font-size: .7em;
+  margin-bottom: 20px;
+}
+
+.cover-caption .badge {
+  margin-bottom: 20px;
+}
+
+/* Hispanistica-Badge */
+.hispanistica-badge {
+  max-width: 60px;
+  height: auto;
+  width: auto;
+  vertical-align: middle;
+  border: 0;
+  display: inline-block;
+}
+
+.cover-caption .badge img.hispanistica-badge {
+  max-width: 95px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* CC-Lizenzhinweis unterhalb des Covers */
+.cc-text {
+  font-size: .9em;
+  color: var(--md-typeset-color--muted, var(--book-muted, #5a5855));
+  display: block;
+  text-align: right;
+  margin-top: .5rem;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   EXPAND: Ausklappbare Vertiefungsbox (Kompass-Icon)
+   Variante: ??? expand "…Titel…"
+   Klassen: .admonition.expand, details.expand
+   ────────────────────────────────────────────────────────────────────────── */
+
+.md-typeset .admonition.expand,
+.md-typeset details.expand {
+  background: color-mix(in srgb, white 92%, var(--book-adm-expand));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left-width: .2rem;
+  border-left-color: color-mix(in srgb, var(--book-accent) 75%, transparent);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.expand,
+body[data-md-color-scheme="slate"] .md-typeset details.expand {
+  background: color-mix(in srgb, var(--book-surface-1) 86%, var(--book-adm-expand));
+  border-color: rgba(255, 255, 255, 0.08);
+  border-left-color: color-mix(in srgb, var(--book-accent) 65%, transparent);
+}
+
+/* Admonition-Icon (Kompass) */
+.md-typeset .admonition.expand {
+  --md-admonition-icon: var(--md-typeset-expand-icon);
+}
+
+.md-typeset .admonition.expand > .admonition-title,
+.md-typeset details.expand > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.md-typeset .expand > .admonition-title:before,
+.md-typeset .expand > summary:before {
+  background-color: var(--book-adm-expand);
+  -webkit-mask-image: var(--md-typeset-expand-icon);
+  mask-image: var(--md-typeset-expand-icon);
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .expand > .admonition-title:before,
+body[data-md-color-scheme="slate"] .md-typeset .expand > summary:before {
+  background-color: color-mix(in srgb, var(--book-adm-expand) 70%, white);
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   AUDIO: Klassen: .audio-comparison, .audio-block, .audio-source, .example
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Phonetisches Beispiel im Fließtext */
+.example {
+  display: block;
+  text-align: center;
+  margin-bottom: 0.4rem;
+  padding: 0.5em;
+  background: #f7f7f7;
+  border-radius: 0.3em;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+body[data-md-color-scheme="slate"] .example {
+  background: #4a4a4a;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Audio-Vergleich: zwei Audio-Blöcke nebeneinander */
+.audio-comparison {
+  display: flex;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  font-size: .64rem;
+}
+
+.audio-block {
+  flex: 1 1 10px;
+  min-width: 280px;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.audio-block audio {
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+@media (max-width: 600px) {
+  .audio-comparison {
+    flex-direction: column;
+  }
+}
+
+/* Quellenangabe unter einem Audio-Block */
+.audio-source {
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: right;
+  color: var(--md-meta-fg-color, var(--book-muted, #5a5855));
+  margin-top: 0.8em;
+  margin-right: 0.6em;
+  font-style: normal;
+}
+
+body[data-md-color-scheme="slate"] .audio-source {
+  color: rgba(213, 216, 226, 0.82);
+}
+
+/* Audio-Player-Timeline-Fix (WebKit) */
+audio::-webkit-media-controls-timeline {
+  display: 1;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   META: Inline-Kennzeichnung von Sprache/Kategorie
+   Klasse: .meta (via <span class="meta">)
+   ────────────────────────────────────────────────────────────────────────── */
+
+:root {
+  --md-meta-bg-color: var(--md-code-bg-color);
+  --md-meta-fg-color: var(--md-code-fg-color);
+}
+
+.md-typeset .meta {
+  font: 500 0.95em var(--md-code-font-family, SFMono-Regular, Consolas, monospace);
+  color: var(--md-meta-fg-color);
+  padding: 0 .05em;
+  border-radius: .1rem;
+  white-space: nowrap;
+  vertical-align: baseline;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .meta {
+  background-color: rgb(39, 42, 53);
+  color: rgba(213, 216, 226, 0.82);
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   LITERATUR: Literaturabschnitte etwas kleiner
+   ────────────────────────────────────────────────────────────────────────── */
+
+div.literatur {
+  font-size: .85em;
+  line-height: 1.35;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   MAP: Karten-Container + Fullscreen + Popups
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* ------------------------------------
+   Z-INDEX HIERARCHIE (Material UI + Leaflet)
+   Material Header:  3000
+   Navigation:       2900
+   Map Container:    1000
+   Leaflet-Layer:    <1000
+   ------------------------------------ */
+
+/* Leaflet-Zonen – bleiben immer unterhalb des Map-Containers */
+.leaflet-tile-pane    { z-index: 200 !important; }
+.leaflet-control-container { z-index: 400 !important; }
+.leaflet-marker-pane  { z-index: 600 !important; }
+.leaflet-popup-pane   { z-index: 800 !important; }
+.leaflet-popup        { z-index: 850 !important; }
+
+/* Verhindere Stacking-Context-Fallen auf Map-Containern */
+#map-container,
+[data-map="herkunft"],
+[data-map="variation"],
+[data-map="variation_tempora"] {
+  transform: none !important;
+  filter: none !important;
+  perspective: none !important;
+  z-index: 1000 !important;
+  overflow: visible !important;
+}
+
+/* Standardgröße: Herkunftssprachen- & Sprachenkarte */
+#map-container {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  margin: 0;
+  border: 2px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: all 0.25s;
+  background: #f9f9f9;
+}
+
+#mapid {
+  width: 100%;
+  height: 100%;
+}
+
+/* Fullscreen-Button */
+#fullscreen-btn {
+  position: absolute;
+  right: 12px;
+  top: 24px;
+  z-index: 1000;
+  padding: 0;
+  border-radius: 5px;
+  border: 0;
+  background: transparent;
+  font-size: 1em;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+/* Fullscreen: normaler Map-Container */
+#map-container.fullscreen {
+  position: fixed !important;
+  top: 100px !important;
+  left: 0;
+  width: 100vw !important;
+  height: calc(100vh - 100px) !important;
+  max-width: none !important;
+  max-height: none !important;
+  border-radius: 0 !important;
+  z-index: 1000 !important;
+  margin: 0 !important;
+  background: white;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 600px) {
+  #map-container.fullscreen {
+    top: 48px !important;
+    height: calc(100vh - 48px) !important;
+  }
+}
+
+/* Variation-Map spezifische Höhe */
+#map-container[data-map="variation"] {
+  height: 650px;
+}
+
+/* Variation_tempora-Map spezifische Höhe */
+#map-container[data-map="variation_tempora"] {
+  height: 500px;
+  margin: 1.5rem 0;
+}
+
+/* Fullscreen für variation und variation_tempora */
+#map-container[data-map="variation"].fullscreen,
+#map-container[data-map="variation_tempora"].fullscreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  margin: 0;
+}
+
+#map-container[data-map="variation"].fullscreen #mapid,
+#map-container[data-map="variation_tempora"].fullscreen #mapid {
+  height: 100vh;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   MAP POPUPS: CO.RA.PAN-Style responsive Popup-Design
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Popup-Wrapper */
+.corapan-popup .leaflet-popup-content-wrapper {
+  max-width: 340px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.corapan-popup .leaflet-popup-content {
+  margin: 12px 14px;
+  line-height: 1.5;
+  max-height: 50vh;
+  overflow: auto;
+}
+
+.corapan-popup .leaflet-popup-close-button {
+  color: #666;
+  font-size: 20px;
+  padding: 4px 8px;
+}
+
+.corapan-popup .leaflet-popup-close-button:hover {
+  color: #000;
+}
+
+/* Popup-Inhalts-Klassen */
+.popup-sprachenkarte {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.9em;
+  color: #222;
+}
+
+.popup-title {
+  font-weight: 700;
+  font-size: 1.1em;
+  color: #1976d2;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.popup-familie,
+.popup-hauptstadt {
+  font-size: 0.95em;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 4px;
+}
+
+.popup-herkunft {
+  font-size: 0.95em;
+  color: #444;
+  margin-top: 6px;
+}
+
+.popup-line {
+  margin-top: 5px;
+  line-height: 1.3;
+}
+
+.popup-label {
+  font-size: 0.85em;
+  color: #555;
+}
+
+.popup-value {
+  font-weight: 700;
+  font-size: 0.85em;
+  color: #222;
+  margin-left: 4px;
+}
+
+/* Variante für scoped popup-title/label/value innerhalb variation-Maps */
+#map-container[data-map="variation"] .popup-sprachenkarte .popup-title,
+#map-container[data-map="variation_tempora"] .popup-sprachenkarte .popup-title {
+  font-size: 0.90em;
+  line-height: 0.9;
+  display: block;
+  margin-bottom: 4px;
+}
+
+#map-container[data-map="variation"] .popup-sprachenkarte .popup-line,
+#map-container[data-map="variation_tempora"] .popup-sprachenkarte .popup-line {
+  margin-top: 4px;
+  line-height: 1.2;
+}
+
+#map-container[data-map="variation"] .popup-sprachenkarte .popup-label,
+#map-container[data-map="variation_tempora"] .popup-sprachenkarte .popup-label {
+  font-size: 0.80em;
+  color: #333;
+}
+
+#map-container[data-map="variation"] .popup-sprachenkarte .popup-value,
+#map-container[data-map="variation_tempora"] .popup-sprachenkarte .popup-value {
+  font-weight: 700;
+  font-size: 0.80em;
+  margin-left: 4px;
+}
+
+/* Herkunftssprachen-spezifische Popup-Klassen */
+.popup-gdn,
+.popup-anteil {
+  margin-top: 5px;
+}
+
+/* Responsive: Mobile Popup-Einschränkungen */
+@media (max-width: 599px) {
+  .corapan-popup .leaflet-popup-content-wrapper {
+    max-width: calc(100vw - 48px);
+  }
+
+  .corapan-popup .leaflet-popup-content {
+    max-width: 90vw;
+    overflow-wrap: anywhere;
+    max-height: 55vh;
+  }
+}
+
+/* Fullscreen: etwas breitere Popups */
+.fullscreen .corapan-popup .leaflet-popup-content-wrapper {
+  max-width: 400px;
+}
+
+@media (max-width: 599px) {
+  .fullscreen .corapan-popup .leaflet-popup-content-wrapper {
+    max-width: calc(100vw - 60px);
+  }
+}
+
+/* Dark mode Popups */
+body[data-md-color-scheme="slate"] .corapan-popup .leaflet-popup-content-wrapper {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body[data-md-color-scheme="slate"] .popup-sprachenkarte {
+  color: #e0e0e0;
+}
+
+body[data-md-color-scheme="slate"] .popup-title {
+  color: #64b5f6;
+}
+
+body[data-md-color-scheme="slate"] .popup-familie,
+body[data-md-color-scheme="slate"] .popup-hauptstadt {
+  color: #aaa;
+}
+
+body[data-md-color-scheme="slate"] .popup-herkunft {
+  color: #ccc;
+}
+
+body[data-md-color-scheme="slate"] .popup-label {
+  color: #aaa;
+}
+
+body[data-md-color-scheme="slate"] .popup-value {
+  color: #e0e0e0;
+}
+
+body[data-md-color-scheme="slate"] .corapan-popup .leaflet-popup-close-button {
+  color: #aaa;
+}
+
+body[data-md-color-scheme="slate"] .corapan-popup .leaflet-popup-close-button:hover {
+  color: #fff;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   MAP BUTTON: Kleiner Navigations-Button zu Karten-Seiten
+   ────────────────────────────────────────────────────────────────────────── */
+
+.md-typeset a.map-button,
+.md-content a.map-button {
+  display: inline-block;
+  padding: 0.35rem 0.65rem;
+  background: #1976d2;
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.08);
+  font-weight: 700;
+  vertical-align: middle;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
+}
+
+.md-typeset a.map-button:hover,
+.md-content a.map-button:hover {
+  background: #145ea6;
+  color: #fff;
+}
+
+.md-typeset a.map-button:active,
+.md-content a.map-button:active {
+  transform: translateY(1px);
+}
+
+body[data-md-color-scheme="slate"] .md-typeset a.map-button,
+body[data-md-color-scheme="slate"] .md-content a.map-button {
+  background: #1e88e5;
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   MAP ADMONITION: Bild + Button-Layout innerhalb einer tip-Admonition
+   ────────────────────────────────────────────────────────────────────────── */
+
+.md-typeset .admonition.tip .map-admonition,
+.md-content .admonition.tip .map-admonition {
+  position: relative;
+  padding-bottom: 2.2rem;
+}
+
+.md-typeset .admonition.tip .map-admonition a.map-button,
+.md-content .admonition.tip .map-admonition a.map-button {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.6rem;
+  z-index: 10;
+}
+
+/* Karten-Vorschaubild links ausgerichtet */
+.md-typeset .admonition.tip .admonition-map-image,
+.md-content .admonition.tip .admonition-map-image {
+  float: left;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+.md-typeset .admonition.tip .admonition-map-image--right,
+.md-content .admonition.tip .admonition-map-image--right {
+  float: right;
+  margin: 1rem;
+}
+
+/* Zwei-Bilder-Reihe */
+.map-image-row {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.map-image-item {
+  flex: 0 0 300px;
+  box-sizing: border-box;
+}
+
+.map-image-item .admonition-map-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+
+/* Mobile: Bilder gestapelt, volle Breite */
+@media (max-width: 640px) {
+  .md-typeset .admonition.tip .admonition-map-image,
+  .md-content .admonition.tip .admonition-map-image,
+  .md-typeset .admonition.tip .admonition-map-image--right,
+  .md-content .admonition.tip .admonition-map-image--right {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 0.8rem 0;
+  }
+
+  .map-image-row {
+    display: block;
+  }
+
+  .map-image-item {
+    width: 100%;
+    flex: 0 0 auto;
+    margin-bottom: 0.8rem;
+  }
+
+  .map-image-item .admonition-map-image {
+    width: 100%;
+  }
+
+  .md-typeset .admonition.tip .map-admonition,
+  .md-content .admonition.tip .map-admonition {
+    padding-bottom: 3.4rem;
+  }
+}
+
+
+/* ──────────────────────────────────────────────────────────────────────────
+   LEAFLET CONTROLS
+   ────────────────────────────────────────────────────────────────────────── */
+
+/* Leaflet Capture-Control: Skalierung ohne Stacking-Context-Fallen */
+.leaflet-control-capture {
+  transform: scale(0.7);
+  transform-origin: bottom right;
+}

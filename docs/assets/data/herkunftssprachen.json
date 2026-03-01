@@ -1,0 +1,98 @@
+[
+  {
+    "sprache": "Türkisch",
+    "sprachfamilie": "Turksprachen",
+    "herkunft": ["Türkei"],
+    "koordinaten": [[39.0, 35.0]],
+    "farbe": "#0033cc"
+  },
+  {
+    "sprache": "Kurdisch",
+    "sprachfamilie": "Indoiranisch (Indoeuropäisch)",
+    "herkunft": ["Türkei (Ostanatolien)", "Syrien (Nordosten)", "Irak (Norden)", "Iran (Nordwesten)"],
+    "koordinaten": [
+      [38.5, 40.5],
+      [36.7, 41.0],
+      [36.2, 44.0],
+      [36.1, 46.5]
+    ],
+    "farbe": "#009933"
+  },
+  {
+    "sprache": "Arabisch",
+    "sprachfamilie": "Semitisch (Afroasiatisch)",
+    "herkunft": ["Syrien (arabisch dominiert)", "Irak (arabisch dominiert)", "Marokko", "Algerien", "Ägypten", "Tunesien"],
+    "koordinaten": [
+      [33.5, 36.3],
+      [33.3, 44.4],
+      [32.0, -6.0],
+      [36.7, 3.1],
+      [30.0, 31.2],
+      [36.8, 10.2]
+    ],
+    "farbe": "#cc0000"
+  },
+  {
+    "sprache": "Polnisch",
+    "sprachfamilie": "Westslawisch (Indoeuropäisch)",
+    "herkunft": ["Polen"],
+    "koordinaten": [[52.0, 19.0]],
+    "farbe": "#ff6600"
+  },
+  {
+    "sprache": "Russisch",
+    "sprachfamilie": "Ostslawisch (Indoeuropäisch)",
+    "herkunft": ["Russland"],
+    "koordinaten": [[55.7, 37.6]],
+    "farbe": "#660099"
+  },
+  {
+    "sprache": "Ukrainisch",
+    "sprachfamilie": "Ostslawisch (Indoeuropäisch)",
+    "herkunft": ["Ukraine"],
+    "koordinaten": [[49.0, 32.0]],
+    "farbe": "#ffcc00"
+  },
+  {
+    "sprache": "Bosnisch/Kroatisch/Serbisch",
+    "sprachfamilie": "Südslawisch (Indoeuropäisch)",
+    "herkunft": ["Bosnien", "Kroatien", "Serbien"],
+    "koordinaten": [
+      [44.2, 17.7],
+      [45.1, 15.2],
+      [44.8, 20.5]
+    ],
+    "farbe": "#663300"
+  },
+  {
+    "sprache": "Italienisch",
+    "sprachfamilie": "Romanisch (Indoeuropäisch)",
+    "herkunft": ["Italien"],
+    "koordinaten": [[42.5, 12.5]],
+    "farbe": "#990000"
+  },
+  {
+    "sprache": "Farsi (Persisch, Iran)",
+    "sprachfamilie": "Indoiranisch (Indoeuropäisch)",
+    "herkunft": ["Iran"],
+    "koordinaten": [[32.5, 51.7]], 
+    "farbe": "#008080"
+  },
+  {
+    "sprache": "Dari (Persisch, Afghanistan)",
+    "sprachfamilie": "Indoiranisch (Indoeuropäisch)",
+    "herkunft": ["Afghanistan"],
+    "koordinaten": [[34.5, 69.2]],     
+    "farbe": "#33ffff"
+  },
+  {
+    "sprache": "Paschtu",
+    "sprachfamilie": "Indoiranisch (Indoeuropäisch)",
+    "herkunft": ["Afghanistan (Südosten)", "Pakistan (Nordwesten)"],
+    "koordinaten": [
+      [32.6, 65.8],      
+      [34.0, 71.5]
+    ],
+    "farbe": "#66ccff"
+  }
+]

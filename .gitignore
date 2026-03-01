@@ -1,0 +1,7 @@
+# Build output – never edit manually
+site/
+
+# Python
+.venv/
+__pycache__/
+*.pyc

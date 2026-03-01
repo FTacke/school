@@ -1,0 +1,87 @@
+{#-
+  overrides/partials/content.html
+  ─────────────────────────────────────────────────────────────────────────────
+  Zensical template override: rendert .doc-chapter-meta direkt nach dem ersten
+  </h1>, wenn die Seite YAML-Frontmatter mit einem 'authors'-Feld enthält.
+
+  Frontmatter-Schema (YAML-Block am Anfang der Markdown-Datei):
+  ---
+  authors:
+    - "Marlon Merte"
+    - "Felix Tacke"
+  peer_review:
+    - "Gloria Gabriel"
+  last_modified: "26.08.2025"
+  ---
+
+  Felder:
+    authors       – Liste von Namen (Byline, Zeile 1)
+    peer_review   – Liste von Namen (optional, Zeile 2)
+    last_modified – Datumsstring DD.MM.YYYY (optional, Zeile 2)
+
+  Kein JS-Parsing von Fußnoten. Kein Inline-Styling.
+  CSS: docs/assets/styles/30_components.css
+-#}
+
+{#-- Aktions-Buttons (Bearbeiten / Anzeigen) --#}
+{% include "partials/actions.html" %}
+
+{#-- Auto-Titel, wenn kein <h1> im Content (z.B. reine Index-Seiten) --#}
+{% if "\u003ch1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true) }}</h1>
+{% endif %}
+
+{#-- ─────────────────────────────────────────────────────────────────────── --#}
+{#-- Frontmatter: authors / peer_review / last_modified                      --#}
+{#-- MiniJinja-idiomatisch: kein Python-.get(), nur | default()-Filter       --#}
+{#-- ─────────────────────────────────────────────────────────────────────── --#}
+{%- set _authors = page.meta.authors | default([]) -%}
+{%- set _peers   = page.meta.peer_review | default([]) -%}
+{%- set _date    = page.meta.last_modified | default("") | string | trim -%}
+
+{#-- Strings → Listen normalisieren (Fallback für einfache Schreibweise) --#}
+{%- set _authors = [_authors] if _authors is string else _authors -%}
+{%- set _peers   = [_peers]   if (_peers is string and _peers) else _peers -%}
+
+{#-- ─────────────────────────────────────────────────────────────────────── --#}
+{#-- Rendering: Meta-Block nach dem ersten </h1> einfügen via replace-Filter --#}
+{#-- Kein .split() – MiniJinja nutzt | replace(old, new) auf page.content   --#}
+{#-- ─────────────────────────────────────────────────────────────────────── --#}
+
+{%- if _authors and "\u003c/h1" in page.content -%}
+
+  {#-- ── Kapitel-Meta-Block als Block-Variable bauen ──────────────────────── --#}
+  {%- set _meta_block -%}
+<div class="doc-chapter-meta" role="note" aria-label="Kapitelmetadaten">
+  <div class="doc-chapter-meta__byline">
+    {%- for name in _authors -%}
+      <span class="doc-chapter-meta__name">{{ name }}</span>
+    {%- endfor -%}
+  </div>
+  {%- if _peers or _date -%}
+  <div class="doc-chapter-meta__details">
+    {%- if _peers -%}
+      <div class="doc-chapter-meta__peer">Peer Review: {{ _peers | join(", ") }}</div>
+    {%- endif -%}
+    {%- if _date -%}
+      <div class="doc-chapter-meta__modified">Letzte Änderung: {{ _date }}</div>
+    {%- endif -%}
+  </div>
+  {%- endif -%}
+</div>
+  {%- endset -%}
+
+  {#-- Ergebnis: </h1> durch </h1> + Meta-Block ersetzen (einmalig, da nur 1× </h1>) --#}
+  {{ page.content | replace("</h1>", "</h1>" ~ _meta_block) }}
+
+{%- else -%}
+
+  {{ page.content }}
+
+{%- endif %}
+
+{#-- Page-Footer-Elemente --#}
+{% include "partials/tags.html" %}
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}

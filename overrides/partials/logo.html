@@ -1,0 +1,16 @@
+{#-
+  overrides/partials/logo.html
+  ─────────────────────────────────────────────────────────────────────────────
+  Custom logo override for Zensical.
+  
+  Renders a two-color site title instead of an image:
+  - "Spanische Linguistik @" in normal color (--book-fg)
+  - "School" in accent color (--book-accent)
+  
+  Styling: assets/styles/30_components.css
+-#}
+
+<span class="site-title" aria-label="{{ config.site_name }}">
+  <span class="site-title__main">Spanische Linguistik @</span>
+  <span class="site-title__accent">School</span>
+</span>
