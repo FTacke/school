@@ -10,7 +10,7 @@ peer_review:
 last_modified: "15.11.2025"
 ---
 
-# 4 Lexikalische Kreativität[^*]
+# 4 Lexikalische Kreativität
 
 ## ¿Cómo se dice *Fernweh* en español?
 
@@ -289,8 +289,6 @@ Dabei gilt außerdem: Das DLE dokumentiert den Kern des allgemeinen Wortschatzes
 !!! praxis "Über Wörterbücher und lebendige Sprache sprechen"
     Im Unterricht kann es anregend sein, gemeinsam zu überlegen, welche neuen Wörter gerade verwendet werden, die (noch) nicht im Duden oder im DLE stehen – etwa *crush*, *stalkear* oder *emoji*. So wird sichtbar, dass Wörter nicht erst durch ihre Aufnahme ins Wörterbuch existieren, sondern durch den alltäglichen Gebrauch. Diese Reflexion fördert Sprachbewusstheit und zeigt, dass auch Jugendsprache Teil sprachlicher Kreativität ist.
 
----
-
 !!! summary "Zusammenfassung"
     Das Kapitel hat gezeigt, wie vielfältig Wortbildung im Spanischen funktioniert:
     
@@ -310,37 +308,26 @@ Dabei gilt außerdem: Das DLE dokumentiert den Kern des allgemeinen Wortschatzes
     Für didaktisch orientierte Zugänge zur Wortbildung sind vor allem Serrano-Dolader (2019) und Entre/Gumiel-Molina (2024) relevant. Beide Werke verbinden linguistische Grundlagen mit methodischen Vorschlägen für den Unterricht. Ergänzend bietet das [Online-Dossier](https://cvc.cervantes.es/ensenanza/biblioteca_ele/antologia_didactica/morfologia/default.htm) des Instituto Cervantes praxisnahe Materialien und Aufgabenformate.
 
 
----
-
 ## Literatur
 
 <div class="literatur" markdown="1">
 
-- Asociación de Academias de la Lengua Española (online): *Diccionario de americanismos (DAMER)*. Online: [https://www.asale.org/damer/](https://www.asale.org/damer/){:target="_blank" rel="noopener noreferrer"}  
-- Colegio de México (online): *Diccionario del español de México (DEM)*. Online: [https://dem.colmex.mx/](https://dem.colmex.mx/){:target="_blank" rel="noopener noreferrer"}  
-- CVC – Instituto Cervantes (Hrsg.): *La formación de palabras en la clase de ELE*. In: *Antología didáctica de morfología*. Online: [https://cvc.cervantes.es/](https://cvc.cervantes.es/ensenanza/biblioteca_ele/antologia_didactica/morfologia/default.htm){:target="_blank" rel="noopener noreferrer"}  
-- Entre, María Ángeles / Gumiel-Molina, Susana (Hg.) (2024): *Didáctica de la morfología*. Alcalá de Henares: Universidad de Alcalá.  
-- Kabatek, Johannes / Pusch, Claus D. (2011): *Spanische Sprachwissenschaft*. 2. Auflage. Tübingen: Narr Francke Attempto.  
-- Rainer, Franz (1993): *Spanische Wortbildungslehre*. Tübingen: Niemeyer.  
-- Real Academia Española (online): *Diccionario de la lengua española (DLE)*. Online: [https://dle.rae.es/](https://dle.rae.es/){:target="_blank" rel="noopener noreferrer"}  
-- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/){:target="_blank" rel="noopener noreferrer"}  
-- Real Academia Española / Asociación de Academias de la Lengua Española (2009 / 2025): *Nueva gramática de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/gramática/](https://www.rae.es/gram%C3%A1tica/){:target="_blank" rel="noopener noreferrer"}  
-- Serrano-Dolader, Daniel (2019): *Formación de palabras y enseñanza del español LE/L2*. London / New York: Routledge.  
-- Varela Ortega, Soledad (2005): *Morfología léxica: la formación de palabras*. Madrid: Gredos.  
+- Asociación de Academias de la Lengua Española (online): *Diccionario de americanismos (DAMER)*. Online: [https://www.asale.org/damer/](https://www.asale.org/damer/)
+- Colegio de México (online): *Diccionario del español de México (DEM)*. Online: [https://dem.colmex.mx/](https://dem.colmex.mx/)
+- CVC – Instituto Cervantes (Hrsg.): *La formación de palabras en la clase de ELE*. In: *Antología didáctica de morfología*. Online: [https://cvc.cervantes.es/](https://cvc.cervantes.es/ensenanza/biblioteca_ele/antologia_didactica/morfologia/default.htm)
+- Entre, María Ángeles / Gumiel-Molina, Susana (Hg.) (2024): *Didáctica de la morfología*. Alcalá de Henares: Universidad de Alcalá.
+- Kabatek, Johannes / Pusch, Claus D. (2011): *Spanische Sprachwissenschaft*. 2. Auflage. Tübingen: Narr Francke Attempto.
+- Rainer, Franz (1993): *Spanische Wortbildungslehre*. Tübingen: Niemeyer.
+- Real Academia Española (online): *Diccionario de la lengua española (DLE)*. Online: [https://dle.rae.es/](https://dle.rae.es/)
+- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/)
+- Real Academia Española / Asociación de Academias de la Lengua Española (2009 / 2025): *Nueva gramática de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/gramática/](https://www.rae.es/gram%C3%A1tica/)
+- Serrano-Dolader, Daniel (2019): *Formación de palabras y enseñanza del español LE/L2*. London / New York: Routledge.
+- Varela Ortega, Soledad (2005): *Morfología léxica: la formación de palabras*. Madrid: Gredos.
 
 </div>
 
----
 
 !!! cite "Dieses Kapitel zitieren"
     Büşra Özen, Teodora Teodorescu, Felix Tacke (2025): „Lexikalische Kreativität". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)
-
-
-[^*]: **Autor:innen:** Büşra Özen, Teodora Teodorescu, Felix Tacke
-
-      **Beiträge & Peer Review:** Gloria Gabriel, Lea-Marie Domin, Jamaa Khodja
-        
-      **Letzte Änderung:** 15.11.2025
-

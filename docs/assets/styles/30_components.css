@@ -48,35 +48,32 @@
 }
 
 /* ── Byline (Autor:innen) ─────────────────────────────────── */
-
 .md-typeset .doc-chapter-meta__byline {
-  display:     flex;
-  flex-wrap:   wrap;
+  display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
-  column-gap:  0;
-  row-gap:     0.15em;
+  row-gap: 0.15em;
 
-  font-size:   clamp(0.82rem, 1.1vw, 0.88rem);
+  font-size: 0.9em;          /* ~18px bei 20px base */
   font-weight: 500;
   line-height: 1.35;
-  color:       var(--book-fg);
-  opacity:     0.74;
+  color: var(--book-fg);
+  opacity: 0.78;             /* minimal stärker */
 }
 
-/* ── Details (Peer Review, Letzte Änderung) – responsives 2-Spalten-Grid ── */
-
+/* ── Details (Peer Review, Letzte Änderung) ───────────────── */
 .md-typeset .doc-chapter-meta__details {
-  margin-top: 16px;
+  margin-top: 0.8rem;
 
   display: grid;
-  grid-template-columns: 1fr;   /* Mobile: untereinander */
+  grid-template-columns: 1fr;
   gap: 0.25em 1.2rem;
 
-  font-size:   clamp(0.64rem, 1vw, 0.7rem);
+  font-size: 0.85em;         /* ~17px */
   font-weight: 500;
   line-height: 1.35;
-  color:       var(--book-fg);
-  opacity:     0.58;
+  color: var(--book-fg-muted);
+  opacity: 0.7;
 }
 
 /* Desktop: 2 Spalten – Peer links (wrap), Datum rechts (nowrap) */
@@ -97,7 +94,7 @@
 .md-typeset .doc-chapter-meta__modified {
   white-space: nowrap;
   padding-right: 0.25rem;
-  opacity:     0.65;
+  opacity:     0.45;
 }
 
 @media (min-width: 640px) {

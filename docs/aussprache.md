@@ -212,19 +212,19 @@ Ein reiner Anfängerfehler ist es bekanntlich, das im Spanischen geschriebene, a
 
 <div class="literatur" markdown="1">
 
-- Benet, Ariadna / Pesková, Andrea (2017): „Cómo reducir el ‚acento extranjero‘ en el ELE“. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 16–20.
+- Benet, Ariadna / Pesková, Andrea (2017): „Cómo reducir el ‚acento extranjero’ en el ELE”. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 16–20.
 - Bürgel, Christoph / Reimann, Daniel (Hg.) (2017): Sprachliche Mittel im Unterricht der romanischen Sprachen – Aussprache, Wortschatz und Morphosyntax in Zeiten der Kompetenzorientierung. Tübingen: Narr.
 - Gabriel, Christoph / Meisenburg, Trudel / Selig, Maria (2025): *Spanisch: Phonetik und Phonologie. Eine Einführung*. 2. überarbeitete Auflage. Tübingen: Narr Francke Attempto.
 - Gil Fernández, Juana (2007): *Fonética para profesores de español: de la teoría a la práctica*. Madrid: Arco Libros.
-- Kanngiesser-Krebs, Gisela (2017): „¿Cómo se dice qué? y ¿qué se dice dónde?“. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 2–10.
+- Kanngiesser-Krebs, Gisela (2017): „¿Cómo se dice qué? y ¿qué se dice dónde?”. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 2–10.
 - Kubarth, Hugo (2009): *Spanische Phonetik und Phonologie: Segmente – Silben – Satzmelodien*. Frankfurt am Main: Peter Lang.
 - Pustka, Elissa (2021): *Phonetik und Phonologie des Spanischen. Eine korpuslinguistische Einführung*. Berlin: Erich Schmidt Verlag.
 - Quilis, Antonio (1993): *Tratado de fonología y fonética españolas*. Madrid: Gredos.
 - Real Academia Española / Asociación de Academias de la Lengua Española (2011): *Nueva gramática de la lengua española*. Band 3: *Fonética y fonología*. Madrid: Espasa Calpe.
-- Real Academia Española / Asociación de Academias de la Lengua Española (2010): *Ortografía de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/ortografía/](https://www.rae.es/ortograf%c3%ada/){:target="_blank" rel="noopener noreferrer"}
-- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/){:target="_blank" rel="noopener noreferrer"}
+- Real Academia Española / Asociación de Academias de la Lengua Española (2010): *Ortografía de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/ortografía/](https://www.rae.es/ortograf%c3%ada/)
+- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/)
 - Reimann, Daniel (2016): *Aussprache im Unterricht der romanischen Sprachen (Französisch, Spanisch, Italienisch, Portugiesisch)*. Münster: LIT Verlag.
-- Tacke, Felix (2023ff.): *MAR.ELE – Corpus sobre la pronunciación del español por aprendientes de ELE en Marburg*. Marburg. Online: [https://marele.online.uni-marburg.de](https://marele.online.uni-marburg.de){:target="_blank" rel="noopener noreferrer"}
+- Tacke, Felix (2023ff.): *MAR.ELE – Corpus sobre la pronunciación del español por aprendientes de ELE en Marburg*. Marburg. Online: [https://marele.online.uni-marburg.de](https://marele.online.uni-marburg.de)
 
 </div>
 

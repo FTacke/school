@@ -9,7 +9,7 @@ peer_review:
 last_modified: "30.09.2025"
 ---
 
-# 7 Herkunftssprachen[^*]
+# 7 Herkunftssprachen
 
 ## Vom Türkischen bis zum Polnischen: Wie Sprachenvielfalt den Spanischunterricht bereichert
 
@@ -271,8 +271,6 @@ Das Fehlen eines grammatischen Merkmals, wie z.B. der Artikel, bedeutet keinen M
 
 **Didaktische Konsequenz:** Kenntnisse über Herkunftssprachen und ein sensibler Umgang damit ermöglichen einen Unterricht, in dem Fehlerquellen erklärbar, Vorteile nutzbar und Potenziale mehrsprachiger Lernender sichtbar werden. Spanischlernen wird so nicht nur ein sprachlicher Gewinn, sondern auch ein metasprachlicher (Sprechen über Sprache/n). Die Einbindung von Sprachbewusstheit sorgt zusätzlich dafür, dass Lernende ihr gesamtes sprachliches Repertoire reflektiert nutzen, Unterschiede bewusst wahrnehmen und Lernstrategien für weitere Sprachen entwickeln.  
 
----
-
 !!! summary "Zusammenfassung"
     Die häufigsten Herkunftssprachen in Deutschland sind vor allem Türkisch, Russisch, Arabisch und Polnisch; daneben spielen auch Italienisch, Kurdisch, BKS und Englisch eine Rolle. Herkunftssprachen wirken sich auf Aussprache, Grammatik, Wortschatz und Lernstrategien aus, wobei sie sowohl positive Transfers ermöglichen als auch Interferenzen hervorrufen können.
 
@@ -291,32 +289,21 @@ Das Fehlen eines grammatischen Merkmals, wie z.B. der Artikel, bedeutet keinen M
     [wals.info](https://wals.info)
 
 
----
-
 ## Literatur
 
 <div class="literatur" markdown="1">
 
-- Bernd Brehmer & Grit Mehlhorn (2018): *Herkunftssprachen*. Tübingen: Narr Francke Attempto.  
-- Christiane Fäcke & Franz-Joseph Meißner (Hrsg.) (2019): *Handbuch Mehrsprachigkeits- und Mehrkulturalitätsdidaktik*. Wiesbaden: Springer VS.  
-- Ingrid Gogolin (2008): *Der monolinguale Habitus der multilingualen Schule*. 2., erw. Aufl. Münster: Waxmann.  
-- Ingrid Gogolin, Anita Hansen, Sarah McMonagle & Dorothea Rauch (Hrsg.) (2020): *Handbuch Mehrsprachigkeit und Bildung*. Wiesbaden: Springer VS.  
-- Hans-Jürgen Krumm (2016): „Anerkennung von Familiensprachen – zur Situation in Österreich“. In: Susanne Fürstenau & Mechtild Gomolla (Hrsg.): *Migration und schulischer Wandel. Mehrsprachigkeit*. Wiesbaden: Springer VS, 79–94.  
-- Grit Mehlhorn (2017): „Herkunftssprachen im deutschen Schulsystem“. In: *Fremdsprachen Lehren und Lernen* 46 (2), 8–23.  
-- Ursula Neumann & Ingrid Gogolin (Hrsg.) (2009): *Streitfall Zweisprachigkeit. The Bilingualism Controversy*. Wiesbaden: VS Verlag für Sozialwissenschaften.  
+- Bernd Brehmer & Grit Mehlhorn (2018): *Herkunftssprachen*. Tübingen: Narr Francke Attempto.
+- Christiane Fäcke & Franz-Joseph Meißner (Hrsg.) (2019): *Handbuch Mehrsprachigkeits- und Mehrkulturalitätsdidaktik*. Wiesbaden: Springer VS.
+- Ingrid Gogolin (2008): *Der monolinguale Habitus der multilingualen Schule*. 2., erw. Aufl. Münster: Waxmann.
+- Ingrid Gogolin, Anita Hansen, Sarah McMonagle & Dorothea Rauch (Hrsg.) (2020): *Handbuch Mehrsprachigkeit und Bildung*. Wiesbaden: Springer VS.
+- Hans-Jürgen Krumm (2016): „Anerkennung von Familiensprachen – zur Situation in Österreich”. In: Susanne Fürstenau & Mechtild Gomolla (Hrsg.): *Migration und schulischer Wandel. Mehrsprachigkeit*. Wiesbaden: Springer VS, 79–94.
+- Grit Mehlhorn (2017): „Herkunftssprachen im deutschen Schulsystem”. In: *Fremdsprachen Lehren und Lernen* 46 (2), 8–23.
+- Ursula Neumann & Ingrid Gogolin (Hrsg.) (2009): *Streitfall Zweisprachigkeit. The Bilingualism Controversy*. Wiesbaden: VS Verlag für Sozialwissenschaften.
 
 </div>
-
----
 
 !!! cite “Dieses Kapitel zitieren”
     Jamaa Khodja, Selina Scholz, Felix Tacke (2025): „Herkunftssprachen”. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)
-
-
-[^*]: **Autor:innen:** Jamaa Khodja, Selina Scholz, Felix Tacke
-
-      **Beiträge & Peer Review:** Gloria Gabriel, Lea-Marie Domin
-        
-      **Letzte Änderung:** 30.09.2025

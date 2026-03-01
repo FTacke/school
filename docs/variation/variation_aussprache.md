@@ -9,7 +9,7 @@ peer_review:
 last_modified: "25.07.2025"
 ---
 
-# 5.2 Aussprachevariation[^*]
+# 5.2 Aussprachevariation
 
 ## Welche Aussprache(n) im Unterricht?
 
@@ -445,8 +445,6 @@ Niemand muss alle Varianten beherrschen oder vermitteln. Es genügt, wenn Lernen
 Diese Ansätze lassen sich individuell und flexibel in den eigenen Unterricht integrieren – je nach Sprachniveau, Thema oder Klassenzusammensetzung.
 Diese Vielfalt sollte im Unterricht hörbar werden – oben im Kapitel finden sich dazu zahlreiche Beispiele zum Anhören, und unter [Plurizentrik im Klassenzimmer](./variation_klassenraum.md) finden sich weitere Anregungen, wie man anschauliches und anhörliches Material gezielt einsetzen kann.
 
----
-
 !!! summary "Zusammenfassung"
     Plurizentrik ist die Basis – eine einzige „richtige“ Aussprache gibt es nicht. Spanisch wird in mehr als 20 Ländern gesprochen; regionale, soziale und situationsabhängige Varianten gehören zum Normalfall. Deshalb sollte Unterricht immer auch Haltung vermitteln: Variation anerkennen statt stigmatisieren.  
 
@@ -467,41 +465,30 @@ Diese Vielfalt sollte im Unterricht hörbar werden – oben im Kapitel finden si
 
     Authentische Hörbelege zu nationalen Standardvarietäten bietet das [CO.RA.PAN](https://corapan.online.uni-marburg.de)-Korpus (Tacke 2025ff.). Die Sammlung umfasst Radioaufnahmen professioneller Sprecher:innen aus allen hispanophonen Ländern und macht so typische lautliche Merkmale (z. B. *seseo*, Aspiration von /s/) in standardnahen Kontexten vergleichbar. Nach Registrierung („Acceso“) lassen sich die Audiodaten nach Land, Sendungs- und Sprechsituation filtern, anhören und (auch für den Schulunterricht) nutzen. Mehr dazu im folgenden Kapitel.
 
-
----
-
 ## Literatur
 
 <div class="literatur" markdown="1">
 
-- Andión, María Antonieta (2013): „Los profesores de español L2/LE y las variedades: Identidad dialectal, actitudes y prácticas docentes“. *Revista Signos. Estudios de Lingüística*, 46 (82), 155–189.
+- Andión, María Antonieta (2013): „Los profesores de español L2/LE y las variedades: Identidad dialectal, actitudes y prácticas docentes”. *Revista Signos. Estudios de Lingüística*, 46 (82), 155–189.
 - Gabriel, Christoph / Meisenburg, Trudel / Selig, Maria (2025): *Spanisch: Phonetik und Phonologie. Eine Einführung*. 2. überarbeitete Auflage. Tübingen: Narr Francke Attempto.
 - Hernández Muñoz, Natividad / Muñoz-Basols, Javier / Soler Montes, Carlos (Hg.) (2021): *La diversidad del español y su enseñanza*. London/New York: Routledge.
 - Hualde, José Ignacio (2014): *Los sonidos del español*. Cambridge: Cambridge University Press.
 - Kubarth, Hugo (1987): *Das lateinamerikanische Spanisch. Ein Panorama*. München: Hueber.
 - Leitzke-Ungerer, Eva / Polzin-Haumann, Claudia (Hg.) (2017): *Varietäten des Spanischen im Fremdsprachenunterricht. Ihre Rolle in Schule, Hochschule, Lehrerbildung und Sprachenzertifikaten*. Stuttgart: ibidem.
 - Lipski, John M. (1994): *Latin American Spanish*. London/New York: Longman.
-- Lipski, John M. (2020): „Spanish Phonological Variation“. In: Sonia Colina / Fernando Martínez-Gil (Hg.): *The Routledge Handbook of Spanish Phonology*. London/New York: Routledge, 455–469.
+- Lipski, John M. (2020): „Spanish Phonological Variation”. In: Sonia Colina / Fernando Martínez-Gil (Hg.): *The Routledge Handbook of Spanish Phonology*. London/New York: Routledge, 455–469.
 - Martín Zorraquino, M. Antonia / Díez Pelegrín, Cristina (Hg.) (2000): *¿Qué español enseñar? Norma y variación lingüísticas en la enseñanza del español a extranjeros. Actas del XI Congreso Internacional de ASELE (Zaragoza, 13.–16. 9. 2000)*. Zaragoza: Universidad de Zaragoza.
 - Moreno Fernández, Francisco (2000): *¿Qué español enseñar?* Madrid: Arco Libros.
-- Poch Olivé, Dolors (2024): „Variación fonética y enseñanza del español“. *Variación. Revista de variación y cambio lingüístico*, 1 (2), 18–30.
-- Pustka, Elissa / Schwegler, Armin (2021): „Fonética y fonología: vocalismo y consonantismo“. In: Eva Martha Eckkrammer (Hg.): *Manual del español en América*. Berlin/Boston: De Gruyter, 451–464.
+- Poch Olivé, Dolors (2024): „Variación fonética y enseñanza del español”. *Variación. Revista de variación y cambio lingüístico*, 1 (2), 18–30.
+- Pustka, Elissa / Schwegler, Armin (2021): „Fonética y fonología: vocalismo y consonantismo”. In: Eva Martha Eckkrammer (Hg.): *Manual del español en América*. Berlin/Boston: De Gruyter, 451–464.
 - Real Academia Española / Asociación de Academias de la Lengua Española (2011): *Nueva gramática de la lengua española*. Band 3: *Fonética y fonología*. Madrid: Espasa Calpe.
-- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/){:target="_blank" rel="noopener noreferrer"}
-- Tacke, Felix (2020): „Spanish: Orthography and Orthoepy“. In: Franz Lebsanft / Felix Tacke (Hg.): *Manual of Standardization in the Romance Languages*. Berlin/Boston: De Gruyter, 559–579.
-- Tacke, Felix (2025): *CO.RA.PAN – Corpus Radiofónico Panhispánico*. Marburg. Online: [https://corapan.online.uni-marburg.de](https://corapan.online.uni-marburg.de){:target="_blank" rel="noopener noreferrer"}
+- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/)
+- Tacke, Felix (2020): „Spanish: Orthography and Orthoepy”. In: Franz Lebsanft / Felix Tacke (Hg.): *Manual of Standardization in the Romance Languages*. Berlin/Boston: De Gruyter, 559–579.
+- Tacke, Felix (2025): *CO.RA.PAN – Corpus Radiofónico Panhispánico*. Marburg. Online: [https://corapan.online.uni-marburg.de](https://corapan.online.uni-marburg.de)
 
 </div>
-
----
 
 !!! cite "Dieses Kapitel zitieren"
     Freyre Castro, Renata / Tacke, Felix (2025): „Aussprachevariation". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)
-
-
-[^*]: **Autor:innen:** Renata Freyre Castro, Felix Tacke  
-      **Beiträge & Peer-Review:** Gloria Gabriel, Lea-Marie Domin, Marlon Merte  
-        
-      **Letzte Änderung:** 25.07.2025

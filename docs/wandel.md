@@ -9,7 +9,7 @@ peer_review:
 last_modified: "23.09.2025"
 ---
 
-# 6 Sprachwandel[^*]
+# 6 Sprachwandel
 
 ## Spanisch heute – diachron betrachtet
 
@@ -211,15 +211,10 @@ Später dehnte sich die Verwendung über den ursprünglichen Bedeutungsbereich �
 
 Das Muster findet sich ebenfalls in den übrigen romanischen Sprachen: fr. clairement, it. chiaramente, pt. claramente. Der Ursprung der Adverb-Endung im lateinischen Substantiv erklärt, warum es nicht zufällig immer die feminine Form des Adjektivs ist – und man sieht besonders eindrücklich, wie Grammatik entstehen kann.
 
----
-
 ??? expand "Wer mehr wissen will"
     Wer sich für umfassendere Sprachgeschichten interessiert, findet sowohl Überblicksdarstellungen zur Romania als auch speziell zum Spanischen. Kaiser (2014) legt die romanische Sprachgeschichte breit an, von den lateinischen Grundlagen bis zu den modernen Varietäten. Für den Übergang vom Latein bieten sich Lehrwerke wie Müller-Lancé (2006) an, die die Strukturen des Ausgangssystems für Romanisten verständlich machen. Für das Spanische selbst liegt mit Pountain (2001) eine Textgeschichte vor, die Wandelprozesse anhand von Originalquellen illustriert. Ergänzend erschließt Ranson/Lubbers (2018) die Entwicklung des Spanischen in einem didaktisch aufbereiteten Format, das auch ohne Vorkenntnisse gut zugänglich ist und demselben Ansatz folgt wie dieses Kapitel (s.u.). Wer ein noch tieferes Verständnis anstrebt, dem sei Coserius grundlegende Abhandlung über *Synchronie, Diachronie und Geschichte* (1974) empfohlen, da sie das Problem des Sprachwandels in die allgemeine Sprachwissenschaft einordnet.
 
     Von besonderem Interesse ist ein Ansatz, der diachrone Erklärungen konsequent von der Gegenwart her entfaltet. Tacke (2021) zeigt, wie die historische Betrachtung romanischer Sprachen im Unterricht nicht bei Altstufen ansetzt, sondern an heutigen Strukturen und „Anomalien“ anschließt, um deren Gewordensein sichtbar zu machen. Vorläufer dieses Modells finden sich bei Christmann (1975) und Böckle/Lebsanft (1989). Für das Spanische ist Ranson/Lubbers (2018) das einschlägige Beispiel: Fragen wie *el arte ~ las artes* oder die Verteilung unregelmäßiger Verbformen werden ausgehend vom modernen Sprachgefühl aufgegriffen und erst dann in ihrem historischen Zusammenhang erklärt. Damit verschränkt sich Gegenwartsorientierung mit diachroner Perspektive.
-
-
----
 
 ## Literatur
 
@@ -231,21 +226,11 @@ Das Muster findet sich ebenfalls in den übrigen romanischen Sprachen: fr. clair
 - Penny, Ralph (²2002): *A History of the Spanish Language*. Cambridge: Cambridge University Press.
 - Pountain, Christopher J. (2001): *A History of the Spanish Language Through Texts*. London/New York: Routledge.
 - Ranson, Diana L. / Lubbers Quesada, Margaret (2018): *The History of Spanish. A Student’s Introduction*. Cambridge: Cambridge University Press.
-- Tacke, Felix (2021): „Die historische Betrachtung der romanischen Sprachen. Zur Zukunft der Sprachgeschichte in der universitären Lehre“. *Romanische Forschungen* 133, 68–89.
-
+- Tacke, Felix (2021): „Die historische Betrachtung der romanischen Sprachen. Zur Zukunft der Sprachgeschichte in der universitären Lehre”. *Romanische Forschungen* 133, 68–89.
 
 </div>
-
----
 
 !!! cite "Dieses Kapitel zitieren"
     Lea-Marie Domin, Selin Sevgi, Felix Tacke (2025): „Sprachwandel". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)
-
-
-[^*]: **Autor:innen:** Lea-Marie Domin, Selin Sevgi, Felix Tacke  
-      **Beiträge & Peer Review:** Marlon Merte, Gloria Gabriel
-        
-      **Letzte Änderung:** 23.09.2025
-

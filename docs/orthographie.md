@@ -9,7 +9,7 @@ peer_review:
 last_modified: "02.09.2025"
 ---
 
-# 3 Orthographie[^*]
+# 3 Orthographie
 
 ## „Se escribe (casi) como se habla“  
 
@@ -185,8 +185,6 @@ Für den Unterricht ist wichtig zu wissen, dass beide Formen als korrekt gelten.
     Im *Diccionario de la lengua española* (DLE) wird die übliche Form als Lemma angegeben. Alternative Schreibweisen erscheinen im Eintrag mit dem Hinweis „también“. Auf diese Weise wird deutlich, dass beide Formen korrekt sind, auch wenn eine als die bevorzugte Normform gilt.   
     Beispiel: Beim Lemma [*video*](https://dle.rae.es/video){:target="_blank" rel="noopener noreferrer"} findet sich die Angabe „también *vídeo*“.  
 
----
-
 !!! summary "Zusammenfassung"
     Die spanische Orthographie gilt als regelmäßig, doch einige Punkte verdienen besondere Aufmerksamkeit:  
 
@@ -203,24 +201,19 @@ Für den Unterricht ist wichtig zu wissen, dass beide Formen als korrekt gelten.
 
     Für die Unterrichtspraxis besonders hilfreich ist das [MAR.ELE-Korpus](https://marele.online.uni-marburg.de) (Tacke 2023ff.). Es dokumentiert die Aussprache von Lernenden des Spanischen und erlaubt den direkten Vergleich mit Modellsprecher:innen. So lässt sich u.a. auch das Phänomen der *spelling pronunciation* anschaulich nachvollziehen (vgl. oben unter „Hör mal“).
 
-
----
-
 ## Literatur
 
 <div class="literatur" markdown="1">
 
-- Martínez de Sousa, José (³2014): *Ortografía y ortotipografía del español actual*. Gijón: Trea. Online: [http://www.martinezdesousa.net/](http://www.martinezdesousa.net/){:target="_blank" rel="noopener noreferrer"}
+- Martínez de Sousa, José (³2014): *Ortografía y ortotipografía del español actual*. Gijón: Trea. Online: [http://www.martinezdesousa.net/](http://www.martinezdesousa.net/)
 - Meisenburg, Trudel (1996): *Romanische Schriftsysteme im Vergleich. Eine diachrone Studie*. Tübingen: Narr.
-- Real Academia Española / Asociación de Academias de la Lengua Española (2010): *Ortografía de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/ortografía](https://www.rae.es/ortograf%C3%ADa){:target="_blank" rel="noopener noreferrer"}
-- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/){:target="_blank" rel="noopener noreferrer"}
-- Real Academia Española (online): *Diccionario de la lengua española (DLE)*. Online: [https://dle.rae.es](https://dle.rae.es){:target="_blank" rel="noopener noreferrer"}
-- Tacke, Felix (2020): „Spanish: Orthography and Orthoepy“. In: Lebsanft, Franz / Tacke, Felix (Hg.): *Manual of Standardization in the Romance Languages*. Berlin/Boston: De Gruyter, 559–579.
-- Tacke, Felix (2023ff.): *MAR.ELE – Corpus sobre la pronunciación del español por aprendientes de ELE en Marburg*. Marburg. Online: [https://marele.online.uni-marburg.de](https://marele.online.uni-marburg.de){:target="_blank" rel="noopener noreferrer"}
+- Real Academia Española / Asociación de Academias de la Lengua Española (2010): *Ortografía de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/ortografía](https://www.rae.es/ortograf%C3%ADa)
+- Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/)
+- Real Academia Española (online): *Diccionario de la lengua española (DLE)*. Online: [https://dle.rae.es](https://dle.rae.es)
+- Tacke, Felix (2020): „Spanish: Orthography and Orthoepy”. In: Lebsanft, Franz / Tacke, Felix (Hg.): *Manual of Standardization in the Romance Languages*. Berlin/Boston: De Gruyter, 559–579.
+- Tacke, Felix (2023ff.): *MAR.ELE – Corpus sobre la pronunciación del español por aprendientes de ELE en Marburg*. Marburg. Online: [https://marele.online.uni-marburg.de](https://marele.online.uni-marburg.de)
 
 </div>
-
----
 
 !!! cite "Dieses Kapitel zitieren"
     Tacke, Felix / Merte, Marlon (2025): „Orthographie". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  

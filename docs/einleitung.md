@@ -4,9 +4,9 @@ authors:
 last_modified: "07.11.2025"
 ---
 
-# Einleitung[^*]
+# Einleitung
 
-## „Good linguists are better teachers!“[^2]
+## „Good linguists are better teachers!“[^1]
 
 Die Idee eines *Linguistic Toolkit* ist es, entlang einer Reihe von Themen aus dem Bereich der Sprachwissenschaft zu demonstrieren, wo und in welcher Weise grundlegende linguistische Kompetenz hilfreich und gewinnbringend, wenn nicht sogar notwendig ist, wenn es darum geht, eine Fremdsprache zu unterrichten. Natürlich stellt sich hier die Frage, ob es denn nicht ausreicht, die Sprache als angehende Lehrkraft in der Universität zu studieren wie eh und je. Die Antwort darauf ist: „Ja und nein“. Wie Rolf Kreyer pointiert diagnostiziert – und die Studierenden, die an diesem digitalen Buch mitarbeiten, bestätigen dies – lassen die anderen Bestandteile des Studiums des Englischen, Französischen und Spanischen unmittelbar erkennen, warum und wo man sie für die Schulpraxis benötigt: In der Sprachpraxis erwirbt und vertieft man die sprachliche Kompetenz, die man selbst einmal vermitteln soll; in der Literaturwissenschaft setzt man sich – idealerweise auf höherem Niveau – mit der Analyse literarischer Werke auseinander, die man zum Teil auch in der Schule thematisiert. Nur der Sprachwissenschaft scheint ein unmittelbares Pendant zu fehlen. Das macht sie aber nicht unnütz für die (spätere) Unterrichtspraxis. Im Gegenteil: Als Kompetenz betrachtet helfen linguistische Fähigkeiten bei jeglicher Beschäftigung mit einer Sprache, ihrer Verwendung in verschiedenen Kontexten, ihrem Wortschatz, ihren grammatischen Besonderheiten, ihrer Kultur und ihrer Literatur (Literatur ist schließlich auch nichts anderes als eine besonders elaborierte Form der Sprachverwendung!). In diesem Sinne eignet sich der von Kreyer angebrachte *Toolkit*-Gedanke (eine Metapher!) sehr gut, um über den (späteren) Nutzen der Linguistik zu reflektieren.
 
@@ -44,16 +44,11 @@ Die folgenden Kapitel sind in der ersten vorläufigen Version enthalten:
 | [6 Sprachwandel](wandel.md) | Wie lässt sich das heutige Spanisch diachron verstehen? |
 | [7 Herkunftssprachen](herkunftssprachen.md) | Wie bereichern verschiedene Herkunftssprachen den Spanischunterricht? |
 
----
-
 !!! cite "Dieses Kapitel zitieren"
     Tacke, Felix (2025): „Einleitung". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)
 
-[^*]: **Autor:innen:** Felix Tacke  
-        
-      **Letzte Änderung:** 07.11.2025  
-    
-[^2]: Kreyer (2023, Preface).  
+ 
+[^1]: Kreyer (2023, Preface).  
 

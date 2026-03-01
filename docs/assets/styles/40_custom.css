@@ -1224,3 +1224,30 @@ body[data-md-color-scheme="slate"] .md-typeset details.regel {
   -webkit-mask-image: var(--md-typeset-regel-icon);
   mask-image: var(--md-typeset-regel-icon);
 }
+
+
+/* ─────────────────────────────────────────────────────────
+   Literaturverzeichnis – buchtypografisch (ohne Bullets)
+   Struktur: <div class="literatur"><ul><li>…</li></ul></div>
+   ───────────────────────────────────────────────────────── */
+
+.md-typeset .literatur {
+  font-size: 0.9em;
+  line-height: 1.6;
+}
+
+.md-typeset .literatur ul,
+.md-typeset .literatur ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.md-typeset .literatur li {
+  margin: 0 0 0.25rem 0;
+  text-indent: -1.0rem;
+}
+
+.md-typeset .literatur li:last-child {
+  margin-bottom: 0;
+}
