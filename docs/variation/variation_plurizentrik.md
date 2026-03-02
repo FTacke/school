@@ -197,42 +197,42 @@ Bewertung orientiert sich somit an Kohärenz und Kontextangemessenheit, nicht an
 
 <div class="literatur" markdown="1">
 
-- Amorós-Negre, Carla (2012): „El pluricentrismo de la lengua española ¿un nuevo ideologema en el discurso institucional? El desafío de la glosodidáctica”, *Revista internacional de lingüística iberoamericana* 19, 127–147.
+- Amorós-Negre, Carla (2012): „El pluricentrismo de la lengua española ¿un nuevo ideologema en el discurso institucional? El desafío de la glosodidáctica“, *Revista internacional de lingüística iberoamericana* 19, 127–147.
 - Amorós-Negre, Carla (2014): *Las lenguas en la sociedad.* Madrid: Síntesis.
-- Bierbach, Mechtild (2000): „Spanisch – eine plurizentrische Sprache? Zum Problem von *norma culta* und Varietät in der hispanophonen Welt”, *Vox Romanica* 59, 143–170.
+- Bierbach, Mechtild (2000): „Spanisch – eine plurizentrische Sprache? Zum Problem von *norma culta* und Varietät in der hispanophonen Welt“, *Vox Romanica* 59, 143–170.
 - Clyne, Michael (Hg.) (1992): *Pluricentric Languages: Different Norms in Different Countries.* Berlin/New York: De Gruyter Mouton.
 - Greußlich, Sebastian / Lebsanft, Franz (Hg.) (2020): *El español, lengua pluricéntrica. Discurso, gramática, léxico y medios de comunicación masiva.* Göttingen: Vandenhoeck & Ruprecht / Bonn University Press.
-- Greußlich, Sebastian (2022): „The Pluricentricity of Spanish in the Americas – Current Perspectives on Variety Dominance, Standardization, and the Media”, in: Muhr, Rudolf et al. (Hg.): *Pluricentric Languages in the Americas.* Graz/Berlin: PCL-Press, 47–74.
+- Greußlich, Sebastian (2022): „The Pluricentricity of Spanish in the Americas – Current Perspectives on Variety Dominance, Standardization, and the Media“, in: Muhr, Rudolf et al. (Hg.): *Pluricentric Languages in the Americas.* Graz/Berlin: PCL-Press, 47–74.
 - Hernández Muñoz, Natividad / Muñoz-Basols, Javier / Soler Montes, Carlos (2021): *La diversidad del español y su enseñanza.* Abingdon/Oxon: Routledge.
 - Lara, Luis Fernando (2004): *Lengua histórica y normatividad.* México D.F.: El Colegio de México.
-- Lebsanft, Franz (1998): „Spanische Sprachkultur – monozentrisch oder plurizentrisch?”, in: Greule, Albrecht / Lebsanft, Franz (Hg.): *Europäische Sprachkultur und Sprachpflege.* Tübingen: Narr, 255–276.
-- Lebsanft, Franz (2004): „Plurizentrische Sprachkultur in der spanischsprachigen Welt”, in: Gil, Alberto / Osthus, Dietmar / Polzin-Haumann, Claudia (Hg.): *Romanische Sprachwissenschaft. Zeugnisse für Vielfalt und Profil eines Faches. Festschrift für Christian Schmitt zum 60. Geburtstag.* Frankfurt a.M.: Lang, 205–220.
-- Lebsanft, Franz (2007): „Norma pluricéntrica del español y Academias de la Lengua”, in: Laferl, Christopher F. / Pöll, Bernhard (Hg.): *Amerika und die Norm. Literatursprache als Modell?* Tübingen: Niemeyer, 227–246.
+- Lebsanft, Franz (1998): „Spanische Sprachkultur – monozentrisch oder plurizentrisch?“, in: Greule, Albrecht / Lebsanft, Franz (Hg.): *Europäische Sprachkultur und Sprachpflege.* Tübingen: Narr, 255–276.
+- Lebsanft, Franz (2004): „Plurizentrische Sprachkultur in der spanischsprachigen Welt“, in: Gil, Alberto / Osthus, Dietmar / Polzin-Haumann, Claudia (Hg.): *Romanische Sprachwissenschaft. Zeugnisse für Vielfalt und Profil eines Faches. Festschrift für Christian Schmitt zum 60. Geburtstag.* Frankfurt a.M.: Lang, 205–220.
+- Lebsanft, Franz (2007): „Norma pluricéntrica del español y Academias de la Lengua“, in: Laferl, Christopher F. / Pöll, Bernhard (Hg.): *Amerika und die Norm. Literatursprache als Modell?* Tübingen: Niemeyer, 227–246.
 - Leitzke-Ungerer, Eva / Polzin-Haumann, Claudia (Hg.) (2017): *Varietäten des Spanischen im Fremdsprachenunterricht. Ihre Rolle in Schule, Hochschule, Lehrerbildung und Sprachenzertifikaten.* Stuttgart: ibidem.
 - Moreno Fernández, Francisco (2010): *Las variedades de la lengua española y su enseñanza.* Madrid: Arco/Libros.
-- Moreno Fernández, Francisco (2015): „Welches Spanisch sprechen? Welches Spanisch unterrichten?”, in: Grünewald, Andreas / Roviró, Berta / Bermejo Muñoz, Silvia (Hg.): *Spanischunterricht weiterentwickeln, Perspektiven eröffnen.* Trier: Wissenschaftlicher Verlag, 5–21.
-- Moreno Fernández, Francisco (2017): „Variedades del español y su enseñanza en ELE”, in: Cestero Mancera, Ana M. / Penadés Martínez, Inmaculada (Hg.): *Manual del profesor de ELE.* Alcalá de Henares: Universidad de Alcalá, Servicio de Publicaciones, 357–406.
+- Moreno Fernández, Francisco (2015): „Welches Spanisch sprechen? Welches Spanisch unterrichten?“, in: Grünewald, Andreas / Roviró, Berta / Bermejo Muñoz, Silvia (Hg.): *Spanischunterricht weiterentwickeln, Perspektiven eröffnen.* Trier: Wissenschaftlicher Verlag, 5–21.
+- Moreno Fernández, Francisco (2017): „Variedades del español y su enseñanza en ELE“, in: Cestero Mancera, Ana M. / Penadés Martínez, Inmaculada (Hg.): *Manual del profesor de ELE.* Alcalá de Henares: Universidad de Alcalá, Servicio de Publicaciones, 357–406.
 - Moreno Fernández, Francisco (2020): *Variedades de la lengua española.* London: Routledge.
 - Muhr, Rudolf (Hg.) (2016): *Pluricentric Languages and Non-Dominant Varieties Worldwide. Part I: Pluricentric Languages across Continents. Features and Usage.* Frankfurt a.M./Wien: Lang.
-- Oesterreicher, Wulf (2000): „Plurizentrische Sprachkultur – der Varietätenraum des Spanischen”, *Romanistisches Jahrbuch* 51, 287–318.
-- Pöll, Bernhard (2021): „Spanish Today. Pluricentricity and Codification”, in: Perez, Danae et al. (Hg.): *English and Spanish. World Languages in Interaction.* Cambridge: Cambridge University Press, 163–183.
-- Polzin-Haumann, Claudia (2005): „Zwischen *unidad* und *diversidad*. Sprachliche Variation und sprachliche Identität im hispanophonen Raum”, *Romanistisches Jahrbuch* 56, 271–295.
-- Prifti, Elton (2021): „Hacia el pluricentrismo: moldeamientos modernos del español en América”, in: Eckkrammer, Eva Martha (Hg.): *Manual del español en América.* Berlin/Boston: De Gruyter, 183–206.
+- Oesterreicher, Wulf (2000): „Plurizentrische Sprachkultur – der Varietätenraum des Spanischen“, *Romanistisches Jahrbuch* 51, 287–318.
+- Pöll, Bernhard (2021): „Spanish Today. Pluricentricity and Codification“, in: Perez, Danae et al. (Hg.): *English and Spanish. World Languages in Interaction.* Cambridge: Cambridge University Press, 163–183.
+- Polzin-Haumann, Claudia (2005): „Zwischen *unidad* und *diversidad*. Sprachliche Variation und sprachliche Identität im hispanophonen Raum“, *Romanistisches Jahrbuch* 56, 271–295.
+- Prifti, Elton (2021): „Hacia el pluricentrismo: moldeamientos modernos del español en América“, in: Eckkrammer, Eva Martha (Hg.): *Manual del español en América.* Berlin/Boston: De Gruyter, 183–206.
 - Real Academia Española / Asociación de Academias de la Lengua Española (2005, 2025): *Diccionario panhispánico de dudas.* Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/)
 - Real Academia Española / Asociación de Academias de la Lengua Española (2009): *Nueva gramática de la lengua española.* 2 Bde. Madrid: Espasa Calpe.
 - Real Academia Española / Asociación de Academias de la Lengua Española (2025): *Nueva gramática de la lengua española.* 3 Bde. Madrid: Espasa Calpe.
 - Real Academia Española / Asociación de Academias de la Lengua Española (2010): *Diccionario de americanismos.* Madrid: Espasa Calpe.
-- Reimann, Daniel (2017): „Rezeptive Varietätenkompetenz im Spanischen – Modellierung einer Teilkompetenz zwischen funktionaler kommunikativer Kompetenz und Sprachbewusstheit”, in: Leitzke-Ungerer, Eva / Polzin-Haumann, Claudia (Hg.): *Varietäten des Spanischen im Fremdsprachenunterricht.* Stuttgart: ibidem, 69–95.
-- Stewart, William (1968 [1962]): „A Sociolinguistic Typology for Describing National Multilingualism”, in: Fishman, Joshua A. (Hg.): *Readings in the Sociology of Language.* Den Haag: Mouton, 530–545.
-- Tacke, Felix (2011): „Plurizentrik und normativer Diskurs in der *Nueva gramática de la lengua española*”, *Romanische Forschungen* 123, 145–166.
-- Tacke, Felix (2024): „Die Rekonfiguration und Modernisierung romanischer Standardsprachen: Zu einem doppelten Paradigmenwechsel im Italienischen, Spanischen und Katalanischen”, in: Becker, Lidia et al. (Hg.): *Zwischen Pluralität und Präskription. Sprachnormen in der Romania in Geschichte und Gegenwart. Romanistisches Kolloquium XXXVI.* Tübingen: Narr, 29–67.
-- Tacke, Felix (2024): „Informal Standardization and the Regionalization of Language Norms: An Introduction”, in: Tacke, Felix (Hg.): *Informal Standardization and the Regionalization of Language Norms.* *Energeia. Online Journal for Linguistics, Language Philosophy and History of Linguistics* 9, S. 1–17. [Open Access] DOI: 10.55245/energeia.2024.001.
+- Reimann, Daniel (2017): „Rezeptive Varietätenkompetenz im Spanischen – Modellierung einer Teilkompetenz zwischen funktionaler kommunikativer Kompetenz und Sprachbewusstheit“, in: Leitzke-Ungerer, Eva / Polzin-Haumann, Claudia (Hg.): *Varietäten des Spanischen im Fremdsprachenunterricht.* Stuttgart: ibidem, 69–95.
+- Stewart, William (1968 [1962]): „A Sociolinguistic Typology for Describing National Multilingualism“, in: Fishman, Joshua A. (Hg.): *Readings in the Sociology of Language.* Den Haag: Mouton, 530–545.
+- Tacke, Felix (2011): „Plurizentrik und normativer Diskurs in der *Nueva gramática de la lengua española*“, *Romanische Forschungen* 123, 145–166.
+- Tacke, Felix (2024): „Die Rekonfiguration und Modernisierung romanischer Standardsprachen: Zu einem doppelten Paradigmenwechsel im Italienischen, Spanischen und Katalanischen“, in: Becker, Lidia et al. (Hg.): *Zwischen Pluralität und Präskription. Sprachnormen in der Romania in Geschichte und Gegenwart. Romanistisches Kolloquium XXXVI.* Tübingen: Narr, 29–67.
+- Tacke, Felix (2024): „Informal Standardization and the Regionalization of Language Norms: An Introduction“, in: Tacke, Felix (Hg.): *Informal Standardization and the Regionalization of Language Norms.* *Energeia. Online Journal for Linguistics, Language Philosophy and History of Linguistics* 9, S. 1–17. [Open Access] DOI: 10.55245/energeia.2024.001.
 - Tacke, Felix (2025): *CO.RA.PAN – Corpus Radiofónico Panhispánico*. Marburg. Online: [https://corapan.online.uni-marburg.de](https://corapan.online.uni-marburg.de)
-- Thompson, Robert W. (1992): „Spanish as a Pluricentric Language”, in: Clyne, Michael (Hg.): *Pluricentric Languages: Different Norms in Different Countries.* Berlin/New York: De Gruyter Mouton, 45–70.
+- Thompson, Robert W. (1992): „Spanish as a Pluricentric Language“, in: Clyne, Michael (Hg.): *Pluricentric Languages: Different Norms in Different Countries.* Berlin/New York: De Gruyter Mouton, 45–70.
 
 </div>
 
 !!! cite "Dieses Kapitel zitieren"
-    Tacke, Felix / Falcone, Riccarda (2025): „Variation & Plurizentrik". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
+    Tacke, Felix / Falcone, Riccarda (2025): „Variation & Plurizentrik“. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)

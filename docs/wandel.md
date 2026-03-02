@@ -51,7 +51,7 @@ Für Lehrkräfte ist diese Perspektive wichtig: Viele scheinbar willkürliche Ei
 
 Beispiele finden wir in allen Sprachen, auch im Deutschen und Spanischen. So hört man im Deutschen heute meist *wegen dem Wetter*, obwohl traditionelle Grammatik *wegen des Wetters* vorsieht – eine Veränderung, die sich von der gesprochenen Sprache aus langsam verbreitet und mittlerweile auch vom [Duden](https://www.duden.de/rechtschreibung/wegen){:target="_blank" rel="noopener noreferrer"} akzeptiert wird. Auch Verbformen können sich angleichen: Aus *ich buk* wurde *ich backte* und passt nun in das reguläre Muster der schwachen Verben.  
 
-!!! context “Die „Fehler” von heute gehören manchmal zur Norm von morgen”
+!!! context "Die „Fehler“ von heute gehören manchmal zur Norm von morgen"
     „Richtig“ und „falsch“ sind keine objektiven Eigenschaften sprachlicher Formen, sondern Bewertungen, die Sprachegemeinschaften vornehmen. Diese Bewertungen entstehen aus dem Sprachgebrauch und können sich verändern: Was heute als korrekt gilt, kann morgen schon als veraltet wahrgenommen werden. Und die „Fehler“ von heute sind möglicherweise Teil der Norm von morgen.
 
 Ähnliche Entwicklungen prägen auch das Spanische. So sind Formen wie *<u>la</u> mano* (feminin) und *<u>el</u> día* (maskulin) und wieder anders *<u>el</u> agua* (feminin) das Ergebnis historischer Prozesse, über die man heute stolpert, weil sie ungewöhnlich wirken. Im Lautsystem zeigt sich Wandel in Wortvarianten wie [*septiembre* / *setiembre*](https://dle.rae.es/septiembre){:target="_blank" rel="noopener noreferrer"} oder in der Abschwächung des `/s/` im Silbenauslaut (vgl. Kapitel [Aussprachevariation](./variation/variation_aussprache.md)). Und im Wortschatz hat [*azafata*](https://dle.rae.es/azafata){:target="_blank" rel="noopener noreferrer"} ehemals eine Frau bezeichnet, die der Königin das Gewand auf einem Tablett (*azafate*) reichte – heute hingegen steht es für eine Flugbegleiterin oder auch den männlichen Flugbegleiter (*azafato*), ein Wandel, der durch gesellschaftliche Entwicklungen geprägt wurde.  
@@ -226,11 +226,11 @@ Das Muster findet sich ebenfalls in den übrigen romanischen Sprachen: fr. clair
 - Penny, Ralph (²2002): *A History of the Spanish Language*. Cambridge: Cambridge University Press.
 - Pountain, Christopher J. (2001): *A History of the Spanish Language Through Texts*. London/New York: Routledge.
 - Ranson, Diana L. / Lubbers Quesada, Margaret (2018): *The History of Spanish. A Student’s Introduction*. Cambridge: Cambridge University Press.
-- Tacke, Felix (2021): „Die historische Betrachtung der romanischen Sprachen. Zur Zukunft der Sprachgeschichte in der universitären Lehre”. *Romanische Forschungen* 133, 68–89.
+- Tacke, Felix (2021): „Die historische Betrachtung der romanischen Sprachen. Zur Zukunft der Sprachgeschichte in der universitären Lehre“. *Romanische Forschungen* 133, 68–89.
 
 </div>
 
 !!! cite "Dieses Kapitel zitieren"
-    Lea-Marie Domin, Selin Sevgi, Felix Tacke (2025): „Sprachwandel". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
+    Lea-Marie Domin, Selin Sevgi, Felix Tacke (2025): „Sprachwandel“. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)

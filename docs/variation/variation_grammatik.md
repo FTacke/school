@@ -177,7 +177,7 @@ Die Betrachtung der Anredeformen zeigt, dass das Spanische über keine einheitli
 ## Dequeísmo y queísmo (?)
 
 
-!!! cite “Dieses Kapitel zitieren”
-    Daniel Mehrlein Merenciano, Lucas Pimenta Lange, Karina Stephan Quezada, Felix Tacke (2025): „Variation in Grammatik und Pragmatik”. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
+!!! cite "Dieses Kapitel zitieren"
+    Daniel Mehrlein Merenciano, Lucas Pimenta Lange, Karina Stephan Quezada, Felix Tacke (2025): „Variation in Grammatik und Pragmatik“. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)

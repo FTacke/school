@@ -209,19 +209,12 @@ Für den Unterricht ist wichtig zu wissen, dass beide Formen als korrekt gelten.
 - Real Academia Española / Asociación de Academias de la Lengua Española (2010): *Ortografía de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/ortografía](https://www.rae.es/ortograf%C3%ADa)
 - Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/)
 - Real Academia Española (online): *Diccionario de la lengua española (DLE)*. Online: [https://dle.rae.es](https://dle.rae.es)
-- Tacke, Felix (2020): „Spanish: Orthography and Orthoepy”. In: Lebsanft, Franz / Tacke, Felix (Hg.): *Manual of Standardization in the Romance Languages*. Berlin/Boston: De Gruyter, 559–579.
+- Tacke, Felix (2020): „Spanish: Orthography and Orthoepy“. In: Lebsanft, Franz / Tacke, Felix (Hg.): *Manual of Standardization in the Romance Languages*. Berlin/Boston: De Gruyter, 559–579.
 - Tacke, Felix (2023ff.): *MAR.ELE – Corpus sobre la pronunciación del español por aprendientes de ELE en Marburg*. Marburg. Online: [https://marele.online.uni-marburg.de](https://marele.online.uni-marburg.de)
 
 </div>
 
 !!! cite "Dieses Kapitel zitieren"
-    Tacke, Felix / Merte, Marlon (2025): „Orthographie". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
+    Tacke, Felix / Merte, Marlon (2025): „Orthographie“. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)
-
-
-[^*]: **Autor:innen:** Felix Tacke, Marlon Merte
-
-      **Beiträge & Peer Review:** Mariana Prukop, Gloria Gabriel, Lea-Marie Domin
-        
-      **Letzte Änderung:** 02.09.2025

@@ -297,13 +297,13 @@ Das Fehlen eines grammatischen Merkmals, wie z.B. der Artikel, bedeutet keinen M
 - Christiane Fäcke & Franz-Joseph Meißner (Hrsg.) (2019): *Handbuch Mehrsprachigkeits- und Mehrkulturalitätsdidaktik*. Wiesbaden: Springer VS.
 - Ingrid Gogolin (2008): *Der monolinguale Habitus der multilingualen Schule*. 2., erw. Aufl. Münster: Waxmann.
 - Ingrid Gogolin, Anita Hansen, Sarah McMonagle & Dorothea Rauch (Hrsg.) (2020): *Handbuch Mehrsprachigkeit und Bildung*. Wiesbaden: Springer VS.
-- Hans-Jürgen Krumm (2016): „Anerkennung von Familiensprachen – zur Situation in Österreich”. In: Susanne Fürstenau & Mechtild Gomolla (Hrsg.): *Migration und schulischer Wandel. Mehrsprachigkeit*. Wiesbaden: Springer VS, 79–94.
-- Grit Mehlhorn (2017): „Herkunftssprachen im deutschen Schulsystem”. In: *Fremdsprachen Lehren und Lernen* 46 (2), 8–23.
+- Hans-Jürgen Krumm (2016): „Anerkennung von Familiensprachen – zur Situation in Österreich“. In: Susanne Fürstenau & Mechtild Gomolla (Hrsg.): *Migration und schulischer Wandel. Mehrsprachigkeit*. Wiesbaden: Springer VS, 79–94.
+- Grit Mehlhorn (2017): „Herkunftssprachen im deutschen Schulsystem“. In: *Fremdsprachen Lehren und Lernen* 46 (2), 8–23.
 - Ursula Neumann & Ingrid Gogolin (Hrsg.) (2009): *Streitfall Zweisprachigkeit. The Bilingualism Controversy*. Wiesbaden: VS Verlag für Sozialwissenschaften.
 
 </div>
 
-!!! cite “Dieses Kapitel zitieren”
-    Jamaa Khodja, Selina Scholz, Felix Tacke (2025): „Herkunftssprachen”. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
+!!! cite "Dieses Kapitel zitieren"
+    Jamaa Khodja, Selina Scholz, Felix Tacke (2025): „Herkunftssprachen“. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)

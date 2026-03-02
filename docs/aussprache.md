@@ -212,11 +212,11 @@ Ein reiner Anfängerfehler ist es bekanntlich, das im Spanischen geschriebene, a
 
 <div class="literatur" markdown="1">
 
-- Benet, Ariadna / Pesková, Andrea (2017): „Cómo reducir el ‚acento extranjero’ en el ELE”. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 16–20.
+- Benet, Ariadna / Pesková, Andrea (2017): „Cómo reducir el ‚acento extranjero‘ en el ELE“. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 16–20.
 - Bürgel, Christoph / Reimann, Daniel (Hg.) (2017): Sprachliche Mittel im Unterricht der romanischen Sprachen – Aussprache, Wortschatz und Morphosyntax in Zeiten der Kompetenzorientierung. Tübingen: Narr.
 - Gabriel, Christoph / Meisenburg, Trudel / Selig, Maria (2025): *Spanisch: Phonetik und Phonologie. Eine Einführung*. 2. überarbeitete Auflage. Tübingen: Narr Francke Attempto.
 - Gil Fernández, Juana (2007): *Fonética para profesores de español: de la teoría a la práctica*. Madrid: Arco Libros.
-- Kanngiesser-Krebs, Gisela (2017): „¿Cómo se dice qué? y ¿qué se dice dónde?”. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 2–10.
+- Kanngiesser-Krebs, Gisela (2017): „¿Cómo se dice qué? y ¿qué se dice dónde?“. *Der fremdsprachliche Unterricht Spanisch* 15 (3), 2–10.
 - Kubarth, Hugo (2009): *Spanische Phonetik und Phonologie: Segmente – Silben – Satzmelodien*. Frankfurt am Main: Peter Lang.
 - Pustka, Elissa (2021): *Phonetik und Phonologie des Spanischen. Eine korpuslinguistische Einführung*. Berlin: Erich Schmidt Verlag.
 - Quilis, Antonio (1993): *Tratado de fonología y fonética españolas*. Madrid: Gredos.
@@ -229,6 +229,6 @@ Ein reiner Anfängerfehler ist es bekanntlich, das im Spanischen geschriebene, a
 </div>
 
 !!! cite "Dieses Kapitel zitieren"
-    Merte, Marlon / Tacke, Felix (2025): „Aussprache". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
+    Merte, Marlon / Tacke, Felix (2025): „Aussprache“. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)

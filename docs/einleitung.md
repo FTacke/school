@@ -20,7 +20,7 @@ Aber Linguistik – und das ist mir ein besonderes Anliegen – umfasst so viel 
 
 Vor diesem Hintergrund knüpft dieses digitale Sachbuch an Rolf Kreyers Grundideen an und entwickelt ein *Toolkit*, das sich an angehende Spanischlehrer:innen richtet. Und natürlich gilt auch hier Kreyers Ansatz, dass Lehrkräfte, die die sprachwissenschaftlichen Grundlagen ihres Faches beherrschen, **besser unterrichten**. Was hier pointiert auf Englisch formuliert wird, gilt natürlich für jeglichen Fremdsprachenunterricht und eben auch für das Spanische als Fremdsprache.
 
-## "Work in Progress & Peer Review"
+## „Work in Progress & Peer Review“
 
 Die Arbeit an diesem digitalen Sachbuch wurde zu Beginn des Sommersemesters 2025 im Rahmen eines von mir geleiteten Lehrprojekts an der Philipps-Universität Marburg aufgenommen. Es wird **in kollaborativer Textarbeit** gemeinsam mit Studierenden geschrieben. Im Unterschied zu statischen Lehrbüchern soll es kontinuierlich überarbeitet, verbessert und um weitere Themen erweitert werden. In den nächsten Monaten (und vielleicht Jahren) werden also *peu à peu* neue Textstücke hinzukommen, gemeinsam überarbeitet und dabei immer weiter durch nützliche (digitale) Ressourcen ergänzt. Die hier behandelten Themen sind als **offenes Inventar** gedacht. Sie entsprechen zum Teil den von Professor Kreyer behandelten Bereichen, greifen aber entsprechend der Schwerpunktsetzungen und Interessen aller Beteiligten auch andere Gebiete auf. In diesem Sinne soll hier eine Reise beginnen, deren exaktes Ende noch nicht vorbestimmt ist.
 
@@ -45,7 +45,7 @@ Die folgenden Kapitel sind in der ersten vorläufigen Version enthalten:
 | [7 Herkunftssprachen](herkunftssprachen.md) | Wie bereichern verschiedene Herkunftssprachen den Spanischunterricht? |
 
 !!! cite "Dieses Kapitel zitieren"
-    Tacke, Felix (2025): „Einleitung". In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
+    Tacke, Felix (2025): „Einleitung“. In: Tacke, Felix (Koord.): *Spanische Linguistik @ School*. Marburg: Universität Marburg.  
     Online: [school.hispanistica.com](https://school.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)
 
