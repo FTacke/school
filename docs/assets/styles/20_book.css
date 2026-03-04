@@ -195,7 +195,6 @@ body {
   background:  var(--book-surface-1);
   border:      1px solid var(--book-border);
   box-shadow:  none;
-  background-color: #448aff1a;
 }
 
 /* Title: keep existing size, only set a clean line-height + UI font */
@@ -204,10 +203,9 @@ body {
   font-family: var(--book-font-ui);
 }
 
-/* Type-specific backgrounds: very subtle tint via color-mix */
+/* Standard admonitions – subtle tint (custom types fully handled in 40_custom.css) */
 .md-typeset .admonition.note    { background: color-mix(in srgb, var(--book-surface-1) 92%, var(--book-adm-note)); }
 .md-typeset .admonition.info    { background: color-mix(in srgb, var(--book-surface-1) 92%, var(--book-adm-info)); }
-.md-typeset .admonition.tip     { background: color-mix(in srgb, var(--book-surface-1) 92%, var(--book-adm-tip)); }
 .md-typeset .admonition.success { background: color-mix(in srgb, var(--book-surface-1) 92%, var(--book-adm-success)); }
 .md-typeset .admonition.warning { background: color-mix(in srgb, var(--book-surface-1) 92%, var(--book-adm-warning)); }
 .md-typeset .admonition.danger  { background: color-mix(in srgb, var(--book-surface-1) 92%, var(--book-adm-danger)); }

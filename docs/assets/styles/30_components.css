@@ -8,16 +8,9 @@
    Icon Variables: hoermal Audio-Icon
    ────────────────────────────────────────────────────────────────────────── */
 
-:root {
-  --md-typeset-hoermal-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15 9a3 3 0 0 1 0 6"/><path d="M17.5 6.5a6 6 0 0 1 0 11"/></svg>');
-  --md-typeset-expand-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>');
-  --md-typeset-cite-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>');
-  --md-typeset-copy-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>');
-  --md-typeset-check-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>');
-  --md-typeset-context-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>');
-  --md-typeset-praxis-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>');
-  --md-typeset-regel-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>');
-}
+/* --------------------------------------------------------------------------
+   Icon variables → migriert nach 40_custom.css (:root-Block)
+   -------------------------------------------------------------------------- */
 
 /* --------------------------------------------------------------------------
    doc-chapter-meta – Byline / Kapitel-Meta unter dem ersten H1
@@ -133,49 +126,8 @@
 
 
 /* --------------------------------------------------------------------------
-   Admonition: hoermal (Hör mal)
-   Supports both .admonition.hoermal (new format) und details.hoermal (legacy/rendered)
+   Admonition: hoermal → migriert nach 40_custom.css (Container + Icon + Audio-Layout)
    -------------------------------------------------------------------------- */
-
-.md-typeset .admonition.hoermal,
-.md-typeset details.hoermal {
-  background: color-mix(in srgb, white 88%, var(--book-adm-hoermal));
-  border: 1px solid rgba(0, 0, 0, 0.06);
-
-  border-left-width: .2rem;
-  border-left-color: color-mix(in srgb, var(--book-accent) 85%, transparent);
-
-  border-radius: 0.4rem;
-  box-shadow: none;
-}
-
-/* Darkmode overrides */
-body[data-md-color-scheme="slate"] .md-typeset .admonition.hoermal,
-body[data-md-color-scheme="slate"] .md-typeset details.hoermal {
-  background: color-mix(in srgb, var(--book-surface-1) 82%, var(--book-adm-hoermal));
-  border-color: rgba(255, 255, 255, 0.08);
-  border-left-color: color-mix(in srgb, var(--book-accent) 70%, transparent);
-}
-
-.md-typeset .admonition.hoermal > .admonition-title,
-.md-typeset details.hoermal > summary {
-  color: var(--book-fg);
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-}
-
-/* hoermal-spezifisches Icon und Styling */
-.md-typeset .admonition.hoermal {
-  --md-admonition-icon: var(--md-typeset-hoermal-icon);
-}
-
-/* Icon via ::before wie andere Admonition-Typen (Note, Tip, …) */
-.md-typeset .hoermal > .admonition-title:before,
-.md-typeset .hoermal > summary:before {
-  background-color: var(--book-adm-hoermal);
-  -webkit-mask-image: var(--md-typeset-hoermal-icon);
-  mask-image: var(--md-typeset-hoermal-icon);
-}
 
 /* --------------------------------------------------------------------------
    Header Brand Title – Zweifarbig: nur Desktop ≥ 960px

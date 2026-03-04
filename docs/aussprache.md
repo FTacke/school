@@ -174,7 +174,7 @@ Die ‚Kontextregeln‘ hinter dieser zielsprachlichen Aussprache der stimmhafte
 
 Für den Schulunterricht wird es übrigens genügen, dass man die Regel darauf reduziert, dass man ‚weicher‘ ausspricht, sobald die Laute *zwischen Vokalen vorkommen* (also *intervokalisch*). Einüben sollte man das auch im Kontext, wenn ein mit `/b d g/` beginnendes Wort direkt auf einen Vokal folgt wie in *la **b**usca*, *lo **d**ijo*, *te **g**usta*.
 
-!!! regel "Tipp zum Üben"
+!!! regel "Wie artikuliert man das?"
     `**[β]**`: Klingt wie ein weiches `[b]`, nur ohne vollständigen Verschluss der Lippen (niemals als `[v]` wie in dt. *<u>W</u>asser*!). Dieser Laut entsteht, wenn man bei der Aussprache des `/b/` eine kleine Öffnung zwischen den Lippen freilässt, sodass Luft entweichen kann. Beim Vorhalten der Handfläche sollte ein leichter Lufthauch spürbar sein. 
        
     `**[ð]**`: Entspricht fast dem englischen *th*-Laut wie er in father oder this vorkommt. Die Zunge liegt locker an den oberen Schneidezähnen an, ohne vollen Verschluss. 

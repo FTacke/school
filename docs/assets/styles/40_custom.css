@@ -11,261 +11,382 @@
    ========================================================================== */
 
 
-/* ──────────────────────────────────────────────────────────────────────────
-   COVER (v4): Hochkantiges Buchcover-Format
-   Variante: !!! cover (Admonition type="cover")
-   Modern, digital, Buchcover-Proportion (3:4), 3-Zonen-Layout
-   ────────────────────────────────────────────────────────────────────────── */
+/* ─────────────────────────────────────────────────────────────
+   COVER – fully frozen (no rem/vw/clamp)
+   Teil 1/4: COVER-Container + Tokens (ohne Zone 1/2/3)
+   Ziele:
+   - Desktop: exakt 460×750, stabil
+   - Mobile: Sprung auf 360×588, stabil (unter 560px)
+   - Keine rem/vw/clamp
+   - Keine "Global-Reset"-Regel, die H1 etc. kaputtmacht
+   ───────────────────────────────────────────────────────────── */
 
-/* CSS Custom Properties für Cover-Spacing */
+/* 1) Tokens (Desktop + Mobile proportional) */
 .md-typeset .admonition.cover {
-  --cover-gap-lg: clamp(16px, 2.4vw, 24px);
-  --cover-gap-md: clamp(10px, 1.8vw, 14px);
-  --cover-gap-sm: clamp(6px, 1.2vw, 10px);
-  
-  /* Einheitliche Font-Familie: System Sans */
+  /* Dimensions */
+  --cover-w: 460px;
+  --cover-h: 750px;
+
+  --cover-w-sm: 360px;
+  --cover-h-sm: 588px; /* 750 * (360/460) ≈ 588 */
+
+  /* Layout */
+  --cover-radius: 18px;
+  --cover-radius-sm: 14px;
+
+  /* Spacing (Desktop) */
+  --cover-gap-md: 10px;
+  --cover-gap-sm: 6px;
+
+  --cover-pad-top: 16px;
+  --cover-pad-x: 48px;
+  --cover-pad-bottom: 26px;
+
+  /* Spacing (Mobile, proportional s≈0.7826) */
+  --cover-gap-md-sm: 8px;
+  --cover-gap-sm-sm: 5px;
+
+  --cover-pad-top-sm: 13px;
+  --cover-pad-x-sm: 38px;
+  --cover-pad-bottom-sm: 20px;
+
+  /* Typography base (frozen) */
   --cover-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --cover-base-size: 16px;
+  --cover-base-size-sm: 13px;
+  --cover-base-lh: 1.2;
+
+  /* Colors */
+  --cover-bg: #243041;
+  --cover-fg: #EAF1F8;
+  --cover-border: rgba(255, 255, 255, 0.08);
+  --cover-shadow: 0 16px 50px rgba(0, 0, 0, 0.32);
+
+  /* Typography scale (em -> stable relative to cover base) */
+  --cover-h1-size: 2.70em;
+  --cover-h1-lh: 1.10;
+
+  --cover-subtitle-size: 1.35em;
+  --cover-subtitle-lh: 1.30;
+
+  --cover-label-size: 0.75em;
+  --cover-label-lh: 1.0;
+
+  --cover-name-size: 1.05em;
+  --cover-name-lh: 1.35;
+
+  /* >>> HIER ergänzen <<< */
+  --cover-footer-size: 0.85em;
+  --cover-footer-lh: 1.05;
+
+  --cover-meta-gap: 0px;
 }
 
+/* 2) Desktop/default: eingefroren */
 .md-typeset .admonition.cover {
-  max-width: 520px;
-  width: 100%;
-  margin-inline: auto;
-  background: #243041;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: clamp(12px, 2vw, 22px);
-  box-shadow: 0 16px 50px rgba(0, 0, 0, 0.32);
+  box-sizing: border-box;
 
-  padding:
-    clamp(26px, 3vw, 36px)   /* top */
-    clamp(26px, 3vw, 48px)   /* right */
-    clamp(22px, 2.4vw, 30px) /* bottom */
-    clamp(26px, 3vw, 48px);  /* left */
+  width: var(--cover-w);
+  height: var(--cover-h);
+
+  margin-inline: auto;
+  margin-bottom: 4rem;
+
+  background: var(--cover-bg);
+  color: var(--cover-fg);
+
+  border: 1px solid var(--cover-border);
+  border-radius: var(--cover-radius);
+  box-shadow: var(--cover-shadow);
+
+  padding: var(--cover-pad-top) var(--cover-pad-x) var(--cover-pad-bottom) var(--cover-pad-x);
 
   display: flex;
   flex-direction: column;
   gap: var(--cover-gap-md);
 
   font-family: var(--cover-font-family);
-  color: #EAF1F8;
-
-  margin-bottom: 4rem;
+  font-size: var(--cover-base-size);
+  line-height: var(--cover-base-lh);
 }
 
-@media (min-width: 768px) {
+/* 3) Admonition chrome aus (Zensical/Material safe) */
+.md-typeset .admonition.cover::before { display: none; }
+.md-typeset .admonition.cover > .admonition-title { display: none; }
+.md-typeset .admonition.cover > *:not(.admonition-title) { margin: 0; }
+
+/* 4) Mobile: zweite stabile Definition (Sprung) */
+@media (max-width: 560px) {
   .md-typeset .admonition.cover {
-    aspect-ratio: 3 / 4;
-    height: auto;
-    min-height: unset;
+    width: min(100%, var(--cover-w-sm)); /* darf schrumpfen, um Overflow zu vermeiden */
+    max-width: var(--cover-w-sm);
+    height: var(--cover-h-sm);
+
+    border-radius: var(--cover-radius-sm);
+
+    padding: var(--cover-pad-top-sm) var(--cover-pad-x-sm) var(--cover-pad-bottom-sm) var(--cover-pad-x-sm);
+
+    gap: var(--cover-gap-md-sm);
+
+    font-size: var(--cover-base-size-sm);
   }
 }
 
-@media (max-width: 767px) {
-  .md-typeset .admonition.cover {
-    max-width: clamp(320px, 86vw, 440px);
-  }
-}
+/* 5) WICHTIG: Kein globales "* { font-size: inherit; }" im Cover.
+   Das hat dir H1/Subline usw. kaputtgemacht.
+   Wenn du Theme-Einflüsse dämpfen willst, machen wir das gezielt pro Zone. */
 
-/* Verstecke Admonition-Icon und Title für Cover-Variante */
-.md-typeset .admonition.cover::before {
-  display: none;
-}
+/* ─────────────────────────────────────────────────────────────
+   ZONE 1: Header (Titel + Subtitle) – fully frozen
+   Voraussetzungen:
+   - Cover-Container setzt font-size (16px / 13px mobile) + line-height
+   - Keine globalen *-Resets im Cover
+   ───────────────────────────────────────────────────────────── */
 
-.md-typeset .admonition.cover > .admonition-title {
-  display: none;
-}
-
-/* Cover Content: Direct children styling */
-.md-typeset .admonition.cover > *:not(.admonition-title) {
-  margin: 0;
-}
-
-/* ──────────────────────────────────────────────────────────────────────────
-   ZONE 1: Header (Titel + Subtitle)
-   ────────────────────────────────────────────────────────────────────────── */
-
-/* Cover Title Block */
+/* Title block */
 .md-typeset .admonition.cover .cover-title-block {
   display: flex;
   flex-direction: column;
   gap: var(--cover-gap-sm);
 }
 
+/* H1 im Cover (explizit, damit Theme nichts überschreibt) */
 .md-typeset .admonition.cover .cover-title-block h1 {
   font-family: var(--cover-font-family);
-  font-size: 1.9rem;
+  font-size: var(--cover-h1-size);
   font-weight: 700;
   letter-spacing: -0.02em;
-  line-height: 1.04;
-  color: #EAF1F8;
+  line-height: var(--cover-h1-lh);
+  color: var(--cover-fg);
+
   margin: 0;
   padding: 0;
+
   max-width: 15ch;
 }
 
-/* Akzent für @School innerhalb Titel */
-.md-typeset .admonition.cover .cover-title-accent {
+/* Akzent im Titel */
+.md-typeset .admonition.cover .cover-title-block h1 .cover-title-accent {
   color: #7ab0e8;
   font-weight: 700;
 }
 
-/* Cover Subtitle */
+/* Subtitle (explizit) */
 .md-typeset .admonition.cover .cover-subtitle {
   font-family: var(--cover-font-family);
-  font-size: 1.0rem;
+  font-size: var(--cover-subtitle-size);
   font-weight: 500;
   letter-spacing: 0.005em;
-  line-height: 1.35;
-  color: #EAF1F8;
+  line-height: var(--cover-subtitle-lh);
+
+  color: var(--cover-fg);
   opacity: 0.8;
+
   margin: 0;
 }
 
+/* Mobile: nur Layout-Feintuning (Typo skaliert über cover-base-size-sm automatisch) */
+@media (max-width: 560px) {
+  .md-typeset .admonition.cover .cover-title-block {
+    gap: var(--cover-gap-sm-sm);
+  }
 
-
-/* ──────────────────────────────────────────────────────────────────────────
-   ZONE 2: Main (Koordination + Autor:innen)
-   ────────────────────────────────────────────────────────────────────────── */
-
-/* === Cover: shared spacing tokens ===================================== */
-.md-typeset .admonition.cover {
-  /* falls du schon Tokens hast, nimm deine; sonst so: */
-  --cover-meta-gap: 0.05rem;   /* Abstand Label -> Inhalt (einheitlich) */
-  --cover-name-size: 0.75rem;
-  --cover-name-lh: 1.05;       /* stabile Line-Height für 0.75rem */
-  --cover-label-size: 0.55rem;
-  --cover-label-lh: 0.9;
+  .md-typeset .admonition.cover .cover-title-block h1 {
+    max-width: 16ch;
+  }
 }
 
-/* Cover Label (generic) */
-.md-typeset .admonition.cover .cover-label {
-  font-family: var(--cover-font-family);
-  font-size: var(--cover-label-size);
-  font-weight: 500;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: #EAF1F8;
-  opacity: 0.60;
-  display: block;
-  margin: 0;
-  line-height: var(--cover-label-lh);
-}
+/* ─────────────────────────────────────────────────────────────
+   ZONE 2: Main (Koordination + Autor:innen) – fully frozen
+   - Pair-Wrap: pro Zeile nur "Name · Name"
+   - Keine rem/vw/clamp
+   - Mobile skaliert über cover-base-size-sm + eigene Gap-Tokens
+   ───────────────────────────────────────────────────────────── */
 
-/* Cover Name (generic) */
-.md-typeset .admonition.cover .cover-name {
-  font-family: var(--cover-font-family);
-  font-size: var(--cover-name-size);
-  font-weight: 500;
-  letter-spacing: 0.01em;
-  line-height: var(--cover-name-lh);
-  color: #EAF1F8;
-  opacity: 0.9;
-  margin: var(--cover-meta-gap) 0 0 0; /* EINHEITLICH: Label -> Inhalt */
-}
-
-/* Cover Coordination Section */
-.md-typeset .admonition.cover .cover-coordination {
-  display: flex;
-  flex-direction: column;
-  gap: var(--cover-gap-sm);
-}
-
-/* Cover Authors Section */
+/* Section wrappers */
+.md-typeset .admonition.cover .cover-coordination,
 .md-typeset .admonition.cover .cover-authors {
   display: flex;
   flex-direction: column;
   gap: var(--cover-gap-sm);
 }
 
-/* Authors List: Inline Reihe mit Flex-Wrap */
+/* Label */
+.md-typeset .admonition.cover .cover-label {
+  font-family: var(--cover-font-family);
+  font-size: var(--cover-label-size);
+  font-weight: 500;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: var(--cover-label-lh);
+
+  color: var(--cover-fg);
+  opacity: 0.60;
+
+  margin: 0;
+}
+
+/* Single name line (Koordination) */
+.md-typeset .admonition.cover .cover-name {
+  font-family: var(--cover-font-family);
+  font-size: var(--cover-name-size);
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: var(--cover-name-lh);
+
+  color: var(--cover-fg);
+  opacity: 0.9;
+
+  margin: var(--cover-meta-gap) 0 0 0;
+}
+
+/* Authors list layout */
 .md-typeset .admonition.cover .cover-authors-list {
   display: flex;
   flex-wrap: wrap;
 
-  /* Wichtig: Zeilenabstand über row-gap, nicht über line-height-Tricks */
-  column-gap: 0.55rem;
-  row-gap: 0.42rem;
+  /* Desktop gaps (px) */
+  column-gap: 10px;
+  row-gap: 6px;
 
-  align-items: baseline;
-  margin: var(--cover-meta-gap) 0 0 0; /* EINHEITLICH: Label -> Inhalt */
+  align-items: flex-start;
+
+  margin: var(--cover-meta-gap) 0 0 0;
   padding: 0;
 
-  max-width: 35ch;
+  max-width: 32ch;
 }
 
-/* Jeder Name: Non-breaking (kein Umbruch zwischen Vor-/Nachname) */
+/* Pair wrapper: keeps "Name · Name" together */
+.md-typeset .admonition.cover .cover-authors-list .pair {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  white-space: nowrap;
+}
+
+/* Name */
 .md-typeset .admonition.cover .cover-authors-list .name {
   font-family: var(--cover-font-family);
   font-size: var(--cover-name-size);
   font-weight: 450;
-  white-space: nowrap;
+  letter-spacing: 0.005em;
+  line-height: var(--cover-name-lh);
 
-  color: #EAF1F8;
+  color: var(--cover-fg);
   opacity: 0.9;
 
-  letter-spacing: 0.005em;
-  line-height: var(--cover-name-lh); /* stabil, nicht <1 */
   margin: 0;
+  white-space: nowrap;
 }
 
-/* Separator zwischen Namen (·) */
+/* Separator in authors list */
 .md-typeset .admonition.cover .cover-authors-list .separator {
-  color: #EAF1F8;
-  opacity: 0.60;
+  font-family: var(--cover-font-family);
   font-size: var(--cover-name-size);
   line-height: var(--cover-name-lh);
+
+  color: var(--cover-fg);
+  opacity: 0.60;
+
   margin: 0;
 }
 
-/* ──────────────────────────────────────────────────────────────────────────
-   ZONE 3: Footer (Uni + Jahr, immer unten)
-   ────────────────────────────────────────────────────────────────────────── */
+/* Mobile: scaled gaps (optional but recommended for proportion) */
+@media (max-width: 560px) {
+  .md-typeset .admonition.cover .cover-coordination,
+  .md-typeset .admonition.cover .cover-authors {
+    gap: var(--cover-gap-sm-sm);
+  }
 
-/* Cover Footer (Uni + Jahr, unten mit margin-top: auto) */
-.md-typeset .admonition.cover .cover-footer {
-  font-family: var(--cover-font-family);
-  font-size: 0.55rem;
-  font-weight: 400;
-  letter-spacing: 0.01em;
-  line-height: 1.0;
-  color: #EAF1F8;
-  margin-top: auto;
-  padding-top: var(--cover-gap-md);
-  border-top: 0.5px solid #7ab0e8;
-  
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
+  .md-typeset .admonition.cover .cover-authors-list {
+    column-gap: 8px;
+    row-gap: 5px;
+  }
+
+  .md-typeset .admonition.cover .cover-authors-list .pair {
+    gap: 5px;
+  }
 }
 
-/* Einzelne Zeilen im Footer */
+/* ─────────────────────────────────────────────────────────────
+   ZONE 3: Footer – fully frozen
+   - bleibt unten via margin-top:auto
+   - Separator im Footer explizit
+   - keine rem/vw/clamp
+   ───────────────────────────────────────────────────────────── */
+
+.md-typeset .admonition.cover .cover-footer {
+  font-family: var(--cover-font-family);
+  font-size: var(--cover-footer-size);
+  line-height: var(--cover-footer-lh);
+
+  color: var(--cover-fg);
+
+  margin-top: auto;
+
+  padding-top: 14px;
+  border-top: 0.5px solid #7ab0e8;
+
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+/* direkter Footer-Content */
 .md-typeset .admonition.cover .cover-footer > div {
   margin: 0;
   padding: 0;
 }
 
-/* Obere Zeile: Uni + Hispanistica nebeneinander */
+/* obere Zeile: Uni · Jahr */
 .md-typeset .admonition.cover .cover-footer-top {
   display: flex;
-  align-items: center;
-  gap: 0.4rem;
+  align-items: baseline;
   margin: 0;
   padding: 0;
 }
 
-/* Untere Zeile: Jahr allein */
+/* Footer-Separator */
+.md-typeset .admonition.cover .cover-footer-top .separator {
+  display: inline-block;
+  margin: 0 6px;
+  opacity: 0.60;
+  line-height: 1;
+  color: var(--cover-fg);
+}
+
+/* Jahr-Block */
 .md-typeset .admonition.cover .cover-footer-year {
   margin: 0;
   padding: 0;
 }
 
-/* Links in cover footer: inherit text style, underline only */
+/* Link-Zeile */
 .md-typeset .admonition.cover .cover-footer a {
-  text-decoration:       none;
   color: #7ab0e8;
   font-weight: 600;
+
+  text-decoration: underline;
   text-decoration-color: #7ab0e8;
-  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+/* Mobile proportional tweaks */
+@media (max-width: 560px) {
+  .md-typeset .admonition.cover .cover-footer {
+    padding-top: 11px;
+    gap: 3px;
+  }
+
+  .md-typeset .admonition.cover .cover-footer-top .separator {
+    margin: 0 5px;
+  }
+
+  .md-typeset .admonition.cover .cover-footer a {
+    text-underline-offset: 2px;
+  }
 }
 
 /* Dark Mode: Ensure contrast is maintained */
@@ -421,27 +542,121 @@ body[data-md-color-scheme="slate"] .md-typeset .admonition.cover .cover-footer a
 }
 
 
-/* ──────────────────────────────────────────────────────────────────────────
-   EXPAND: Ausklappbare Vertiefungsbox (Kompass-Icon)
-   Variante: ??? expand "…Titel…"
-   Klassen: .admonition.expand, details.expand
-   ────────────────────────────────────────────────────────────────────────── */
+/* ─────────────────────────────────────────────────────────────
+   Fließtext-Highlight: IMPULS (leise, kein Zitat, keine Box)
+   Markup: <div class="impuls" markdown>…</div>
+   ───────────────────────────────────────────────────────────── */
+
+.md-typeset .impuls {
+  margin: 1rem 0 1rem 1.4rem;
+  padding: 0;
+  background: transparent;
+  font-size: 0.95em;
+  line-height: 1.7;
+  color: color-mix(in srgb, var(--book-fg) 88%, var(--book-bg));
+  position: relative;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .impuls {
+  color: color-mix(in srgb, var(--book-fg) 88%, var(--book-surface-1));
+}
+
+/* Marker (leiser Pfeil) */
+.md-typeset .impuls::before {
+  content: "›";
+  position: absolute;
+  left: -1.1rem;
+  top: -0.05em;
+  color: color-mix(in srgb, var(--book-fg) 55%, var(--book-bg));
+  font-weight: 600;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .impuls::before {
+  color: color-mix(in srgb, var(--book-fg) 55%, var(--book-surface-1));
+}
+
+.md-typeset .impuls > p:first-child { font-weight: 500; }
+.md-typeset .impuls > p { margin: 0 0 0.5em 0; }
+.md-typeset .impuls > p:last-child { margin-bottom: 0; }
+
+@media (max-width: 600px) {
+  .md-typeset .impuls { margin-left: 0.8rem; }
+  .md-typeset .impuls::before { left: -0.9rem; }
+}
+
+
+/* ══════════════════════════════════════════════════════════════════════════
+   CUSTOM ADMONITIONS – Icon-Variablen + Admonition-Container
+   Alle Admonition-spezifischen Farben, Icons und Layout-Regeln zentral hier.
+   ══════════════════════════════════════════════════════════════════════════ */
+
+/* ── Icon-Variablen (alle Admonition-Typen + UI-Icons) ────────────────────── */
+:root {
+  --md-typeset-hoermal-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15 9a3 3 0 0 1 0 6"/><path d="M17.5 6.5a6 6 0 0 1 0 11"/></svg>');
+  --md-typeset-expand-icon:  url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>');
+  --md-typeset-context-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>');
+  --md-typeset-tip-icon:     url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg>');
+  --md-typeset-praxis-icon:  url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>');
+  --md-typeset-oton-icon:    url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>');
+  --md-typeset-regel-icon:   url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>');
+  --md-typeset-cite-icon:    url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>');
+  --md-typeset-copy-icon:    url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>');
+  --md-typeset-check-icon:   url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>');
+}
+
+/* ── HOERMAL: Admonition-Container ───────────────────────────────────────── */
+
+.md-typeset .admonition.hoermal,
+.md-typeset details.hoermal {
+  background: color-mix(in srgb, var(--book-bg) var(--book-adm-tint-light), var(--book-adm-hoermal));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 4px solid var(--book-adm-hoermal);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.hoermal,
+body[data-md-color-scheme="slate"] .md-typeset details.hoermal {
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-adm-tint-dark), var(--book-adm-hoermal));
+  border-color: rgba(255, 255, 255, 0.08);
+  border-left-color: var(--book-adm-hoermal);
+}
+
+.md-typeset .admonition.hoermal {
+  --md-admonition-icon: var(--md-typeset-hoermal-icon);
+}
+
+.md-typeset .admonition.hoermal > .admonition-title,
+.md-typeset details.hoermal > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+}
+
+.md-typeset .hoermal > .admonition-title:before,
+.md-typeset .hoermal > summary:before {
+  background-color: var(--book-adm-hoermal);
+  -webkit-mask-image: var(--md-typeset-hoermal-icon);
+  mask-image: var(--md-typeset-hoermal-icon);
+}
+
+/* ── EXPAND: Ausklappbare Vertiefungsbox ───────────────────────────────────── */
 
 .md-typeset .admonition.expand,
 .md-typeset details.expand {
-  background: color-mix(in srgb, var(--book-bg) 95%, var(--book-adm-expand));
+  background: color-mix(in srgb, var(--book-bg) var(--book-adm-tint-light), var(--book-adm-expand));
   border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 4px solid var(--book-adm-expand);
   border-radius: 0.4rem;
   box-shadow: none;
 }
 
 body[data-md-color-scheme="slate"] .md-typeset .admonition.expand,
 body[data-md-color-scheme="slate"] .md-typeset details.expand {
-  background: color-mix(in srgb, var(--book-surface-1) 88%, var(--book-adm-expand));
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-adm-tint-dark), var(--book-adm-expand));
   border-color: rgba(255, 255, 255, 0.08);
+  border-left-color: var(--book-adm-expand);
 }
 
-/* Admonition-Icon (Kompass) */
 .md-typeset .admonition.expand {
   --md-admonition-icon: var(--md-typeset-expand-icon);
 }
@@ -450,12 +665,11 @@ body[data-md-color-scheme="slate"] .md-typeset details.expand {
 .md-typeset details.expand > summary {
   color: var(--book-fg);
   font-weight: 500;
-  margin-bottom: 0.5rem;
 }
 
 .md-typeset .expand > .admonition-title:before,
 .md-typeset .expand > summary:before {
-  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
+  background-color: var(--book-adm-expand);
   -webkit-mask-image: var(--md-typeset-expand-icon);
   mask-image: var(--md-typeset-expand-icon);
 }
@@ -997,6 +1211,7 @@ body[data-md-color-scheme="slate"] .md-content a.map-button {
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 0.4rem;
   box-shadow: none;
+  margin-top: 3rem;
 }
 
 body[data-md-color-scheme="slate"] .md-typeset .admonition.cite,
@@ -1118,14 +1333,45 @@ body[data-md-color-scheme="slate"] .md-typeset details.summary {
 }
 
 
-/* ──────────────────────────────────────────────────────────────────────────
-   CONTEXT: Hintergrundinformation / theoretischer Kontext
-   Variante: !!! context "…"
-   ────────────────────────────────────────────────────────────────────────── */
+/* ── TIP: Hinweis / didaktischer Tipp ─────────────────────────────────────── */
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  background: color-mix(in srgb, var(--book-bg) var(--book-adm-tint-light), var(--book-adm-tip));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.tip,
+body[data-md-color-scheme="slate"] .md-typeset details.tip {
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-adm-tint-dark), var(--book-adm-tip));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.md-typeset .admonition.tip {
+  --md-admonition-icon: var(--md-typeset-tip-icon);
+}
+
+.md-typeset .admonition.tip > .admonition-title,
+.md-typeset details.tip > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+}
+
+.md-typeset .tip > .admonition-title:before,
+.md-typeset .tip > summary:before {
+  background-color: var(--book-adm-tip);
+  -webkit-mask-image: var(--md-typeset-tip-icon);
+  mask-image: var(--md-typeset-tip-icon);
+}
+
+
+/* ── CONTEXT: Hintergrundinformation / theoretischer Kontext ───────────── */
 
 .md-typeset .admonition.context,
 .md-typeset details.context {
-  background: color-mix(in srgb, var(--book-bg) 84%, var(--book-accent));
+  background: color-mix(in srgb, var(--book-bg) var(--book-adm-tint-light), var(--book-adm-context));
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 0.4rem;
   box-shadow: none;
@@ -1133,7 +1379,7 @@ body[data-md-color-scheme="slate"] .md-typeset details.summary {
 
 body[data-md-color-scheme="slate"] .md-typeset .admonition.context,
 body[data-md-color-scheme="slate"] .md-typeset details.context {
-  background: color-mix(in srgb, var(--book-surface-1) 85%, var(--book-accent));
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-adm-tint-dark), var(--book-adm-context));
   border-color: rgba(255, 255, 255, 0.08);
 }
 
@@ -1149,20 +1395,17 @@ body[data-md-color-scheme="slate"] .md-typeset details.context {
 
 .md-typeset .context > .admonition-title:before,
 .md-typeset .context > summary:before {
-  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
+  background-color: var(--book-adm-context);
   -webkit-mask-image: var(--md-typeset-context-icon);
   mask-image: var(--md-typeset-context-icon);
 }
 
 
-/* ──────────────────────────────────────────────────────────────────────────
-   PRAXIS: Unterrichtspraktische Hinweise und Aufgaben
-   Variante: !!! praxis "…"
-   ────────────────────────────────────────────────────────────────────────── */
+/* ── PRAXIS: Unterrichtspraktische Hinweise und Aufgaben ──────────────── */
 
 .md-typeset .admonition.praxis,
 .md-typeset details.praxis {
-  background: color-mix(in srgb, var(--book-bg) 86%, var(--book-accent));
+  background: color-mix(in srgb, var(--book-bg) var(--book-adm-tint-light), var(--book-adm-praxis));
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 0.4rem;
   box-shadow: none;
@@ -1170,7 +1413,7 @@ body[data-md-color-scheme="slate"] .md-typeset details.context {
 
 body[data-md-color-scheme="slate"] .md-typeset .admonition.praxis,
 body[data-md-color-scheme="slate"] .md-typeset details.praxis {
-  background: color-mix(in srgb, var(--book-surface-1) 86%, var(--book-accent));
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-adm-tint-dark), var(--book-adm-praxis));
   border-color: rgba(255, 255, 255, 0.08);
 }
 
@@ -1186,20 +1429,17 @@ body[data-md-color-scheme="slate"] .md-typeset details.praxis {
 
 .md-typeset .praxis > .admonition-title:before,
 .md-typeset .praxis > summary:before {
-  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
+  background-color: var(--book-adm-praxis);
   -webkit-mask-image: var(--md-typeset-praxis-icon);
   mask-image: var(--md-typeset-praxis-icon);
 }
 
 
-/* ──────────────────────────────────────────────────────────────────────────
-   REGEL: Regeln, Tipps und Merkboxen
-   Variante: !!! regel "…"
-   ────────────────────────────────────────────────────────────────────────── */
+/* ── REGEL: Regeln, Hinweise, Merkboxen ────────────────────────────────── */
 
 .md-typeset .admonition.regel,
 .md-typeset details.regel {
-  background: color-mix(in srgb, var(--book-bg) 86%, var(--book-accent));
+  background: color-mix(in srgb, var(--book-bg) var(--book-adm-tint-light), var(--book-adm-regel));
   border: 1px solid rgba(0, 0, 0, 0.06);
   border-radius: 0.4rem;
   box-shadow: none;
@@ -1207,7 +1447,7 @@ body[data-md-color-scheme="slate"] .md-typeset details.praxis {
 
 body[data-md-color-scheme="slate"] .md-typeset .admonition.regel,
 body[data-md-color-scheme="slate"] .md-typeset details.regel {
-  background: color-mix(in srgb, var(--book-surface-1) 90%, var(--book-accent));
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-adm-tint-dark), var(--book-adm-regel));
   border-color: rgba(255, 255, 255, 0.08);
 }
 
@@ -1223,10 +1463,46 @@ body[data-md-color-scheme="slate"] .md-typeset details.regel {
 
 .md-typeset .regel > .admonition-title:before,
 .md-typeset .regel > summary:before {
-  background-color: color-mix(in srgb, var(--book-fg) 65%, var(--book-accent));
+  background-color: var(--book-adm-regel);
   -webkit-mask-image: var(--md-typeset-regel-icon);
   mask-image: var(--md-typeset-regel-icon);
 }
+
+
+/* ── OTON: Stimmen, Erfahrungsberichte, Zitate aus der Praxis ────────── */
+
+.md-typeset .admonition.oton,
+.md-typeset details.oton {
+  background: color-mix(in srgb, var(--book-bg) var(--book-adm-tint-light), var(--book-adm-oton));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.oton,
+body[data-md-color-scheme="slate"] .md-typeset details.oton {
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-adm-tint-dark), var(--book-adm-oton));
+  border-color: rgba(255, 255, 255, 0.08);
+}
+
+.md-typeset .admonition.oton {
+  --md-admonition-icon: var(--md-typeset-oton-icon);
+}
+
+.md-typeset .admonition.oton > .admonition-title,
+.md-typeset details.oton > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+}
+
+.md-typeset .oton > .admonition-title:before,
+.md-typeset .oton > summary:before {
+  background-color: var(--book-adm-oton);
+  -webkit-mask-image: var(--md-typeset-oton-icon);
+  mask-image: var(--md-typeset-oton-icon);
+}
+
+/* ── Standard-Admonitions (minimal / unverändert – Basis-Styles in 20_book.css) ─ */
 
 
 /* ─────────────────────────────────────────────────────────
