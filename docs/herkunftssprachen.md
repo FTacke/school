@@ -278,7 +278,7 @@ Das Fehlen eines grammatischen Merkmals, wie z.B. der Artikel, bedeutet keinen M
 
     Didaktisch bedeutet das: Fehler sollten nicht als Defizite betrachtet, sondern als Diagnoseinstrument verstanden werden (vgl. Kapitel [Fehlerlinguistik](./fehlerlinguistik.md)). Ein sensibler Umgang mit Herkunftssprachen, die Sichtbarmachung von Mehrsprachigkeit etwa durch die interaktive Karte und die Förderung von Sprachbewusstsein schaffen die Grundlage dafür, dass Herkunftssprachen als Ressource wirken können.
 
-??? expand "Wer mehr wissen will"
+??? weiterlesen "Wer mehr wissen will"
     Die Forschung zu Herkunftssprachen hat sich gewandelt: Während sie früher vor allem als Fehlerquelle gesehen wurden, zeigen Werke wie *Gogolin (2008)* und *Neumann & Gogolin (2009)*, wie stark das Schulsystem von einem monolingualen Habitus geprägt war. Demgegenüber plädiert *Krumm (2016)* für die Anerkennung von Familiensprachen als Ressource.
 
     Einen systematischen Überblick bieten *Brehmer & Mehlhorn (2018)* sowie die Handbücher von *Gogolin, Hansen, McMonagle & Rauch (2020)* und von *Fäcke & Meißner (2019)*. Sie bündeln theoretische Grundlagen, empirische Befunde und didaktische Ansätze. Speziell für den deutschen Kontext beschreibt *Mehlhorn (2017)* die Stellung von Herkunftssprachen im Schulsystem und ihre Rolle im Fremdsprachenunterricht.

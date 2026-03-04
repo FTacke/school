@@ -302,7 +302,7 @@ Dabei gilt außerdem: Das DLE dokumentiert den Kern des allgemeinen Wortschatzes
     Sprache bleibt damit ein dynamisches System: Sie spiegelt gesellschaftliche Entwicklungen wider und verändert sich mit jedem neuen Gebrauch.  
     Für den Unterricht bedeutet das: Wortbildung ist nicht nur Grammatik, sondern ein Zugang zu sprachlicher Kreativität und kultureller Vielfalt. Lehrkräfte können Lernende dazu anregen, Wortbildungsprozesse zu beobachten, zu vergleichen und selbst kreativ anzuwenden.
 
-??? expand "Wer mehr wissen will"
+??? weiterlesen "Wer mehr wissen will"
     Einführende Darstellungen zur Wortbildung bieten Kabatek/Pusch (2011), die zentrale Begriffe der spanischen Morphologie vorstellen und in den Gesamtaufbau des Lexikons einordnen. Speziellere und vertiefende Analysen finden sich bei Rainer (1993) sowie Varela (2005), die Formen, Funktionen und Produktivität einzelner Wortbildungsmuster systematisch beschreiben. Sehr ausführlich behandelt das Thema natürlich auch die monumentale *Nueva gramática de la lengua española* (RAE/ASALE 2009 und zuletzt 2025) – die Ausgabe von 2009 ist online sogar durchsuchbar: [https://www.rae.es/gramática/](https://www.rae.es/gram%C3%A1tica/).
 
     Für didaktisch orientierte Zugänge zur Wortbildung sind vor allem Serrano-Dolader (2019) und Entre/Gumiel-Molina (2024) relevant. Beide Werke verbinden linguistische Grundlagen mit methodischen Vorschlägen für den Unterricht. Ergänzend bietet das [Online-Dossier](https://cvc.cervantes.es/ensenanza/biblioteca_ele/antologia_didactica/morfologia/default.htm) des Instituto Cervantes praxisnahe Materialien und Aufgabenformate.

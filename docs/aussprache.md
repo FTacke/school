@@ -201,7 +201,7 @@ Ein reiner Anfängerfehler ist es bekanntlich, das im Spanischen geschriebene, a
       
     Ein linguistisch fundierter, kontrastiver Blick zum Deutschen hilft, diese essenziellen Unterschiede gezielt zu trainieren und führt schnell zu (nahezu) zielsprachlicher Aussprachekompetenz. Schüler:innen mit anderen Herkunftssprachen bringen hier oft andere Voraussetzungen mit – ihre spezifischen Vorteile und Herausforderungen werden im Kapitel [Herkunftssprachen](./herkunftssprachen.md) behandelt.
 
-??? expand "Wer mehr wissen will"
+??? weiterlesen "Wer mehr wissen will"
     Als *das* Standardwerk zur Phonetik und Phonologie des Spanischen – neben älteren Referenzen wie Quilis (1993) – gilt heute Band 3 der *Nueva gramática de la lengua española* (RAE/ASALE 2011). Es spiegelt in seiner umfassenden und äußerst detaillierten Darstellung nicht nur den aktuellen Forschungsstand wieder, sondern berücksichtigt auch die Aussprachevariation in der spanischsprachigen Welt. Übersichtlicher und zugänglicher sind die deutschsprachigen Einführungen in das Gebiet von Kubarth (2009), Pustka (2021) und Gabriel/Meisenburg/Selig (2025). Letztere enthält in der zweiten Auflage auch ein Kapitel zum Spanischen „als Fremdsprache im deutschsprachigen Kontext“.
 
     Eine Vertiefung der Vermittlung der Aussprache des Spanischen als Fremdsprache mit konkreteren Tipps für die Umsetzung im Unterricht bieten Gil Fernández (2007), die Beiträge in Gil Fernández (Hg.) (2012) und nicht zuletzt Reimann (2016). Benet/Pesková (2017) zeigen deutlich, wie man eine zielsprachliche Aussprache vermitteln kann.

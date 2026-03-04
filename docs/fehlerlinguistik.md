@@ -194,7 +194,7 @@ Natürlich bleibt es eine Frage der Situation: Manchmal ist eine direkte Korrekt
 !!! summary "Zusammenfassung"
     Fehler zu analysieren, heißt herauszufinden, welche Strukturen Lernende schon beherrschen – und wo noch Unsicherheiten bestehen. Die Fehlerlinguistik unterscheidet dabei zwischen Korrektheit und Angemessenheit, identifiziert typische Fehlerursachen wie Transfer aus der Erstsprache, Übergeneralisierung und Schriftbildinterferenz – und macht zugleich deutlich, dass nicht jede Abweichung vom Lehrwerk ein Fehler ist: Varietätenunterschiede gehören zur Normalität einer plurizentrischen Sprache. So lassen sich Unterricht und Übung genau dort ansetzen, wo der nächste Entwicklungsschritt ansteht, und Lernende erfahren, dass ihre sprachlichen Ressourcen – einschließlich ihrer Erstsprachen – kein Hindernis, sondern ein Ausgangspunkt sind. Voraussetzung dafür ist linguistische Kompetenz: Nur wer versteht, *warum* ein Fehler entsteht, kann sinnvoll damit umgehen. Die Fehlerlinguistik kehrt die Perspektive um – vom Fehler als Defizit zum Fehler als Chance – und begleitet uns in jedem der folgenden Kapitel.
 
-??? expand "Wer mehr wissen will"
+??? weiterlesen "Wer mehr wissen will ..."
     Die frühen Grundlagen der Fehlerlinguistik wurden von Corder (1967) und Selinker (1972) gelegt. Der Sammelband von Cherubim (1980) bietet dazu einen fundierten Überblick aus deutschsprachiger Sicht.
 
     Zum didaktischen Umgang mit Fehlern im Unterricht sind die Arbeiten von Lyster & Ranta (1997) sowie Li (2010) zentral – sie zeigen, welche Formen von Korrektur (z. B. Recasts, Prompts) wann besonders wirksam sind. Für schriftliches Feedback ist Bitchener & Ferris (2012) einschlägig.

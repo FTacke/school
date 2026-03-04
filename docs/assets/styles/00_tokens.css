@@ -38,6 +38,11 @@
   --book-impuls-tint-light: 92%;   /* bg tint: book-bg + book-accent */
   --book-impuls-tint-dark:  88%;   /* bg tint: book-surface-1 + book-accent */
   --book-impuls-fg-mix:     85%;   /* text: color-mix(book-fg VAL, book-accent) */
+
+  /* ── Weiterlesen tint mix ratios (paper-tint, extrem subtil) ──────────── */
+  --book-weiterlesen-tint-light: 90%;   /* Anteil book-bg in paper-mix */
+  --book-weiterlesen-tint-dark:  92%;   /* Anteil book-surface-1 in paper-mix */
+  --book-paper:                  #fbfaf8; /* paper-weiß für Background-Tints */
 }
 
 /* --------------------------------------------------------------------------
@@ -80,6 +85,7 @@ body[data-md-color-scheme="default"] {
   --book-adm-expand-tint:    #d9d4c8;  /* decorative tint, not the accent */
   --book-adm-oton:           #7a2e52;
   --book-adm-cite:           #e6eaeb;
+  --book-adm-weiterlesen:    #1c1a20;  /* near-black neutral for icon + border-left */
 
   /* Material/Zensical accent mapping – keep UI consistent with book palette */
   --md-accent-fg-color: var(--book-accent);
@@ -127,6 +133,7 @@ body[data-md-color-scheme="slate"] {
   --book-adm-expand-tint:    #3a3832;  /* decorative tint, not the accent */
   --book-adm-oton:           #c078a0;
   --book-adm-cite:           #706e6c;
+  --book-adm-weiterlesen:    #c8c6d4;  /* near-white neutral for icon + border-left */
 
   /* Material/Zensical accent mapping – keep UI consistent with book palette */
   --md-accent-fg-color: var(--book-accent);

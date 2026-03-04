@@ -601,7 +601,8 @@ body[data-md-color-scheme="slate"] .md-typeset .impuls::before {
   --md-typeset-regel-icon:   url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>');
   --md-typeset-cite-icon:    url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>');
   --md-typeset-copy-icon:    url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>');
-  --md-typeset-check-icon:   url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>');
+  --md-typeset-check-icon:       url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>');
+  --md-typeset-weiterlesen-icon: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>');
 }
 
 /* ── HOERMAL: Admonition-Container ───────────────────────────────────────── */
@@ -1500,6 +1501,41 @@ body[data-md-color-scheme="slate"] .md-typeset details.oton {
   background-color: var(--book-adm-oton);
   -webkit-mask-image: var(--md-typeset-oton-icon);
   mask-image: var(--md-typeset-oton-icon);
+}
+
+/* ── WEITERLESEN: Vertiefende Lektüre / Literaturhinweise am Kapitelende ───── */
+
+.md-typeset .admonition.weiterlesen,
+.md-typeset details.weiterlesen {
+  background: color-mix(in srgb, var(--book-bg) var(--book-weiterlesen-tint-light), var(--book-paper));
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-left: 3px solid var(--book-adm-weiterlesen);
+  border-radius: 0.4rem;
+  box-shadow: none;
+}
+
+body[data-md-color-scheme="slate"] .md-typeset .admonition.weiterlesen,
+body[data-md-color-scheme="slate"] .md-typeset details.weiterlesen {
+  background: color-mix(in srgb, var(--book-surface-1) var(--book-weiterlesen-tint-dark), #ffffff);
+  border-color: rgba(255, 255, 255, 0.08);
+  border-left-color: var(--book-adm-weiterlesen);
+}
+
+.md-typeset .admonition.weiterlesen {
+  --md-admonition-icon: var(--md-typeset-weiterlesen-icon);
+}
+
+.md-typeset .admonition.weiterlesen > .admonition-title,
+.md-typeset details.weiterlesen > summary {
+  color: var(--book-fg);
+  font-weight: 500;
+}
+
+.md-typeset .weiterlesen > .admonition-title:before,
+.md-typeset .weiterlesen > summary:before {
+  background-color: var(--book-adm-weiterlesen);
+  -webkit-mask-image: var(--md-typeset-weiterlesen-icon);
+  mask-image: var(--md-typeset-weiterlesen-icon);
 }
 
 /* ── Standard-Admonitions (minimal / unverändert – Basis-Styles in 20_book.css) ─ */

@@ -209,7 +209,18 @@ Stimmen aus dem Unterricht verdeutlichen, wie komplex das didaktische Handeln ru
     > — Lehramtsstudierende, Universität Marburg, Seminar Variation im Spanischunterricht, 2024
 
 ---
+### `??? weiterlesen`
 
+Das Element `weiterlesen` ist ein kapitelabschließendes Element für Literaturhinweise und vertiefende Lektüre. Es ist semantisch und visuell von `expand` getrennt: kein Kasten-Look, sondern ein akademisch-schlichter Einzug mit sehr dunkler linker Linie und `book-open`-Icon. Standardmäßig ausklappbar (`???`).
+
+??? weiterlesen "Wer mehr wissen will"
+    - Kreyer, Rolf (2023): *Einführung in die Linguistik für Anglisten*. UTB.
+    - Löbner, Sebastian (2015): *Semantik. Eine Einführung*. De Gruyter.
+    - Polenz, Peter von (1991): *Deutsche Sprachgeschichte*. De Gruyter.
+
+    **Icon:** `book-open` (Lucide Outline) · **Verwendung:** `??? weiterlesen "Wer mehr wissen will"`
+
+---
 ## Fließtext-Highlights
 
 Nicht jede hervorgehobene Passage ist ein Zitat. Dieses Projekt unterscheidet daher zwischen zwei Elementen:
