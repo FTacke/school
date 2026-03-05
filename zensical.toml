@@ -88,6 +88,8 @@ extra_css = [
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["javascripts/extra.js"]
 extra_javascript = [
+  "assets/javascripts/base_path.js",
+  "assets/javascripts/audio_src_fixup.js",
   "https://unpkg.com/leaflet/dist/leaflet.js",
   "assets/javascripts/map_ui.js",
   "assets/javascripts/map.js",
