@@ -17,7 +17,8 @@
   Felder:
     authors       – Liste von Namen (Byline, Zeile 1)
     peer_review   – Liste von Namen (optional, Zeile 2)
-    last_modified – Datumsstring DD.MM.YYYY (optional, Zeile 2)
+    created       – Datumsstring DD.MM.YYYY (optional, rechte Spalte oben)
+    last_modified – Datumsstring DD.MM.YYYY (optional, rechte Spalte unten)
 
   Kein JS-Parsing von Fußnoten. Kein Inline-Styling.
   CSS: docs/assets/styles/30_components.css
@@ -35,13 +36,17 @@
 {#-- Frontmatter: authors / peer_review / last_modified                      --#}
 {#-- MiniJinja-idiomatisch: kein Python-.get(), nur | default()-Filter       --#}
 {#-- ─────────────────────────────────────────────────────────────────────── --#}
-{%- set _authors = page.meta.authors | default([]) -%}
-{%- set _peers   = page.meta.peer_review | default([]) -%}
-{%- set _date    = page.meta.last_modified | default("") | string | trim -%}
+{%- set _authors  = page.meta.authors | default([]) -%}
+{%- set _peers    = page.meta.peer_review | default([]) -%}
+{%- set _created  = page.meta.created | default("") | string | trim -%}
+{%- set _date     = page.meta.last_modified | default("") | string | trim -%}
 
 {#-- Strings → Listen normalisieren (Fallback für einfache Schreibweise) --#}
-{%- set _authors = [_authors] if _authors is string else _authors -%}
-{%- set _peers   = [_peers]   if (_peers is string and _peers) else _peers -%}
+{%- set _authors  = [_authors] if _authors is string else _authors -%}
+{%- set _peers    = [_peers]   if (_peers is string and _peers) else _peers -%}
+{#-- Datumsfelder: "None" (Python None → Jinja string) auf leer normalisieren --#}
+{%- set _created  = "" if _created == "None" else _created -%}
+{%- set _date     = "" if _date    == "None" else _date    -%}
 
 {#-- ─────────────────────────────────────────────────────────────────────── --#}
 {#-- Rendering: Meta-Block nach dem ersten </h1> einfügen via replace-Filter --#}
@@ -58,13 +63,20 @@
       <span class="doc-chapter-meta__name">{{ name }}</span>
     {%- endfor -%}
   </div>
-  {%- if _peers or _date -%}
+  {%- if _peers or _created or _date -%}
   <div class="doc-chapter-meta__details">
     {%- if _peers -%}
       <div class="doc-chapter-meta__peer">Peer Review: {{ _peers | join(", ") }}</div>
     {%- endif -%}
-    {%- if _date -%}
-      <div class="doc-chapter-meta__modified">Letzte Änderung: {{ _date }}</div>
+    {%- if _created or _date -%}
+      <div class="doc-chapter-meta__dates">
+        {%- if _created -%}
+          <div class="doc-chapter-meta__created">Erstellt: {{ _created }}</div>
+        {%- endif -%}
+        {%- if _date -%}
+          <div class="doc-chapter-meta__modified">Geändert: {{ _date }}</div>
+        {%- endif -%}
+      </div>
     {%- endif -%}
   </div>
   {%- endif -%}

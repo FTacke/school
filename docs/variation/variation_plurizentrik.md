@@ -2,6 +2,7 @@
 authors:
   - "Felix Tacke"
   - "Riccarda Falcone"
+created: "XX.XX.2025"
 last_modified: "10.11.2025"
 ---
 
@@ -16,7 +17,8 @@ Spanisch ist eine Weltsprache mit über 500 Millionen Sprecher:innen in mehr als
 Diese Vielfalt zeigt sich auf allen Ebenen: in der Aussprache, im Wortschatz, in grammatischen Strukturen und in typischen Redewendungen. Manche Unterschiede sind sofort hörbar – etwa, dass ein *c* oder *z* in Mexiko anders ausgesprochen wird als in Spanien –, andere fallen erst bei genauerem Hinhören oder Lesen auf, zum Beispiel die Verwendung von *ustedes* statt *vosotros*. Für Lernende sind solche Unterschiede oft das erste sichtbare Zeichen sprachlicher Variation.
 
 Traditionell orientierte sich der Spanischunterricht lange am sogenannten *peninsularen* Standard, also an der in Spanien kodifizierten Norm, was sich bis heute an der Gestaltung von Schulbüchern und Unterrichtsmaterialien erkennen lässt. Heute gilt diese einseitige Orientierung als überholt. Aus linguistischer Perspektive spricht man vielmehr von mehreren gleichberechtigten Standardvarietäten des Spanischen, ähnlich wie im Englischen weder das *British English* dem *American English* überlegen ist noch umgekehrt.
-
+created       – Datumsstring DD.MM.YYYY (optional, rechte Spalte oben)
+    last_modified – Datumsstring DD.MM.YYYY (optional, rechte Spalte unten
 !!! tip "Hispanophonie: Karte und Zahlen"
     <div class="map-admonition">
     Entdecken Sie auf einer Karte der Hispanophonie, wie das Spanische weltweit verbreitet ist und welches Gewicht die einzelnen Länder in der spanischsprachigen Welt haben (quantitativ).
@@ -34,9 +36,10 @@ Traditionell orientierte sich der Spanischunterricht lange am sogenannten *penin
         </div>
         <a href="/variation/map_countries/" class="map-button" role="button">🔎 <strong>Entdecken</strong></a>
     </div>
-
-Man spricht in diesem Zusammenhang von Plurizentrik. Plurizentrische Sprachen verfügen über mehrere nationale oder regionale Normzentren, die jeweils eigene Standardvarietäten ausbilden. Für das Spanische bedeutet das: In jedem Land, in dem Spanisch Amtssprache ist, haben sich eigene sprachliche Normen entwickelt, die sich vom Spanischen der Nachbarländer mehr oder weniger stark unterscheiden können – getragen von den gebildeten Sprecher:innen und gestützt durch Medien, Bildungssysteme und nationale Institutionen. Es gibt also nicht nur eine „richtige“ Form des Spanischen, sondern mehrere gleichwertige Standards.
-
+ = page.meta.authors | default([]) -%}
+{%- set _peers    = page.meta.peer_review | default([]) -%}
+{%- set _created  = page.meta.created | default("") | string | trim -%}
+{%- set _date 
 Für den Unterricht ist ein reflektierter Umgang mit dieser plurizentrischen Konstellation besonders wichtig. Lehrkräfte treffen nicht nur inhaltliche, sondern auch sprachliche Entscheidungen:
 
 - Welche Varietät setze ich als Bezugspunkt?

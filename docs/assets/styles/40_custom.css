@@ -1642,6 +1642,44 @@ body.has-cover-scroll .md-typeset .cover-stage + * {
 }
 
 
+/* ──────────────────────────────────────────────────────────────────────── */
+/*  doc-chapter-meta: Responsive Dates Alignment + Unified Brightness       */
+/* ──────────────────────────────────────────────────────────────────────── */
+
+/* Mobile default: Dates linksbündig (wirkt ruhiger/lesbarer) */
+.md-typeset .doc-chapter-meta__dates {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+
+  align-items: flex-start;
+  text-align: left;
+
+  /* Einheitliche Helligkeit für Erstellt + Geändert */
+  opacity: 0.45;
+}
+
+/* Desktop: Dates rechtsbündig */
+@media (min-width: 640px) {
+  .md-typeset .doc-chapter-meta__dates {
+    align-items: flex-end;
+    text-align: right;
+  }
+}
+
+/* Beide Zeilen nicht umbrechen */
+.md-typeset .doc-chapter-meta__created,
+.md-typeset .doc-chapter-meta__modified {
+  white-space: nowrap;
+}
+
+/* Falls irgendwo noch eine Sonder-Opacity auf __modified existiert: neutralisieren,
+   damit "Erstellt" und "Geändert" exakt gleich hell sind. */
+.md-typeset .doc-chapter-meta__modified {
+  opacity: 1;
+}
+
+
 /* ──────────────────────────────────────────────────────────────────────────
    COVER Scroll-Fade (CSS-only, progressive enhancement)
    Fallback: normales Cover (kein sticky, keine Animation)
