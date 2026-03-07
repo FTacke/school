@@ -60,13 +60,13 @@
 <div class="doc-chapter-meta" role="note" aria-label="Kapitelmetadaten">
   <div class="doc-chapter-meta__byline">
     {%- for name in _authors -%}
-      <span class="doc-chapter-meta__name">{{ name }}</span>
+      <span class="doc-chapter-meta__name">{{ name | replace(" ", "&nbsp;") | safe }}</span>
     {%- endfor -%}
   </div>
   {%- if _peers or _created or _date -%}
   <div class="doc-chapter-meta__details">
     {%- if _peers -%}
-      <div class="doc-chapter-meta__peer">Peer Review: {{ _peers | join(", ") }}</div>
+      <div class="doc-chapter-meta__peer">Peer Review: {% for name in _peers -%}<span class="doc-chapter-meta__name">{{ name | replace(" ", "&nbsp;") | safe }}</span>{%- endfor %}</div>
     {%- endif -%}
     {%- if _created or _date -%}
       <div class="doc-chapter-meta__dates">

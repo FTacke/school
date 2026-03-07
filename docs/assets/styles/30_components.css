@@ -116,14 +116,15 @@
   white-space: nowrap;
 }
 
-/* ── Namen: kein Zeilenumbruch; Komma via ::after (außer letztem) ─ */
+/* ── Namen: innerhalb des Namens nicht trennen; zwischen Namen umbrechen ─ */
 
 .md-typeset .doc-chapter-meta__name {
+  display: inline-block;
   white-space: nowrap;
 }
 
 .md-typeset .doc-chapter-meta__name:not(:last-child)::after {
-  content:     ",\00a0";
+  content:     ", ";
   white-space: pre;
 }
 
