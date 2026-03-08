@@ -7,306 +7,127 @@ peer_review:
   - "Gloria Gabriel"
   - "Lea-Marie Domin"
   - "Jamaa Khodja"
-created: "XX.XX.2025"
-last_modified: "15.11.2025"
+created: "02.11.2025"
+last_modified: "08.03.2026"
 ---
 
 # 4 Lexikalische Kreativität
 
 ## ¿Cómo se dice *Fernweh* en español?
 
-Wer versucht, das deutsche Wort *Fernweh* ins Spanische zu übersetzen, merkt schnell: So einfach ist das nicht. Zwar lässt sich die Bedeutung umschreiben – etwa mit *deseo de viajar* oder *ansias de ver el mundo* –, doch eine direkte Entsprechung gibt es nicht. Dieses Beispiel zeigt: Sprache ist immer Ausdruck von Weltwahrnehmung, kulturellen Erfahrungen und kreativen Prozessen, in denen auch ständig neue Wörter entstehen.
+Wer versucht, das deutsche Wort *Fernweh* ins Spanische zu übersetzen, merkt schnell: So einfach ist das nicht. Zwar lässt sich die Bedeutung umschreiben – etwa mit *deseo de viajar* oder *ansias de ver el mundo* –, doch eine direkte Entsprechung gibt es nicht. Dieses Beispiel zeigt, dass jede Sprache die Welt auf ihre Weise in Wörter fasst – und dass ständig neue Wörter entstehen, um neue Erfahrungen zu benennen.
 
-Im Spanischen ist das nicht anders als im Deutschen. So entstanden während der COVID-19-Pandemie scheinbar spontan Neuschöpfungen wie [*balconear*](https://www.lavanguardia.com/cultura/culturas/20210130/6207320/pandemia-covid-diccionario.html) (auf dem Balkon verweilen oder mit anderen kommunizieren) oder [*zoompleaños*](https://www.lavanguardia.com/cultura/culturas/20210130/6207320/pandemia-covid-diccionario.html) (‘Geburtstagsfeier über Zoom’), die zeigen, wie flexibel Sprache auf neue gesellschaftliche Realitäten reagiert. Diese und viele weitere sogenannte *palabras pandémicas* dokumentieren die kreative Anpassungsfähigkeit des Spanischen an neue Lebenssituationen.
+Im Spanischen ist das nicht anders als im Deutschen. Während der COVID-19-Pandemie entstanden scheinbar über Nacht Neuschöpfungen wie [*balconear*](https://www.lavanguardia.com/cultura/culturas/20210130/6207320/pandemia-covid-diccionario.html) ‘auf dem Balkon verweilen oder mit Nachbarn kommunizieren’ oder [*zoompleaños*](https://www.lavanguardia.com/cultura/culturas/20210130/6207320/pandemia-covid-diccionario.html) ‘Geburtstagsfeier über Zoom’. Solche *palabras pandémicas* zeigen, wie flexibel Sprache auf neue Lebenssituationen reagiert – und dass hinter dieser Flexibilität erkennbare Muster stehen: *balconear* ist nach dem Muster Substantiv + *-ear* gebildet (wie *googlear* oder *chatear*), *zoompleaños* verschmilzt *Zoom* und *cumpleaños* zu einem Kofferwort. Wer diese Muster kennt, versteht besser, wie Sprache funktioniert, und kann sich neue Wörter leichter erschließen.
 
-Wortbildung folgt dabei bestimmten Strukturen. Zwar gibt es vereinzelt Fälle sogenannter *creación ex nihilo* – Wörter, die scheinbar aus dem Nichts entstehen, wie [*gas*](https://dle.rae.es/gas) (ursprünglich aus dem Niederländischen *chaos*, ‘Luft, Dampf, unsichtbarer Stoff’) oder [*jitanjáfora*](https://dle.rae.es/jitanjáfora) (lautspielerischer Ausdruck ohne reale Bedeutung) –, doch in der Regel entstehen neue Wörter nach erkennbaren Mustern. Wer diese Muster kennt, versteht besser, wie Sprache funktioniert, und kann sich neue Wörter leichter erschließen oder eigene bilden.
+Gerade im Fremdsprachenunterricht eröffnet das Thema Wortbildung wichtige Potenziale: Es hilft, Wortschatz nachhaltiger zu lernen – nicht als isolierte Liste, sondern über Bausteine und Muster, die sich auf unbekannte Wörter übertragen lassen. Wer erkennt, dass *trabajador* aus *trabajar* + *-dor* besteht, kann auch *vendedor*, *jugador* oder *programador* erschließen, ohne sie je gelernt zu haben. Gleichzeitig sind Wortbildungsfehler – etwa wenn Lernende ein Suffix übergeneralisieren oder ein Präfix falsch einsetzen – diagnostisch aufschlussreich: Sie zeigen, dass Regeln bereits verinnerlicht, aber noch nicht vollständig abgegrenzt wurden (vgl. Kapitel [Fehlerlinguistik](fehlerlinguistik.md#übergeneralisierung)).
 
-Gerade im Fremdsprachenunterricht eröffnet das Thema Wortbildung wichtige Potenziale: Es hilft, Wortschatz nachhaltiger zu lernen, fördert Sprachbewusstheit und lädt zum spielerischen Umgang mit Sprache ein. Dieses Kapitel zeigt die wichtigsten Wortbildungsprozesse des Spanischen und wie sie im Unterricht gezielt eingesetzt werden können.
+Dieses Kapitel stellt zunächst die beiden produktivsten Wortbildungsverfahren vor – Derivation und Komposition –, die für die Wortschatzarbeit im Unterricht unmittelbar nutzbar sind. Anschließend gibt es einen Überblick über weitere Verfahren wie Verkürzungen, Konversion und Kontamination. Das Kapitel schließt mit einem besonders dynamischen Thema: Entlehnungen, Lehnübersetzungen und die Frage, ab wann ein neues Wort eigentlich zur Sprache gehört – ein Bereich, in dem Wortbildung, Sprachwandel und die Vielfalt des Spanischen unmittelbar zusammentreffen.
+
+!!! context "Lehrplanbezug"
+    Wortbildung ist in den Bildungs- und Kerncurricula nicht als eigener Themenbereich ausgewiesen, aber fester Bestandteil der Kompetenzfelder Sprachbewusstheit, Grammatik und Wortschatzarbeit. Lernende sollen Wortbildungs- und Strukturmuster erkennen und nutzen, um Bedeutungen eigenständig zu erschließen.
 
 ??? expand "Was ist Wortbildung?"
-    Die **Wortbildung** ist ein Teilgebiet der **Morphologie** – also der Lehre vom inneren Aufbau der Wörter. Sie beschäftigt sich damit, wie aus vorhandenen sprachlichen Bausteinen neue Wörter entstehen.
+    Die Wortbildung ist ein Teilgebiet der Morphologie – also der Lehre vom inneren Aufbau der Wörter. Sie beschäftigt sich damit, wie aus vorhandenen sprachlichen Bausteinen neue Wörter entstehen.
 
-    Die kleinsten bedeutungstragenden Einheiten heißen **Morpheme**. Man unterscheidet:
+    Die kleinsten bedeutungstragenden Einheiten heißen Morpheme. Man unterscheidet Wortstämme (oder Wurzeln), die die Grundbedeutung tragen (z.B. *habl-* in *hablar*), und Affixe, die an den Stamm angefügt werden und Bedeutung oder Wortart verändern: Präfixe stehen vor dem Stamm (z.B. *in-* in *infeliz*), Suffixe dahinter (z.B. *-dor* in *trabajador*).
 
-      - **Wortstämme oder Wurzeln** – tragen die Grundbedeutung, z.B. *habl-* in *hablar*
-      - **Affixe** – werden an den Stamm angefügt und verändern Bedeutung oder Wortart:
+    Die Wortbildung unterscheidet sich von der Flexion: Während Flexion grammatische Formen verändert – etwa Person, Numerus oder Tempus (z.B. *niño – niños*, *hablo – hablábamos*) –, schafft Wortbildung neue Ausdrücke mit neuer Bedeutung (z.B. *trabajar → trabajador*).
 
-          **Präfixe** (Vorsilben), z.B. *in-* in *infeliz*
-          - **Suffixe** (Nachsilben), z.B. *-dor* in *trabajador*
+## Die produktiven Verfahren: Derivation und Komposition
 
+Im Spanischen gibt es eine Reihe von Verfahren, mit denen neue Wörter gebildet werden. Manche davon sind hoch produktiv – das heißt, sie bringen regelmäßig und in großer Zahl neue Wörter hervor –, andere kommen seltener zum Einsatz. Für den Unterricht sind vor allem die produktiven Verfahren relevant, weil Lernende von ihnen am meisten profitieren: Wer die gängigen Muster kennt, kann neue Wörter selbständig erschließen, statt sie einzeln lernen zu müssen. Die beiden produktivsten Verfahren des Spanischen sind die Derivation (Ableitung durch Affixe) und die Komposition (Zusammensetzung bestehender Wörter).
 
+### Derivation: Neue Wörter durch Präfixe und Suffixe
 
-    Die Wortbildung unterscheidet sich von der Flexion: Während Flexion grammatische Formen verändert – etwa Person, Numerus oder bei Verben auch Tempus und Modus (z.B. *niño – niños*, *hablo – hablábamos*) –, schafft Wortbildung neue Ausdrücke mit neuer Bedeutung (z.B. *trabajar → trabajador*).
+Die Derivation bezeichnet die Bildung neuer Wörter durch das Anfügen von Affixen an ein vorhandenes Lexem. Sie ist das produktivste Verfahren der spanischen Wortbildung und ermöglicht es, Bedeutung, Wortart oder stilistische Nuancen systematisch zu verändern. So wird aus *cantar* der *cantante* ‘Sänger:in’, aus *amor* wird *amoroso* ‘liebevoll’.
 
-    Für den Unterricht ist das durchaus relevant, weil Lernende durch das Erkennen solcher Bausteine die Bedeutung vieler Wörter selbst ableiten können. So wird Wortschatzlernen nachhaltiger und das Sprachbewusstsein gestärkt.
+Präfixe verändern die Bedeutung des Stammes, ohne die Wortart zu ändern: [*releer*](https://dle.rae.es/releer), [*injusto*](https://dle.rae.es/injusto), [*predecir*](https://dle.rae.es/predecir). Suffixe verändern dagegen häufig die Wortart oder fügen eine zusätzliche Bedeutungsnuance hinzu: [*panadero*](https://dle.rae.es/panadero) ‘Bäcker’ (Substantiv aus Substantiv), *hermoso* ‘schön’ (Adjektiv aus Substantiv), [*ventanilla*](https://dle.rae.es/ventanilla) ‘kleines Fenster’ (Diminutiv). In manchen Fällen werden Präfix und Suffix gleichzeitig angefügt, etwa in [*atemorizar*](https://dle.rae.es/atemorizar) ‘einschüchtern’ aus [*temor*](https://dle.rae.es/temor) ‘Furcht’ – man spricht dann von Parasynthese.
 
+Im Unterricht lässt sich die Derivation besonders gut nutzen, um Wortschatzarbeit systematisch zu gestalten. Wer das Grundwort *cantar* an die Tafel schreibt und gemeinsam verwandte Wörter sammelt, erhält schnell ein Netz aus *cantante* ‘Sänger:in’, *cantautor* ‘Liedermacher:in’, *cantarín* ‘singfreudig’ – und die Lernenden erkennen, dass sie mit wenigen Bausteinen ganze Wortfamilien erschließen können.
 
-## Warum und wie kann dieses Kapitel nun sinnvoll für Lehrkräfte und Lernende sein?
+#### Diminutive und Augmentative
 
-Wortbildung ist mehr als ein technischer Teilbereich der Grammatik – sie ist ein Fenster in den Wortschatz und die Struktur der Zielsprache. Im Unterricht bietet sie einen systematischen Zugang zu Morphologie und Lexik zugleich.
+Besonders typisch für das Spanische – und im Unterricht früh relevant – sind die Diminutiv- und Augmentativsuffixe. Diminutive wie *perrito* ‘Hündchen’ oder *casita* ‘Häuschen’ drücken nicht nur Verkleinerung aus, sondern auch Nähe oder Zuneigung (*mi abuelita*), manchmal auch Ironie (*señorito*). Augmentative wie *hombrazo* oder [*portón*](https://dle.rae.es/portón) ‘großes Tor’ verstärken Größe oder Intensität; je nach Kontext können sie auch abwertend wirken, wie in [*manazo*](https://dle.rae.es/manazo) ‘grober Handgriff, Tatze’.
 
-Gerade für Lernende ist dies besonders hilfreich: Wer Wortbildungsregeln kennt, kann die Bedeutung unbekannter Wörter oft ableiten, statt sie auswendig lernen zu müssen. Dies stärkt die Sprachbewusstheit und regt dazu an, mit Sprache kreativ umzugehen – etwa durch das Bilden eigener, verständlicher oder regelkonformer Wortneuschöpfungen.
-
-Auch aus didaktischer Perspektive bietet das Thema zahlreiche Vorteile:
-
-* Es ermöglicht eine systematische Vermittlung des Wortschatzes statt isolierter Wortlisten.
-* Es fördert die Sprachbewusstheit und das Verständnis für den Aufbau und die Funktion von Wörtern.
-* Es hilft, Fehler zu analysieren und zu erklären – etwa bei der Verwendung von Präfixen oder Suffixen.
-* Es stärkt die aktive Wortproduktion, da Lernende Werkzeuge erhalten, um sich präziser und vielfältiger auszudrücken.
-* Es eröffnet sprachvergleichende Perspektiven, z.B. beim Gegenüberstellen spanischer und deutscher Wortbildungsprozesse, was besonders im mehrsprachigen Unterricht gewinnbringend ist.
-
-!!! context "Lehrplanbezug (Deutschlandweit)"
-    Zwar ist Wortbildung in den Bildungs- und Kerncurricula aller Bundesländer nicht als eigener Themenbereich ausgewiesen, sie ist aber fester Bestandteil der Kompetenzfelder **Sprachbewusstheit**, **Grammatik** und **Wortschatzarbeit**.
-    Lernende sollen also nicht nur Vokabeln auswendig lernen, sondern Wortbildungs- und Strukturmuster erkennen und nutzen, um Bedeutungen eigenständig zu erschließen und Sprache reflektiert anzuwenden.
-
-## Wortbildungsprozesse im Spanischen
-
-Die spanische Sprache bietet eine Vielzahl an Verfahren zur Bildung neuer Wörter. Diese Prozesse sind nicht nur Ausdruck sprachlicher Kreativität, sondern auch ein Spiegel gesellschaftlicher, kultureller und technologischer Entwicklungen. Ausgangspunkt ist dabei immer ein bereits vorhandenes Lexem, das erweitert, kombiniert oder verändert wird, um neue Bedeutungen zu schaffen.
-
-Für den Unterricht eröffnet dieses Thema zahlreiche Möglichkeiten: Wer die wichtigsten Wortbildungsmechanismen kennt, versteht nicht nur, wie sich der Wortschatz einer Sprache erweitert, sondern kann diesen Prozess gezielt zur Förderung von Sprachbewusstheit und Wortschatzarbeit nutzen.
-
-Im Folgenden werden die zentralen Wortbildungsprozesse vorgestellt:
-
-1. **Derivation** – Bildung neuer Wörter durch Präfixe und Suffixe (*feliz → infeliz, trabajar → trabajador*).  
-2. **Komposition** – Kombination mehrerer Lexeme zu einem neuen Wort (*sacapuntas, abrelatas, paraguas*).  
-3. **Wortverkürzungen und Akronyme** – Reduktion längerer Formen oder Bildung aus Anfangsbuchstaben (*profe* aus *profesor*, *foto* aus *fotografía*, *ONU* aus *Organización de las Naciones Unidas*).  
-4. **Konversion** – Wortartwechsel ohne Formveränderung (*el hablar, el poder, un sí rotundo*).  
-5. **Kontamination (Kofferwortbildung)** – Verschmelzung zweier Wörter zu einem neuen Ausdruck (*motel* aus *motor* + *hotel*, *emoticono* aus *emoción* + *icono*).  
-6. **Entlehnungen** und **Lehnübersetzungen** – Übernahme fremdsprachiger Wörter (*fútbol, wifi, sushi*) bzw. Nachbildung fremder Strukturen (*rascacielos* nach *skyscraper*, *luna de miel* nach *honeymoon*).
-
-!!! context "Was bedeutet ‚Produktivität’ in der Wortbildung?"
-    Nicht alle Wortbildungsprozesse werden gleich häufig genutzt. Manche Verfahren sind **hoch produktiv**, weil sie regelmäßig neue Wörter hervorbringen – etwa die **Derivation** mit Suffixen wie *-ción* (*educación*) oder Präfixen wie *re-* (*releer*). Andere Prozesse, wie **Kontaminationen** oder **Lehnübersetzungen**, sind seltener und gelten daher als weniger produktiv. Für den Unterricht ist dieser Unterschied wichtig, weil Lernende vor allem von produktiven Mustern profitieren, um neue Wörter selbständig zu erschließen.
-
-Jeder dieser Prozesse wird im Folgenden genauer erläutert – mit Beispielen, typischen Mustern und Hinweisen, wie sich das jeweilige Phänomen im Unterricht nutzen lässt.
-
-
-### 1. Derivation (Ableitung)
-
-Die Derivation bezeichnet die Bildung neuer Wörter durch das Anfügen von Affixen an ein vorhandenes Lexem. Sie ist eines der produktivsten Verfahren der spanischen Wortbildung und ermöglicht es, Bedeutung, Wortart oder stilistische Nuancen zu verändern. So wird aus *cantar* *cantante*, aus *amor* *amoroso*.
-
-Affixe können verschiedene Funktionen haben. Präfixe verändern die Bedeutung des Stammes, etwa in [*releer*](https://dle.rae.es/releer) (‘noch einmal lesen’) oder [*injusto*](https://dle.rae.es/injusto) (‘ungerecht’). Suffixe verändern häufig die Wortart oder fügen eine zusätzliche Bedeutungsnuance hinzu, wie in [*panadero*](https://dle.rae.es/panadero) (‘Bäcker’), *hermoso* (‘schön’) oder [*ventanilla*](https://dle.rae.es/ventanilla) (‘kleines Fenster’). In manchen Fällen werden Präfix und Suffix kombiniert, etwa in [*atemorizar*](https://dle.rae.es/atemorizar) aus [*temor*](https://dle.rae.es/temor) (‘Furcht’).
-
-Besonders typisch für das Spanische sind Diminutive und Augmentative, die zu den produktivsten Suffixen zählen. Diminutive wie *perrito* (‘Hündchen’) oder *ventanilla* (‘Fensterchen’) drücken nicht nur Verkleinerung, sondern auch Nähe oder Zuneigung aus (*mi abuelita*), manchmal auch Ironie (*señorito*). Augmentative wie *hombrazo* oder [*portón*](https://dle.rae.es/portón) verstärken Größe oder Intensität; sie können je nach Kontext auch abwertend wirken, wie in [*manazo*](https://dle.rae.es/manazo).
-
-Im Unterricht lässt sich die Derivation gut einsetzen, um Sprachbewusstheit und Wortschatzstrukturierung zu fördern. Lernende erkennen, dass sie mit wenigen Grundbausteinen ganze Wortfamilien bilden können. Eine einfache Übung besteht darin, ein Grundwort wie *cantar* an die Tafel zu schreiben und gemeinsam verwandte Wörter zu sammeln. So entsteht fast automatisch ein Netz aus *cantante, cantorio, cantarín* – eine anschauliche Demonstration dafür, wie systematisch und kreativ Sprache funktioniert.
+Die Diminutivbildung variiert zudem regional: Während in Spanien *-ito/-ita* dominiert, sind in Mexiko Formen wie *ahorita* oder *lueguito* so verbreitet, dass sie kaum noch als Verkleinerung empfunden werden, und in Kolumbien oder Venezuela begegnet man häufig dem Suffix *-ico/-ica* (z.B. *momentico*). Diese Variation ist im Kapitel [Grammatische Variation](variation/variation_grammatik.md) ausführlicher behandelt und bietet im Unterricht Anlass, über die Vielfalt des Spanischen zu sprechen.
 
 ??? expand "Struktur der Derivation & Beispiele"
-    **Struktur:**
+    Das Grundprinzip der Derivation ist einfach: An ein vorhandenes Lexem wird ein Affix angefügt, das Bedeutung oder Wortart verändert. Suffixe bewirken dabei häufig einen Wortartwechsel: *-ción/-sión* bildet Handlungssubstantive (*educación*, *decisión*), *-ero/-ista* Berufs- oder Zugehörigkeitsbezeichnungen ([*panadero*](https://dle.rae.es/panadero), *futbolista*), *-ito/-illo* Diminutive (*perrito*, [*ventanilla*](https://dle.rae.es/ventanilla)), *-ón/-azo* Augmentative ([*portón*](https://dle.rae.es/portón), [*manazo*](https://dle.rae.es/manazo)), und *-oso/-able* adjektivische Eigenschaften (*hermoso*, *cantable*).
 
-    Lexem + Affix → neues Lexem
+    Präfixe verändern dagegen die Bedeutung, ohne die Wortart zu berühren: *in-/im-* negiert ([*injusto*](https://dle.rae.es/injusto) ‘ungerecht’), *re-* drückt Wiederholung aus ([*releer*](https://dle.rae.es/releer) ‘noch einmal lesen’), *des-* hebt auf oder kehrt um ([*desmotivar*](https://dle.rae.es/desmotivar)), *sub-* ordnet unter ([*subterráneo*](https://dle.rae.es/subterráneo)), *pre-* markiert Vorzeitigkeit ([*predecir*](https://dle.rae.es/predecir)).
 
-    **Beispiele:**
+    Manche Derivationen sind rekursiv: *moderno → modernizar → modernización* zeigt, wie ein Wort in mehreren Schritten weitergebildet werden kann. Bei der Parasynthese werden Präfix und Suffix gleichzeitig angefügt, ohne dass eine Zwischenform existiert: *temor → [atemorizar](https://dle.rae.es/atemorizar)*; *boca → [embocar](https://dle.rae.es/embocar) → [desembocar](https://dle.rae.es/desembocar)*. Bei der Nullderivation wiederum fehlt ein sichtbares Affix: *marchar → marcha*, *bailar → baile*.
 
-    *cantar → cantante*
-
-    *amor → amoroso*
-
-    **Besondere Phänomene:**
-
-      - **Rekursive Derivation:** *moderno → modernizar → modernización*
-      - **Parasynthese:** gleichzeitige Präfix- und Suffixbildung ohne Zwischenform: *temor → *[atemorizar](https://dle.rae.es/atemorizar) (‚Furcht einflößen‘); *boca → *[embocar](https://dle.rae.es/embocar) → [desembocar](https://dle.rae.es/desembocar)
-      - **Nullderivation:** kein lautliches Affix: *marchar → marcha*, *bailar → baile*
-      - **Themavokal:** Lautverbindung zwischen Stamm und Suffix: *cant-a-ble*, *discut-i-ble*
-
-    **Affixe & Funktionen:**
-
-      - **Suffixe** (oft Wortartwechsel):
-
-      – *-ción/-sión* → Handlung (*educación*)
-
-      – *-ero/-ista* → Beruf ([panadero](https://dle.rae.es/panadero))
-
-      – *-ito/-illo* → Diminutiv (*perrito*)
-
-      – *-ón/-azo* → Augmentativ ([manazo](https://dle.rae.es/manazo))
-
-      – *-oso/-able* → Adjektiveigenschaften (*hermoso*)
-
-      - **Präfixe** (semantische Veränderung):
-
-      – *in-/im-* → Negation ([injusto](https://dle.rae.es/injusto) ‘ungerecht’)
-
-      – *re-* → Wiederholung ([releer](https://dle.rae.es/releer) ‘noch einmal lesen’)
-
-      – *sub-* → Unterordnung ([subterráneo](https://dle.rae.es/subterráneo))
-
-      – *pre-* → Vorzeitigkeit ([predecir](https://dle.rae.es/predecir))
-
-      - **Infixe** (selten): z.B. [canturrear](https://dle.rae.es/canturrear) (‘vor sich hinsingen’)
-
-    **Semantik & Produktivität:**
-
-      - *Diminutiv:* *ventana → *[ventanilla](https://dle.rae.es/ventanilla) (‘kleines Fenster / Fensterchen’)
-      - *Augmentativ:* *casa → *[casona](https://dle.rae.es/casona)
-      - *Pejorativ:* *poeta → *[poetastro](https://dle.rae.es/poetastro)
-      - *Iterativ:* *considerar → *[reconsiderar](https://dle.rae.es/reconsiderar)
-      - *Antonymisch:* *motivar → *[desmotivar](https://dle.rae.es/desmotivar)
-
-    Nicht alle Affixe sind gleich produktiv (z.B. *-ción*, *re-* häufig), und die Transparenz variiert (*panadero* ist unmittelbarer als *hermoso → hermosura*).
+    Nicht alle Affixe sind gleich produktiv. Suffixe wie *-ción* oder Präfixe wie *re-* bringen regelmäßig neue Wörter hervor, während andere Bildungen weniger transparent sind: *panadero* ‘Bäcker’ ist unmittelbar aus *pan* ‘Brot’ ableitbar, der Zusammenhang zwischen *hermoso* ‘schön’ und *hermosura* ‘Schönheit’ erschließt sich dagegen nicht auf den ersten Blick.
 
 
 !!! praxis "Affix-Plakat im Unterricht"
-    Im Unterricht kann ein Affix-Plakat angelegt werden, auf dem neue Beispiele fortlaufend ergänzt und nach **Präfixen** und **Suffixen** geordnet werden. Jede Eintragung enthält 2–3 authentische Belege mit kurzer Bedeutungsangabe. So entsteht im Laufe der Zeit eine visuelle Übersicht produktiver Wortbildungsmuster, die Sprachbewusstheit und Wortschatzarbeit unterstützt.
+    Im Unterricht kann ein Affix-Plakat angelegt werden, auf dem neue Beispiele fortlaufend ergänzt und nach Präfixen und Suffixen geordnet werden. Jede Eintragung enthält zwei bis drei authentische Belege mit kurzer Bedeutungsangabe. So entsteht im Laufe der Zeit eine visuelle Übersicht produktiver Wortbildungsmuster, die Sprachbewusstheit und Wortschatzarbeit verbindet.
 
-### 2. Komposition (Zusammensetzung)
+### Komposition: Wörter aus Wörtern
 
-Die Komposition bezeichnet die Bildung neuer Wörter durch die Verbindung zweier oder mehrerer selbstständiger Lexeme. Sie ist im Spanischen weniger häufig als im Deutschen, spielt aber dennoch eine wichtige Rolle bei der Erweiterung des Wortschatzes. Beispiele sind *sacapuntas*, *abrelatas* oder [*rascacielos*](https://dle.rae.es/rascacielos) (‘Wolkenkratzer’).
+Die Komposition bezeichnet die Bildung neuer Wörter durch die Verbindung zweier oder mehrerer selbstständiger Lexeme. Sie ist im Spanischen weniger häufig als im Deutschen – wo Komposita wie *Handschuh*, *Kühlschrank* oder *Staubsauger* allgegenwärtig sind –, spielt aber dennoch eine wichtige Rolle.
 
-Komposita können auf unterschiedliche Weise gebildet werden. Manche kommen ohne Bindewort aus, etwa *ciudad dormitorio* (‘Schlafstadt’), andere verwenden eine Präposition wie *de* (*máquina <u>de</u> escribir* ‘Schreibmaschine’). Auch komplexe Bildungen wie [*limpiaparabrisas*](https://dle.rae.es/limpiaparabrisas) (‘Scheibenwischer’) zeigen, dass Komposita als Grundlage für neue Zusammensetzungen dienen können.
+Sehr produktiv ist das Muster Verb + Substantiv, bei dem das Substantiv das Objekt der Handlung bezeichnet: *sacapuntas* ‘Anspitzer’ (wörtlich: ‘zieht Spitzen’), *abrelatas* ‘Dosenöffner’, [*rascacielos*](https://dle.rae.es/rascacielos) ‘Wolkenkratzer’, [*limpiaparabrisas*](https://dle.rae.es/limpiaparabrisas) ‘Scheibenwischer’. Andere Komposita bestehen aus zwei Substantiven (*ciudad dormitorio* ‘Schlafstadt’) oder verwenden eine Präposition (*máquina de escribir* ‘Schreibmaschine’).
 
-Für den Unterricht ist die Komposition besonders anschaulich: Lernende können Bedeutungen oft aus den Bestandteilen ableiten. Wer *rasca* (‘kratzt’) und *cielos* (‘Himmel’) kennt, versteht die Logik hinter ‚Wolkenkratzer‘. So wird sichtbar, wie Wortbildung Transparenz schafft und Bedeutungen systematisch erschließbar macht.
+Für den Unterricht ist die Komposition besonders anschaulich: Lernende können Bedeutungen oft aus den Bestandteilen ableiten. Wer *rasca* ‘kratzt’ und *cielos* ‘Himmel’ kennt, versteht die Logik hinter ‘Wolkenkratzer’. Gleichzeitig lässt sich gut vergleichen, wie das Deutsche und das Spanische dasselbe Konzept unterschiedlich zusammensetzen: dt. *Staub-sauger* vs. sp. *aspira-dora* (Derivation statt Komposition), dt. *Wolken-kratzer* vs. sp. *rasca-cielos* (umgekehrte Reihenfolge der Bestandteile).
 
-??? expand "Struktur der Komposition & Beispiele"
-    **Struktur:**
+??? expand "Typen der Komposition & Beispiele"
+    Das Grundprinzip der Komposition ist die Verbindung zweier selbstständiger Lexeme zu einem neuen Wort. Die häufigsten Komposita im Spanischen sind asyndetisch gebildet, also ohne Bindewort. Besonders produktiv ist dabei das Muster Verb + Substantiv: *sacapuntas* ‘Anspitzer’, *abrelatas* ‘Dosenöffner’, [*rascacielos*](https://dle.rae.es/rascacielos) ‘Wolkenkratzer’. Daneben gibt es Substantiv-Substantiv-Verbindungen wie *ciudad dormitorio* ‘Schlafstadt’ oder *coche cama* ‘Schlafwagen’ sowie Adjektiv-Adjektiv-Bildungen wie *agridulce* ‘bittersüß’.
 
-    Lexem + Lexem → neues Lexem
+    Syntagmatische Komposita verwenden dagegen ein Bindewort, meist *de*: *máquina de escribir* ‘Schreibmaschine’, *perro de caza* ‘Jagdhund’. Diese Bildungen sind syntaktisch transparenter, funktionieren aber lexikalisch als Einheit.
 
-    **Beispiele:**
+    Komposita können auch rekursiv gebildet werden, d.h. ein bestehendes Kompositum dient als Basis für eine neue Zusammensetzung: [*parabrisas*](https://dle.rae.es/parabrisas) ‘Windschutzscheibe’ (aus *parar* ‘stoppen’ + *brisas* ‘Brisen’) wird zum Bestandteil von [*limpiaparabrisas*](https://dle.rae.es/limpiaparabrisas) ‘Scheibenwischer’ (aus *limpiar* ‘reinigen’ + *parabrisas*).
 
-    *canta + autor → cantautor*
+!!! praxis "Komposita im Sprachvergleich"
+    Lass Deine Lernenden zusammengesetzte Wörter aus authentischen Texten sammeln und ihre Bestandteile markieren. Anschließend kann verglichen werden, wie dasselbe Konzept im Deutschen, im Englischen oder in den Herkunftssprachen der Lernenden ausgedrückt wird (vgl. Kapitel [Herkunftssprachen](herkunftssprachen.md)). So werden sprachübergreifende Muster ebenso sichtbar wie die Unterschiede zwischen den Sprachen.
 
-    *rasca + cielos → *[rascacielos](https://dle.rae.es/rascacielos) (‘Wolkenkratzer’)
+## Weitere Verfahren im Überblick
 
-    *coche + cama → coche cama* (‘Liegewagen’)
+Neben Derivation und Komposition gibt es im Spanischen weitere Wortbildungsverfahren, die zwar weniger produktiv sind, aber im Sprachgebrauch regelmäßig begegnen und im Unterricht gelegentlich Fragen aufwerfen. Drei davon verdienen einen knappen Blick.
 
-    **Typen der Komposition:**
+Die Verkürzung von Wörtern ist ein alltägliches Mittel, um Kommunikation ökonomischer zu gestalten – besonders in der Umgangssprache und in den Medien. [*Bicicleta*](https://dle.rae.es/bicicleta) wird zu *bici*, [*profesor*](https://dle.rae.es/profesor) zu *profe*, [*fotografía*](https://dle.rae.es/fotografía) zu *foto*. Auch komplexere Ausdrücke werden so verkürzt: Aus *ferrocarril metropolitano* wurde [*metro*](https://dle.rae.es/metro) ‘U-Bahn’. Verkürzte Wörter behalten meist das Genus des Ursprungsworts (*el autobús → el bus*), gelegentlich aber nicht (*el servicio militar → la mili* ‘Wehrdienst’). Verwandt mit solchen Verkürzungen sind Siglen und Akronyme, die aus Anfangsbuchstaben entstehen. Einige werden buchstabiert ausgesprochen, andere wie normale Wörter gelesen: [*ONU*](https://dle.rae.es/ONU) ‘Vereinte Nationen‘ wird meist [oˈnu] ausgesprochen, während [*sida*](https://dle.rae.es/sida) ‘AIDS‘ eindeutig wie ein normales Wort gelesen wird – und sogar weiter deriviert werden kann: [*sidoso*](https://dle.rae.es/sidoso) ‘an AIDS erkrankt‘ zeigt, wie eine solche Bildung zum vollwertigen Lexem werden kann.
 
-      - **Asyndetisch:** ohne Bindewort, z.B. *ciudad dormitorio* (‘Schlafstadt’), *rascacielos*
-      - **Syntagmatisch:** mit Bindewort, meist *de*, z.B. *máquina de escribir* (‘Schreibmaschine’), *perro de caza* (‘Jagdhund’)
-      - **Rekursiv:** bestehende Komposita dienen als Basis für neue: [parabrisas](https://dle.rae.es/parabrisas) (‘Windschutz’) → [limpiaparabrisas](https://dle.rae.es/limpiaparabrisas) (‘Scheibenwischer’)
-      - **Formales Merkmal:** meist ohne Bindeelement; selten mit *-o-*, wie in *germano-francés* (‘deutsch-französisch’)
+Bei der Konversion wechselt ein Wort seine grammatische Kategorie, ohne dass sich die Form verändert. Aus dem Verb *hablar* wird mit Artikel *el hablar* ‘das Sprechen‘, und auch Adjektive können substantivisch gebraucht werden, etwa *el verde* ‘das Grün‘ oder *lo importante* ‘das Wichtige‘. Im Spanischen signalisiert meist der Artikel den Wortartwechsel, im Deutschen übernimmt die Großschreibung diese Funktion. Für Lernende ist das ein guter Anlass, über die Rolle der Wortarten in beiden Sprachen nachzudenken.
 
-    **Determinierung:**
+Die Kontamination – auch Kofferwortbildung genannt – verschmilzt zwei bestehende Wörter zu einem neuen Ausdruck, oft mit humorvollem oder verdichtendem Effekt. [*Emoticono*](https://dle.rae.es/emoticono) entsteht aus *emoción* ‘Emotion’ + *icono* ‘Symbol’, *almuerzayuno* aus *almuerzo* ‘Mittagessen’ + *desayuno* ‘Frühstück’ – das spanische Pendant zu ‘Brunch’. Auch das bereits im Einstieg genannte *zoompleaños* gehört hierher. Kontaminationen sind im Spanischen nicht hoch produktiv, illustrieren aber besonders anschaulich, wie kreativ Sprecher:innen mit ihrer Sprache umgehen.
 
-      - **Postdetermination:** das bestimmende Element folgt: *coche cama* (‘ein Wagen zum Schlafen’, also ‘Schlafwagen’)
-      - **Prädetermination:** das bestimmende Element steht voran: [telenovela](https://dle.rae.es/telenovela) (‘Fernsehserie’)
+??? expand "Verkürzung, Konversion, Kontamination – Strukturen und Beispiele"
+    Bei der Verkürzung wird ein Wort auf einen Teil reduziert. Man unterscheidet Aphärese (der Anfang fällt weg: *autobús → bus*), Apokope (das Ende fällt weg: *bicicleta → bici*, *profesor → profe*) und komplexe Ellipsen, bei denen nur ein Element eines mehrgliedrigen Ausdrucks erhalten bleibt (*ferrocarril metropolitano → metro*). Akronyme wiederum entstehen aus Anfangsbuchstaben und können buchstabiert (*ITV* ‘Technische Fahrzeugprüfung’) oder als Wort ausgesprochen werden (*sida*, *ONU*). Manche Akronyme werden so vollständig in die Sprache integriert, dass sie als Basis für neue Derivationen dienen: *sida → sidoso*, *BTT → betetista* ‘jemand, der Mountainbike fährt’ (informell).
 
-    Komposita sind besonders transparent, wenn die Bestandteile leicht erkennbar bleiben. Im Unterricht kann dies genutzt werden, um Wortbedeutungen zu erschließen und Wortbildungsstrategien zu reflektieren.
+    Bei der Konversion bleibt die Form unverändert; die neue Wortart ergibt sich allein aus der syntaktischen Umgebung. Der Artikel oder das Satzgefüge weist auf die neue Kategorie hin: *hablar* (Verb) → *el hablar* ‘das Sprechen’; *verde* (Adjektiv) → *el verde* ‘das Grün’.
 
+    Bei Kontaminationen werden zwei Wörter so verschmolzen, dass Bestandteile und Bedeutungen beider erhalten bleiben: *motor + hotel → [motel](https://dle.rae.es/motel)*; *emoción + icono → [emoticono](https://dle.rae.es/emoticono)*; *almuerzo + desayuno → almuerzayuno* ‘Brunch’.
 
-!!! praxis "Komposita im Unterricht sichtbar machen"
-    Bitten Sie die Lernenden, zusammengesetzte Wörter aus authentischen Texten zu sammeln und ihre Bestandteile zu markieren. Anschließend kann gemeinsam überlegt werden, welche Struktur (Prä- oder Postdetermination) vorliegt und ob die Zusammensetzung auch im Deutschen oder in den [Herkunftssprachen](herkunftssprachen.md) der Lernenden vorkommt. So werden sprachübergreifende Muster sichtbar, die Sprachbewusstheit fördern und einen Vergleich mit Mehrsprachigkeitssituationen ermöglichen.
+## Sprache in Bewegung: Entlehnungen und neue Wörter
 
-    
-### 3. Verkürzungen und Abkürzungen
+Keine Sprache existiert in einem Vakuum. Das Spanische hat im Laufe seiner Geschichte Wörter aus dem Arabischen, dem Französischen, dem Italienischen und in jüngerer Zeit vor allem aus dem Englischen aufgenommen – und tut es weiterhin. Dieser Prozess ist weder Zeichen von Verfall noch von Nachlässigkeit, sondern ein ganz normaler Ausdruck davon, dass Sprachen in Kontakt stehen und sich gegenseitig bereichern (vgl. Kapitel [Sprachwandel](wandel.md)).
 
-Die Verkürzung von Wörtern ist ein häufiges Mittel, um Kommunikation ökonomischer zu gestalten. Besonders in Medien- und Jugendsprache werden längere Formen abgekürzt, ohne dass die Verständlichkeit leidet. Beispiele sind [*autobús*](https://dle.rae.es/autobús) → *bus*, [*bicicleta*](https://dle.rae.es/bicicleta) → *bici* oder [*ferrocarril metropolitano*](https://dle.rae.es/ferrocarril) → [*metro*](https://dle.rae.es/metro) (‘U-Bahn’). Solche Kürzungen übernehmen meist das Genus des Ursprungsworts, manchmal jedoch nicht (*el servicio militar → la mili* ‘Wehrdienst’).
+Entlehnungen entstehen, wenn Wörter aus einer anderen Sprache übernommen werden. Dabei gibt es unterschiedliche Grade der Integration: Manche Wörter werden lautlich und orthographisch vollständig angepasst (*fútbol* aus engl. *football*), andere behalten ihre fremde Schreibung weitgehend bei (*software*, *wifi*). Gerade bei der Schreibung von Fremdwörtern zeigt sich, dass das Spanische Variation zulässt: *fútbol* und *futbol*, *vídeo* und *video* existieren je nach Land nebeneinander – beides ist korrekt (vgl. Kapitel [Orthographie](orthographie.md#fremdwörterintegration) und [Fehlerlinguistik](fehlerlinguistik.md#nicht-jede-abweichung-ist-ein-fehler)).
 
-Daneben entstehen durch **Akronyme** neue Wortformen aus Anfangsbuchstaben: [*ONU*](https://dle.rae.es/ONU) (‘Organización de las Naciones Unidas’), [*sida*](https://dle.rae.es/sida) (‘Síndrome de Inmunodeficiencia Adquirida’). Einige werden zu eigenständigen Lexemen weitergebildet, z.B. [*sidoso*](https://dle.rae.es/sidoso) (‘an AIDS erkrankt’) oder *betetista* – eine informelle Neubildung aus dem Akronym *BTT* (‘bicicleta todo terreno’) und dem Suffix *-ista*, im Sinne von ‘jemand, der Mountainbike fährt’. Das Wort ist nicht standardsprachlich und im DLE nicht verzeichnet, zeigt aber die Produktivität solcher Bildungen.
+Von direkten Entlehnungen zu unterscheiden sind Lehnübersetzungen: Hier wird nicht das fremde Wort selbst übernommen, sondern seine Bedeutung mit spanischen Elementen nachgebildet. So wurde aus dem englischen *skyscraper* das spanische [*rascacielos*](https://dle.rae.es/rascacielos) ‘Wolkenkratzer’ (wörtlich: ‘kratzt Himmel’), aus *honeymoon* die *luna de miel* ‘Flitterwochen’ (wörtlich: ‘Honigmond’). Lehnübersetzungen machen besonders gut sichtbar, wie Sprache fremde Konzepte aufnimmt und in die eigene Struktur überführt – ein Prozess, den Lernende im Sprachvergleich mit dem Deutschen, dem Englischen oder ihren Herkunftssprachen unmittelbar nachvollziehen können (vgl. Kapitel [Herkunftssprachen](herkunftssprachen.md)).
 
-Diese Formen zeigen, wie flexibel Sprache auf neue Kommunikationssituationen reagiert. Lernende können daran nachvollziehen, dass Wortbildung auch Vereinfachung und Anpassung bedeutet.
+!!! praxis "Entlehnungen und Sprachkontakt erfahrbar machen"
+    Sammle mit der Klasse aktuelle Entlehnungen aus spanischen Medien oder sozialen Netzwerken. Lass die Lernenden entscheiden, ob es sich um direkte Übernahmen oder um Lehnübersetzungen handelt, und vergleicht die Formen mit dem Deutschen und den Herkunftssprachen. Eine anregende Anschlussfrage: Wie könnte man ein Wort wie *Homeoffice* ins Spanische übersetzen – als Entlehnung oder als Lehnübersetzung? So wird deutlich, dass Mehrsprachigkeit ein Motor sprachlicher Innovation ist.
 
-??? expand "Struktur der Verkürzungen & Abkürzungen"
-    **Wortverkürzungen**
+### Ab wann gehört ein neues Wort zur Sprache?
 
-      - **Aphärese:** Anfang entfällt – *autobús → bus*
-      - **Apokope:** Ende entfällt – *bicicleta → bici*
-      - **Komplexe Ellipse:** *ferrocarril metropolitano → metro* (‘U-Bahn’)
+Wer schon einmal *Scrabble* oder das spanische *Apalabrados* gespielt hat, kennt die Situation: Ein Wort wird gelegt, und sofort beginnt die Diskussion, ob es ‚zählt‘ – also ob es ‚offiziell‘ existiert. Als Schiedsrichter dient das Wörterbuch. Doch die Frage, ob ein Wort existiert, lässt sich linguistisch anders beantworten als im Brettspiel: Ein Wort gibt es, sobald es von Sprecher:innen verwendet und verstanden wird – unabhängig davon, ob es in einem Wörterbuch steht.
 
-    **Akronyme**
+Wörterbücher wie das [*Diccionario de la lengua española*](https://dle.rae.es/) (DLE) verzeichnen vor allem jene Ausdrücke, die sich in einer Sprachgemeinschaft über längere Zeit etabliert haben und als allgemein verständlich gelten. Dass ein Wort dort (noch) nicht verzeichnet ist, bedeutet also nicht, dass es das Wort nicht gibt – sondern nur, dass es (noch) nicht den Weg in das Nachschlagewerk gefunden hat. Das DLE dokumentiert den Kern des allgemeinen Wortschatzes, nicht aber jede regionale oder zeitlich begrenzte Neuerung. Für den hispanoamerikanischen Raum gibt es das [*Diccionario de Americanismos*](https://www.asale.org/damer/), für mexikanische Varietäten das [*Diccionario del español de México*](https://dem.colmex.mx/) – beide erfassen Wörter, die im DLE fehlen, aber in ihren jeweiligen Sprachgemeinschaften vollkommen gebräuchlich sind.
 
-      - Buchstabiert: *ITV* (‘Inspección Técnica de Vehículos’)
-      - Gesprochen: *sida* (‘Síndrome de Inmunodeficiencia Adquirida’)
-      - Weiterbildungen: *sidoso*, *BTT → betetista*
-
-    Verkürzte Wörter behalten meist das Genus des Ursprungswortes (*el autobús → el bus*), können aber abweichen (*el servicio militar → la mili*).
-
-
-!!! praxis "Abkürzungen erkennen und verstehen"
-    Sammeln Sie mit der Klasse aktuelle Kürzungen aus Schlagzeilen oder digitalen Medien. Besprechen Sie, welche Art von Verkürzung vorliegt, und lassen Sie die Lernenden ähnliche Muster in den Herkunftssprachen suchen. So wird Sprachökonomie als universelles Prinzip sichtbar.
-
-
-### 4. Konversion (Wortartwechsel)
-
-Die Konversion bezeichnet den Wechsel der grammatischen Kategorie, ohne dass sich die Wortform verändert. Aus einem Verb wie *hablar* wird mit Artikel *el hablar* (‘das Sprechen’), aus einem Adjektiv wie *verde* wird *el verde* (‘das Grün’). Umgekehrt kann ein Substantiv wie [*granate*](https://dle.rae.es/granate) (‘Granat’) adjektivisch gebraucht werden (‘granatrot’).
-
-Im Spanischen wird der Wortartwechsel meist durch den Artikel markiert, während im Deutschen die Großschreibung signalisiert, dass ein Verb substantiviert wurde. Solche Unterschiede bieten einen idealen Anlass, Wortarten bewusst zu reflektieren.
-
-??? expand "Struktur der Konversion & Beispiele"
-    Bei der Konversion bleibt die Form unverändert; die neue Wortart ergibt sich aus der syntaktischen Umgebung. Der Artikel oder das Satzgefüge weist auf die neue Kategorie hin.
-
-      - *hablar* (Verb) → *el hablar* (‘das Sprechen’)
-      - *verde* (Adjektiv) → *el verde* (‘das Grün’)
-      - *granate* (Substantiv) → *granate* (Adjektiv ‘granatrot’)
-
-
-!!! praxis "Wortarten reflektieren"
-    Arbeiten Sie mit authentischen Beispielen aus Presse oder Liedtexten, in denen Konversion vorkommt. Lassen Sie die Lernenden markieren, welche Wörter ihre Kategorie gewechselt haben, und vergleichen Sie anschließend ähnliche Strukturen im Deutschen und in den Herkunftssprachen.
-
-
-### 5. Kontamination (Kofferwortbildung)
-
-Die Kontamination – auch Kofferwortbildung – verschmilzt zwei bestehende Wörter zu einem neuen Ausdruck. Sie dient oft der sprachlichen Verdichtung oder dem humorvollen Effekt. Beispiele sind [*motel*](https://dle.rae.es/motel) (aus *motor* + *hotel*), [*emoticono*](https://dle.rae.es/emoticono) (aus *emoción* + *icono*) oder *almuerzayuno* (‘Brunch’, aus *almuerzo* + *desayuno*). Das Wort *motel* wurde ursprünglich aus dem Englischen übernommen, wo die Kontamination entstand, bevor sie ins Spanische Eingang fand.
-
-Diese Wortbildungsart illustriert besonders deutlich sprachliche Kreativität: Sprecher:innen kombinieren bekannte Elemente neu, um etwas Eigenes zu schaffen.
-
-??? expand "Struktur der Kontamination & Beispiele"
-    Bei Kontaminationen werden zwei Wörter verschmolzen, wobei Bestandteile und Bedeutungen beider Elemente kombiniert werden. Die neu entstehende Form ist semantisch nachvollziehbar, aber formal neu.
-
-      - *motor* + *hotel* → *motel*
-      - *emoción* + *icono* → *emoticono*
-      - *almuerzo* + *desayuno* → *almuerzayuno* (‘Brunch’)
-
-
-!!! praxis "Sprachkreativität fördern"
-    Lassen Sie Lernende neue Kofferwörter aus spanischen Wortpaaren bilden, ihre Bedeutung erklären und die Übersetzung ins Deutsche oder in die Herkunftssprachen diskutieren. So wird sichtbar, wie flexibel Sprache auf neue Konzepte reagiert.
-
-
-### 6. Entlehnungen und Lehnübersetzungen
-
-Entlehnungen entstehen, wenn Wörter aus einer anderen Sprache übernommen werden, während Lehnübersetzungen deren Bedeutung mit spanischen Elementen nachbilden. Beide Prozesse spiegeln kulturelle und technologische Entwicklungen wider. Dabei kann es bei Entlehnungen mehrere Schreibweisen geben, etwa [*fútbol*](https://dle.rae.es/fútbol) (‘Fußball’) und *futbol*, wie sie in manchen Varianten des Spanischen verwendet wird. Weitere Informationen zur Orthographie solcher Fremdwörter finden sich im Kapitel zur [Orthographie](orthographie.md#fremdworterintegration).
-
-Typische Entlehnungen sind *fútbol*, *sándwich*, *software* oder *wifi*.  
-Lehnübersetzungen wie [*rascacielos*](https://dle.rae.es/rascacielos) (‘Wolkenkratzer’) oder *perro caliente* (‘Hotdog’) zeigen, wie sich fremde Begriffe in die eigene Struktur integrieren.
-
-??? expand "Typen der Entlehnung & Beispiele"
-    **a) Lehnwörter (préstamos léxicos)**
-
-      - *fútbol* (‘Fußball’)
-      - *sándwich* (‘Sandwich’)
-      - *software* (‘Software’)
-      - *wifi* (‘WLAN’)
-
-    **b) Lehnübersetzungen (calcos)**
-
-      - *skyscraper → *[rascacielos](https://dle.rae.es/rascacielos) (‘Wolkenkratzer’)
-      - *hotdog → perro caliente* (‘Hotdog’)
-
-    Beide Prozesse zeigen den ständigen Austausch zwischen Sprachen. Manche Lehnwörter werden vollständig integriert (*fútbol*), andere bleiben als Fremdwörter markiert (*software*).
-
-
-!!! praxis "Sprachkontakt erfahrbar machen"
-    Sammeln Sie mit der Klasse aktuelle Entlehnungen aus spanischen Medien. Lassen Sie entscheiden, ob es sich um Lehnwörter oder Lehnübersetzungen handelt, und vergleichen Sie entsprechende Formen im Deutschen und in den Herkunftssprachen. Diskutieren Sie anschließend: Wie könnte man ein deutsches Wort wie „Homeoffice“ ins Spanische übersetzen? So wird deutlich, dass Mehrsprachigkeit ein Motor sprachlicher Innovation ist (vgl. Kapitel [Herkunftssprachen](herkunftssprachen.md)).
-
-
-### Ab wann gehört ein neues Wort nun (offiziell) zu einer Sprache?
-
-Ob ein Wort „existiert“, hängt zunächst vom Gebrauch ab: Ein Wort gibt es, sobald es von Sprecher:innen verwendet und verstanden wird – unabhängig davon, ob es schon in einem Wörterbuch steht. Wörterbücher verzeichnen dagegen vor allem jene Ausdrücke, die sich in einer Sprachgemeinschaft über längere Zeit hinweg etabliert haben und als allgemein verständlich gelten. Erst dann wird ein Eintrag in Nachschlagewerken wie dem [*Diccionario de la lengua española*](https://dle.rae.es/) wahrscheinlich.  
-
-Diese Unterscheidung zeigt sich auch in alltäglichen Situationen: In Spielen wie *Scrabble* oder *Apalabrados* dürfen nur Wörter gelegt werden, die „offiziell“ in einem Wörterbuch stehen – obwohl viele neue oder regionale Wörter längst im Sprachgebrauch existieren.
-
-Dabei gilt außerdem: Das DLE dokumentiert den Kern des allgemeinen Wortschatzes, nicht aber jede regionale oder zeitlich begrenzte Neuerung. Andere Wörterbücher erfassen zusätzliche Bereiche des Spanischen, etwa das [*Diccionario de Americanismos*](https://www.asale.org/damer/) für den hispanoamerikanischen Raum oder das [*Diccionario del español de México*](https://dem.colmex.mx/) für mexikanische Varietäten. Sprache bleibt also immer in Bewegung und kann nie vollständig abgebildet werden.
+Sprache bleibt also immer in Bewegung und kann nie vollständig in einem einzigen Nachschlagewerk abgebildet werden. Das gilt nicht nur für Entlehnungen und Neuschöpfungen, sondern auch für die alltäglichen Veränderungen, die der Sprachwandel mit sich bringt (vgl. Kapitel [Sprachwandel](wandel.md)).
 
 !!! praxis "Über Wörterbücher und lebendige Sprache sprechen"
-    Im Unterricht kann es anregend sein, gemeinsam zu überlegen, welche neuen Wörter gerade verwendet werden, die (noch) nicht im Duden oder im DLE stehen – etwa *crush*, *stalkear* oder *emoji*. So wird sichtbar, dass Wörter nicht erst durch ihre Aufnahme ins Wörterbuch existieren, sondern durch den alltäglichen Gebrauch. Diese Reflexion fördert Sprachbewusstheit und zeigt, dass auch Jugendsprache Teil sprachlicher Kreativität ist.
+    Im Unterricht kann es anregend sein, gemeinsam zu überlegen, welche Wörter gerade verwendet werden, die (noch) nicht im Duden oder im DLE stehen – etwa *crush*, *stalkear* oder *emoji*. So wird sichtbar, dass Wörter nicht erst durch ihre Aufnahme ins Wörterbuch existieren, sondern durch den alltäglichen Gebrauch. Diese Reflexion fördert Sprachbewusstheit und zeigt, dass auch Jugendsprache Teil sprachlicher Kreativität ist.
 
 !!! summary "Zusammenfassung"
-    Das Kapitel hat gezeigt, wie vielfältig Wortbildung im Spanischen funktioniert:
-    
-    * **Derivation** bildet neue Wörter durch Präfixe und Suffixe.  
-    * **Komposition** kombiniert vorhandene Lexeme zu neuen Einheiten.  
-    * **Verkürzung** und **Abkürzung** schaffen kompakte Formen für den schnellen Gebrauch.  
-    * **Konversion** verändert die Wortart ohne formale Änderung.  
-    * **Kontamination** illustriert spielerische Kreativität durch Verschmelzung.  
-    * **Entlehnungen** und **Lehnübersetzungen** zeigen den Einfluss anderer Sprachen.
-    
-    Sprache bleibt damit ein dynamisches System: Sie spiegelt gesellschaftliche Entwicklungen wider und verändert sich mit jedem neuen Gebrauch.  
-    Für den Unterricht bedeutet das: Wortbildung ist nicht nur Grammatik, sondern ein Zugang zu sprachlicher Kreativität und kultureller Vielfalt. Lehrkräfte können Lernende dazu anregen, Wortbildungsprozesse zu beobachten, zu vergleichen und selbst kreativ anzuwenden.
+    Wortbildung im Spanischen folgt erkennbaren Mustern, die sich im Unterricht gezielt nutzen lassen. Die Derivation – die Bildung neuer Wörter durch Präfixe und Suffixe – ist das produktivste Verfahren und bietet Lernenden einen systematischen Zugang zur Erschließung unbekannten Wortschatzes. Die Komposition kombiniert bestehende Wörter zu neuen Einheiten und lässt sich gut im Sprachvergleich mit dem Deutschen einsetzen. Daneben gibt es Verkürzungen, Konversion und Kontamination als weitere, weniger produktive Verfahren. Entlehnungen und Lehnübersetzungen schließlich zeigen, wie Sprachen in Kontakt stehen und sich gegenseitig bereichern – und werfen die Frage auf, ab wann ein neues Wort eigentlich zur Sprache gehört. Für den Unterricht bedeutet das: Wortbildung ist nicht nur Grammatik, sondern ein Zugang zu sprachlicher Kreativität, kultureller Vielfalt und der Dynamik des Spanischen.
 
 ??? weiterlesen "Wer mehr wissen will"
-    Einführende Darstellungen zur Wortbildung bieten Kabatek/Pusch (2011), die zentrale Begriffe der spanischen Morphologie vorstellen und in den Gesamtaufbau des Lexikons einordnen. Speziellere und vertiefende Analysen finden sich bei Rainer (1993) sowie Varela (2005), die Formen, Funktionen und Produktivität einzelner Wortbildungsmuster systematisch beschreiben. Sehr ausführlich behandelt das Thema natürlich auch die monumentale *Nueva gramática de la lengua española* (RAE/ASALE 2009 und zuletzt 2025) – die Ausgabe von 2009 ist online sogar durchsuchbar: [https://www.rae.es/gramática/](https://www.rae.es/gram%C3%A1tica/).
+    Einführende Darstellungen zur Wortbildung bieten Kabatek/Pusch (2011), die zentrale Begriffe der spanischen Morphologie vorstellen und in den Gesamtaufbau des Lexikons einordnen. Speziellere und vertiefende Analysen finden sich bei Rainer (1993) sowie Varela (2005), die Formen, Funktionen und Produktivität einzelner Wortbildungsmuster systematisch beschreiben. Sehr ausführlich behandelt das Thema auch die *Nueva gramática de la lengua española* (RAE/ASALE 2009, 2.ª ed. 2025), deren Ausgabe von 2009 [online durchsuchbar](https://www.rae.es/gram%C3%A1tica/) ist.
 
-    Für didaktisch orientierte Zugänge zur Wortbildung sind vor allem Serrano-Dolader (2019) und Entre/Gumiel-Molina (2024) relevant. Beide Werke verbinden linguistische Grundlagen mit methodischen Vorschlägen für den Unterricht. Ergänzend bietet das [Online-Dossier](https://cvc.cervantes.es/ensenanza/biblioteca_ele/antologia_didactica/morfologia/default.htm) des Instituto Cervantes praxisnahe Materialien und Aufgabenformate.
+    Für didaktisch orientierte Zugänge sind vor allem Serrano-Dolader (2019) und Entre/Gumiel-Molina (2024) relevant. Beide Werke verbinden linguistische Grundlagen mit methodischen Vorschlägen für den Unterricht. Ergänzend bietet das [Online-Dossier](https://cvc.cervantes.es/ensenanza/biblioteca_ele/antologia_didactica/morfologia/default.htm) des Instituto Cervantes praxisnahe Materialien und Aufgabenformate.
 
 
 ## Literatur
@@ -321,7 +142,7 @@ Dabei gilt außerdem: Das DLE dokumentiert den Kern des allgemeinen Wortschatzes
 - Rainer, Franz (1993): *Spanische Wortbildungslehre*. Tübingen: Niemeyer.
 - Real Academia Española (online): *Diccionario de la lengua española (DLE)*. Online: [https://dle.rae.es/](https://dle.rae.es/)
 - Real Academia Española / Asociación de Academias de la Lengua Española (2005): *Diccionario panhispánico de dudas*. Madrid: Santillana. Online: [https://www.rae.es/dpd/](https://www.rae.es/dpd/)
-- Real Academia Española / Asociación de Academias de la Lengua Española (2009 / 2025): *Nueva gramática de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/gramática/](https://www.rae.es/gram%C3%A1tica/)
+- Real Academia Española / Asociación de Academias de la Lengua Española (2009/2025): *Nueva gramática de la lengua española*. Madrid: Espasa. Online: [https://www.rae.es/gramática/](https://www.rae.es/gram%C3%A1tica/)
 - Serrano-Dolader, Daniel (2019): *Formación de palabras y enseñanza del español LE/L2*. London / New York: Routledge.
 - Varela Ortega, Soledad (2005): *Morfología léxica: la formación de palabras*. Madrid: Gredos.
 
@@ -329,6 +150,6 @@ Dabei gilt außerdem: Das DLE dokumentiert den Kern des allgemeinen Wortschatzes
 
 
 !!! cite "Dieses Kapitel zitieren"
-    Büşra Özen, Teodora Teodorescu, Felix Tacke (2025): „Lexikalische Kreativität“. In: Tacke, Felix (Koord.): *Linguistik im Spanischunterricht. Ein digitales Lehrbuch für (angehende) Lehrkräfte*. Marburg: Universität Marburg.  
+    Büşra Özen, Teodora Teodorescu, Felix Tacke (2026): „Lexikalische Kreativität“. In: Tacke, Felix (Hrsg.): *Linguistik im Spanischunterricht. Ein digitales Lehrbuch für (angehende) Lehrkräfte*. Marburg: Universität Marburg.  
     Online: [linguistik.hispanistica.com](https://linguistik.hispanistica.com/)  
     DOI: [10.5281/zenodo.15348687](https://doi.org/10.5281/zenodo.15348687)

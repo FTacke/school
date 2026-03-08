@@ -682,6 +682,16 @@ body[data-md-color-scheme="slate"] .md-typeset details.expand {
   mask-image: var(--md-typeset-expand-icon);
 }
 
+.md-typeset .hoermal > .admonition-title::before,
+.md-typeset .hoermal > summary::before {
+  transform: translateY(0.06em);
+}
+
+.md-typeset .expand > .admonition-title::before,
+.md-typeset .expand > summary::before {
+  transform: translateY(0.06em);
+}
+
 
 /* --------------------------------------------------------------------------
    hoermal – Audio layouts
