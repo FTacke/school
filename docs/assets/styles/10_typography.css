@@ -51,21 +51,21 @@
 
 .md-typeset code {
   font-family: "Noto Sans", system-ui, sans-serif;
-  font-size: 0.85em;
+  font-size: 0.95em;
   font-weight: 550;
   line-height: 1;
 
-  padding: 0.04em 0.04em 0.38em;
+  padding: 0.04em 0.04em 0.04em 0.04em;
   border-radius: 0.35em;
 
-  background: color-mix(in srgb, var(--book-bg) 96%, var(--book-accent));
+  background: none; /*color-mix(in srgb, var(--book-bg) 96%, var(--book-accent)); */
   color: var(--book-fg);
 
   white-space: nowrap;
 }
 
 body[data-md-color-scheme="slate"] .md-typeset code {
-  background: color-mix(in srgb, var(--book-surface-1) 94%, var(--book-accent));
+  background: none; /*color-mix(in srgb, var(--book-surface-1) 94%, var(--book-accent));*/
 }
 
 .md-typeset pre code {

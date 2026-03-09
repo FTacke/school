@@ -238,7 +238,7 @@ Für den Unterricht ist wichtig zu wissen, dass beide Formen als korrekt gelten 
 
     - Die Graphem-Phonem-Korrespondenzen sind weitgehend eindeutig. Nur wenige Ausnahmen wie `<b>` vs. `<v>` (beide `/b/`), stummes `<h>` oder die alternativen Grapheme für `/x/` (`<j>` und `<g>` vor `<e>`, `<i>`) müssen gelernt werden.  
     - Der Wortakzent ist zentral: Er wird aber immer nur dann durch die Tilde (`´`) markiert, wenn er nicht dem häufigsten Betonungsmuster folgt. Wer die Regeln kennt, macht kaum noch Fehler.
-    - Die Orthographie ist im gesamten spanischsprachigen Raum einheitlich und orientiert sich weitgehend an der traditionellen Aussprache Kastiliens (Unterscheidung von interdentalem /θ/ und /s/ sowie von palatalem /ʎ/ und /ʝ/).
+    - Die Orthographie ist im gesamten spanischsprachigen Raum einheitlich und orientiert sich weitgehend an der traditionellen Aussprache Kastiliens (Unterscheidung von interdentalem `/θ/` und `/s/` sowie von palatalem `/ʎ/` und `/ʝ/`).
     - Variation gibt es bei v.a. bei Fremdwörtern (z.B. *video* vs. *vídeo*)  
     - Lernende können sich meist am Prinzip „Schreibe, wie du sprichst“ orientieren, sollten aber die systematischen Ausnahmen kennen. Zweifelsfälle lassen sich über die frei zugänglichen Wörterbuchressourcen ([DLE](https://dle.rae.es/), [DPD](https://www.rae.es/dpd/)) schnell klären
 
