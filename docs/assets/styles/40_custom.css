@@ -1152,57 +1152,27 @@ body[data-md-color-scheme="slate"] .corapan-popup .leaflet-popup-close-button:ho
 }
 
 
-/* ──────────────────────────────────────────────────────────────────────────
-   MAP BUTTON: Kleiner Navigations-Button zu Karten-Seiten
-   ────────────────────────────────────────────────────────────────────────── */
-
-.md-typeset a.map-button,
-.md-content a.map-button {
-  display: inline-block;
-  padding: 0.35rem 0.65rem;
-  background: #1976d2;
-  color: #fff;
-  border-radius: 6px;
-  text-decoration: none;
-  border: 1px solid rgba(0,0,0,0.08);
-  font-weight: 700;
-  vertical-align: middle;
-  box-shadow: 0 1px 0 rgba(0,0,0,0.06);
-}
-
-.md-typeset a.map-button:hover,
-.md-content a.map-button:hover {
-  background: #145ea6;
-  color: #fff;
-}
-
-.md-typeset a.map-button:active,
-.md-content a.map-button:active {
-  transform: translateY(1px);
-}
-
-body[data-md-color-scheme="slate"] .md-typeset a.map-button,
-body[data-md-color-scheme="slate"] .md-content a.map-button {
-  background: #1e88e5;
-}
-
-
-/* ──────────────────────────────────────────────────────────────────────────
+/* ─────────────────────────────────────────────────────────────
    MAP ADMONITION: Bild + Button-Layout innerhalb einer tip-Admonition
-   ────────────────────────────────────────────────────────────────────────── */
+   Align button bottom-right similar to Material cards
+   ───────────────────────────────────────────────────────────── */
 
-.md-typeset .admonition.tip .map-admonition,
-.md-content .admonition.tip .map-admonition {
-  position: relative;
-  padding-bottom: 2.2rem;
+.map-admonition {
+  display: flex;
+  flex-direction: column;
 }
 
-.md-typeset .admonition.tip .map-admonition a.map-button,
-.md-content .admonition.tip .map-admonition a.map-button {
-  position: absolute;
-  right: 0.9rem;
-  bottom: 0.6rem;
-  z-index: 10;
+.map-admonition .map-image-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin-bottom: 0.0rem;
+}
+
+/* CTA button – aligns bottom-right, uses Material button style */
+.map-admonition .map-cta {
+  align-self: flex-end;
+  margin-top: 0.0rem;
 }
 
 /* Karten-Vorschaubild links ausgerichtet */
