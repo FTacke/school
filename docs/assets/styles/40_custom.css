@@ -707,8 +707,17 @@ body[data-md-color-scheme="slate"] .md-typeset details.expand {
 .md-typeset .admonition.hoermal .audio-comparison,
 .md-typeset details.hoermal .audio-comparison {
   display: grid;
-  gap: 1.1rem;
+  grid-template-columns: 1fr;
+  gap: 1.1rem 1.4rem;
   margin-top: 0.9rem;
+  align-items: stretch;
+}
+
+@media (min-width: 720px) {
+  .md-typeset .admonition.hoermal .audio-comparison,
+  .md-typeset details.hoermal .audio-comparison {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /* Each pair becomes its own responsive 2-col unit */
@@ -753,31 +762,32 @@ body[data-md-color-scheme="slate"] .md-typeset details.expand {
 
 .md-typeset .admonition.hoermal .audio-block,
 .md-typeset details.hoermal .audio-block {
+  position: relative;
   display: flex;
   flex-direction: column;
-  height: 100%;
   min-width: 0;
   text-align: left;
+  padding-bottom: 1.4rem; /* Platz für Quellen-ID unten */
 }
 
-/* Preferred label element for audio blocks */
+/* Label */
 .md-typeset .admonition.hoermal .audio-label,
 .md-typeset details.hoermal .audio-label {
   font-family: var(--book-font-ui);
   font-weight: 600;
   letter-spacing: -0.01em;
-  font-size: 0.95em;
+  font-size: 0.85em;
   line-height: 1.35;
   margin: 0 0 0.35rem 0;
 }
 
-/* Backward compatibility for legacy h4 markup */
+/* Legacy h4 */
 .md-typeset .admonition.hoermal .audio-block h4,
 .md-typeset details.hoermal .audio-block h4 {
   font-family: var(--book-font-ui);
   font-weight: 600;
   letter-spacing: -0.01em;
-  font-size: 0.95em;
+  font-size: 0.85em;
   line-height: 1.35;
   margin: 0 0 0.35rem 0;
 }
@@ -787,23 +797,37 @@ body[data-md-color-scheme="slate"] .md-typeset details.expand {
 .md-typeset .admonition.hoermal .example-ipa,
 .md-typeset details.hoermal .example,
 .md-typeset details.hoermal .example-ipa {
+  position: relative;
   display: block;
   font-size: 0.92em;
   font-weight: 500;
   line-height: 1.5;
   opacity: 0.9;
   margin: 0 0 0.55rem 0;
-  padding: 0.45rem 0.6rem;
   flex: 1 1 auto;
   background: color-mix(in srgb, var(--book-bg) 92%, var(--book-border));
   border: 1px solid color-mix(in srgb, var(--book-border) 70%, transparent);
   border-radius: 0.35rem;
 }
 
-.md-typeset .admonition.hoermal .ipa,
-.md-typeset details.hoermal .ipa {
+/* Normale Beispiele mit Platz für Token-ID */
+.md-typeset .admonition.hoermal .example,
+.md-typeset details.hoermal .example {
+  padding: 0.45rem 0.6rem 1.5rem 0.6rem;
+  font-family: var(--book-font-body);
+}
+
+/* IPA-Beispiele ohne zusätzlichen Leerraum unten */
+.md-typeset .admonition.hoermal .example-ipa,
+.md-typeset details.hoermal .example-ipa {
+  padding: 0.45rem 0.6rem;
   font-family: "Noto Sans", "Inter", var(--book-font-body), sans-serif;
-  margin-left: 0.08em;
+}
+
+/* Example text */
+.md-typeset .admonition.hoermal .example-text,
+.md-typeset details.hoermal .example-text {
+  display: block;
 }
 
 /* Default examples: normal book type */
@@ -818,6 +842,27 @@ body[data-md-color-scheme="slate"] .md-typeset details.expand {
   font-family: "Noto Sans", "Inter", var(--book-font-body), sans-serif;
 }
 
+.md-typeset .admonition.hoermal .ipa,
+.md-typeset details.hoermal .ipa {
+  font-family: "Noto Sans", "Inter", var(--book-font-body), sans-serif;
+  margin-left: 0.08em;
+}
+
+/* Quellen-/Token-ID */
+.md-typeset .admonition.hoermal .token-id,
+.md-typeset details.hoermal .token-id {
+  position: absolute;
+  right: 0.6rem;
+  bottom: 0.4rem;
+  display: block;
+  text-align: right;
+  font-size: 0.85em;
+  color: var(--md-default-fg-color--light);
+  opacity: 0.95;
+  line-height: 1;
+}
+
+/* Dark mode */
 body[data-md-color-scheme="slate"] .md-typeset .admonition.hoermal .example,
 body[data-md-color-scheme="slate"] .md-typeset .admonition.hoermal .example-ipa,
 body[data-md-color-scheme="slate"] .md-typeset details.hoermal .example,

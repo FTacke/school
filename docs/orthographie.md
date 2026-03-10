@@ -56,16 +56,16 @@ Ein weiterer Bereich, der im Unterricht besondere Aufmerksamkeit verdient, sind 
     <div class="audio-comparison">
       <div class="audio-pair">
         <div class="audio-block">
-          <p class="audio-label">Zielaussprache:</p>
-          <span class="example-ipa">[ew.ˈɾo.pa]</span>
+          <h4>Zielaussprache:</h4>
+          <div class="example-ipa">[ew.ˈɾo.pa]</div>
           <audio controls preload="metadata">
             <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/europa_l1.mp3" type="audio/mpeg">
             Dein Browser unterstützt das Audio-Format nicht.
           </audio>
         </div>
         <div class="audio-block">
-          <p class="audio-label">Lernendenaussprache:</p>
-          <span class="example-ipa">&#42;[ɔɪ.ˈɾo.pa]</span>
+          <h4>Lernendenaussprache:</h4>
+          <div class="example-ipa">&#42;[ɔɪ.ˈɾo.pa]</div>
           <audio controls preload="metadata">
             <source class="zc-audio-src" data-zc-src="assets/audiofiles/promat/europa_ele.mp3" type="audio/mpeg">
             Dein Browser unterstützt das Audio-Format nicht.
@@ -74,16 +74,16 @@ Ein weiterer Bereich, der im Unterricht besondere Aufmerksamkeit verdient, sind 
       </div>
       <div class="audio-pair">
         <div class="audio-block">
-          <p class="audio-label">Zielaussprache:</p>
-          <span class="example-ipa">[ˈdeu̯.da]</span>
+          <h4>Zielaussprache:</h4>
+          <div class="example-ipa">[ˈdeu̯.da]</div>
           <audio controls preload="metadata">
             <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/deuda_l1.mp3" type="audio/mpeg">
             Dein Browser unterstützt das Audio-Format nicht.
           </audio>
         </div>
         <div class="audio-block">
-          <p class="audio-label">Lernendenaussprache:</p>
-          <span class="example-ipa">&#42;[ˈdɔɪ̯.da]</span>
+          <h4>Lernendenaussprache:</h4>
+          <div class="example-ipa">&#42;[ˈdɔɪ̯.da]</div>
           <audio controls preload="metadata">
             <source class="zc-audio-src" data-zc-src="assets/audiofiles/promat/deuda_ele.mp3" type="audio/mpeg">
             Dein Browser unterstützt das Audio-Format nicht.
@@ -122,7 +122,7 @@ Die Schwierigkeit für Lernende – und die Ursache vieler Aussprachefehler (vgl
     <div class="audio-comparison">
       <div class="audio-pair">
         <div class="audio-block">
-          <p class="audio-label">Zielaussprache:</p>
+          <h4>Zielaussprache:</h4>
             <span class="example">
             <i><strong>b</strong>arón</i> <span class="ipa">[baˈɾon]</span> – <i><strong>v</strong>arón</i> <span class="ipa">[baˈɾon]</span>
             </span>
@@ -133,8 +133,8 @@ Die Schwierigkeit für Lernende – und die Ursache vieler Aussprachefehler (vgl
           </audio>
         </div>
         <div class="audio-block">
-          <p class="audio-label">Lernendenaussprache:</p>
-            <span class="example"><i><strong>b</strong>arón</i> <span class="ipa">[baˈʁon]</span> – <i><strong>v</strong>arón</i> <span class="ipa">&#42;[vaˈʁon]</span></span>
+          <h4>Lernendenaussprache:</h4>
+            <div class="example"><i><strong>b</strong>arón</i> <span class="ipa">[baˈʁon]</span> – <i><strong>v</strong>arón</i> <span class="ipa">&#42;[vaˈʁon]</span></div>
           <audio controls preload="metadata">
             <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/baron_varon_ele.mp3" type="audio/mpeg">
             <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/baron_varon_ele.m4a" type="audio/mp4">

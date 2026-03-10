@@ -36,7 +36,7 @@ Ein Grund dafür, warum das Deutsche oft als ‚abgehackt‘ empfunden wird, lie
 
     <div class="audio-comparison">
     <div class="audio-block">
-    <h4>Zielaussprache:</h4> <span class="example">[o.ˈai]</span>
+    <h4>Zielaussprache:</h4> <div class="example-ipa">[o.ˈai]</div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/glottis_l1.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/glottis_l1.m4a" type="audio/mp4">
@@ -44,7 +44,7 @@ Ein Grund dafür, warum das Deutsche oft als ‚abgehackt‘ empfunden wird, lie
     </audio>
     </div>
     <div class="audio-block">
-    <h4>Lernendenaussprache:</h4> <span class="example">[ʔo.ʔai]</span>
+    <h4>Lernendenaussprache:</h4> <div class="example-ipa">[ʔo.ʔai]</div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/glottis_ele.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/glottis_ele.m4a" type="audio/mp4">
@@ -68,7 +68,7 @@ Sowohl das Deutsche als auch das Spanische verfügen über mehrere R-Laute. Im D
 
     <div class="audio-comparison">
     <div class="audio-block">
-    <h4>Zielaussprache:</h4> <span class="example">[re.ˈiɾ]</span>
+    <h4>Zielaussprache:</h4> <div class="example-ipa">[re.ˈiɾ]</div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/r_l1.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/r_l1.m4a" type="audio/mp4">
@@ -76,7 +76,7 @@ Sowohl das Deutsche als auch das Spanische verfügen über mehrere R-Laute. Im D
     </audio>
     </div>
     <div class="audio-block">
-    <h4>Lernendenaussprache:</h4> <span class="example">[ʁe.ˈɪɐ]</span>
+    <h4>Lernendenaussprache:</h4> <div class="example-ipa">[ʁe.ˈɪɐ]</div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/r_ele.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/r_ele.m4a" type="audio/mp4">
@@ -135,7 +135,7 @@ Wer Lernende zu einer besonders zielsprachlichen Kompetenz führen möchte, muss
 
     <div class="audio-comparison">
     <div class="audio-block">
-    <h4>Zielaussprache:</h4> <span class="example">[el.βe.βe.ˈðoɾ]</span>
+    <h4>Zielaussprache:</h4> <div class="example-ipa">[el.βe.βe.ˈðoɾ]</div>
     <audio controls preload="metadata">
     <source src="/assets/audiofiles/marele/bebedor_l1.mp3" type="audio/mpeg">
     <source src="/assets/audiofiles/marele/bebedor_l1.m4a" type="audio/mp4">
@@ -143,7 +143,7 @@ Wer Lernende zu einer besonders zielsprachlichen Kompetenz führen möchte, muss
     </audio>
     </div>
     <div class="audio-block">
-    <h4>Lernendenaussprache:</h4> <span class="example">[el.be.be.ˈdoɐ]</span>
+    <h4>Lernendenaussprache:</h4> <div class="example-ipa">[el.be.be.ˈdoɐ]</div>
     <audio controls preload="metadata">
     <source src="/assets/audiofiles/marele/bebedor_ele.mp3" type="audio/mpeg">
     <source src="/assets/audiofiles/marele/bebedor_ele.m4a" type="audio/mp4">
@@ -157,7 +157,7 @@ Wer Lernende zu einer besonders zielsprachlichen Kompetenz führen möchte, muss
 
     <div class="audio-comparison">
     <div class="audio-block">
-    <h4>Zielaussprache:</h4> <span class="example">[ko.ˈna.ɣwa]</span>
+    <h4>Zielaussprache:</h4> <div class="example-ipa">[ko.ˈna.ɣwa]</div>
     <audio controls controlsList="nodownload" preload="metadata">
     <source src="/assets/audiofiles/marele/agua_l1.mp3" type="audio/mpeg">
     <source src="/assets/audiofiles/marele/agua_l1.m4a" type="audio/mp4">
@@ -165,7 +165,7 @@ Wer Lernende zu einer besonders zielsprachlichen Kompetenz führen möchte, muss
     </audio>
     </div>
     <div class="audio-block">
-    <h4>Lernendenaussprache:</h4> <span class="example">[kon.ˈa.gwa]</span>
+    <h4>Lernendenaussprache:</h4> <div class="example-ipa">[kon.ˈa.gwa]</div>
     <audio controls controlsList="nodownload" preload="metadata">
     <source src="/assets/audiofiles/marele/agua_ele.mp3" type="audio/mpeg">
     <source src="/assets/audiofiles/marele/agua_ele.m4a" type="audio/mp4">

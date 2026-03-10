@@ -36,7 +36,7 @@ Daneben stehen Varietäten, in denen *usted* weiterhin eine zentrale Rolle spiel
 
 Schließlich gibt es Regionen, in denen *tú* im Nähebereich nur eine untergeordnete Rolle spielt. In diesen Varietäten wird Nähe nicht oder nicht primär über *tú*, sondern über Formen des *voseo* organisiert, auf den im folgenden Abschnitt näher eingegangen wird. Damit wird deutlich, dass der Gebrauch der Formen in Spanien nur eine mögliche Entwicklung darstellt – und die weder repräsentativ für Hispanoamerika noch für das Spanische insgesamt ist.
 
-!!! praxis "Werbung und Anredevariation"
+!!! praxis "Anredevariation in der Werbung: Ein Beispiel"
     Internationale Werbekampagnen werden oft parallel für verschiedene Sprachräume produziert. Dabei werden nicht nur Texte übersetzt, sondern auch sprachliche Varianten an den jeweiligen Markt angepasst.  
       
     Ein besonders gutes Beispiel liefert die internationele Kampagne eines bekannten Keks-Herstellers, für die gleich drei spanischsprachige Versionen mit unterschiedlichen Verbformen produziert wurden: *tuteo*-Formen in den Versionen für [Mexiko](https://youtu.be/WbxbP_YFAvE) und [Spanien](https://youtu.be/n-e9qT4zSlY) und *voseo*-Formen im Clip, der für [Argentinien](https://youtu.be/wFH4v3beYCk) produziert wurde.
@@ -45,7 +45,7 @@ Schließlich gibt es Regionen, in denen *tú* im Nähebereich nur eine untergeor
 
 ### Der *voseo* in Amerika (nicht nur in Argentinien)
 
-Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt. Diese Wahrnehmung ist erklärbar, greift jedoch zu kurz. Zwar ist der *voseo* im Río de la Plata-Raum besonders sichtbar und international bekannt, tatsächlich ist er jedoch in großen Teilen Hispanoamerikas verbreitet. Entscheidend ist dabei, dass *vos* je nach Region sehr unterschiedlich in das jeweilige Anredesystem eingebettet ist und sowohl in seiner grammatischen Ausprägung als auch in seiner sozialen Funktion stark variiert.
+Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt. Diese Wahrnehmung ist erklärbar, greift jedoch zu kurz. Zwar ist diese Anredeform im Río de la Plata-Raum besonders sichtbar und als *voseo argentino* international bekannt, tatsächlich sind Varianten dieser Anrede aber in großen Teilen Hispanoamerikas verbreitet. Entscheidend ist dabei, dass *vos* je nach Region sehr unterschiedlich in das jeweilige Anredesystem eingebettet ist und sowohl in seiner grammatischen Ausprägung als auch in seiner sozialen Funktion stark variiert.
 
 ??? expand "Wie der *voseo* gebildet wird und wo"
     Mit dem *voseo* ist nicht überall dieselbe Kombination aus Pronomen und Verbform gemeint. Beim sogenannten pronominal-verbalen *voseo* treten Pronomen und Verbform gemeinsam auf: *vos tenés*, *vos hablás*, *vos vivís*. Daneben gibt es den rein verbalen *voseo*, bei dem das Pronomen *tú* mit einer voseanten Verbform kombiniert wird: *tú tenés*, *tú hablás*. Der rein pronominale *voseo* schließlich verwendet das Pronomen *vos* mit einer tuteanten Verbform: *vos tienes*, *vos hablas*.
@@ -54,23 +54,30 @@ Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt
 
     Diese Unterschiede verdeutlichen, dass der *voseo* nicht als einzelne Form, sondern als Teil eines jeweils regional organisierten Anredesystems zu verstehen ist. Die genannten Kombinationen gelten daher nicht als ‚Fehler‘, sondern als Ausdruck grammatischer und sozialer Variation im Bereich des *trato de confianza*.
 
+
+Dieser Komplexität kann ein Lehrbuch kaum vollständig gerecht werden, doch lassen sich zumindest grob einige Typen von Anredesystemen im hispanoamerikanischen Spanisch unterscheiden – danach, wie groß die Rolle von *vos* in der Kommunikation ist und wie es sich zum Gebrauch von *tú* verhält.
+
+Der bekannteste, geradezu prototypische Vertreter des ersten Typs ist der Río de la Plata-Raum, insbesondere Argentinien und Uruguay. Hier ist *vos* die konkurrenzlose Vertrautheitsform und übernimmt die Funktion, die in anderen Varietäten *tú* erfüllt. *Tú* spielt demgegenüber praktisch keine Rolle in der Alltagskommunikation. Charakteristisch für diese Varietäten ist zudem, dass *vos* nicht nur in der gesprochenen Sprache, sondern auch in Medien, Werbung und in der geschriebenen Standardsprache verwendet wird, wie anhand der oben aufgeführten Beispiele deutlich wird. Gerade diese Standardnähe erklärt, warum der argentinische *voseo* international besonders präsent ist, ohne jedoch repräsentativ für alle Varietäten sein zu können, in denen Formen des *voseo* vorkommen.
+
+In einem zweiten Typ von Varietäten koexistieren *vos* und *tú* im Bereich des *trato de confianza*. Welche der beiden Formen verwendet wird, hängt stärker vom sozialen Kontext, von der Situation oder von regionalen Faktoren ab. In vielen Teilen Mittelamerikas, etwa in Guatemala, Honduras oder Nicaragua, ist *vos* im informellen Umgang unter Gleichaltrigen oder im Freundeskreis verbreitet (z.B. *¿vos querés venir?*). *Tú* kann in diesen Varietäten eine neutralere oder standardnähere Option darstellen und tritt etwa in schulischen oder institutionellen Kontexten häufiger auf. Die Wahl zwischen *vos* und *tú* folgt hier weniger festen Regeln als vielmehr sozialen Konventionen und Erwartungen.
+
+Ähnliche Systeme, in denen *vos* und *tú* koexistieren, finden sich auch in anderen Regionen Hispanoamerikas, etwa in Teilen Kolumbiens oder Chiles. In Chile z.B. ist *vos* in vertrauten Kontexten durchaus präsent, kann jedoch je nach Situation als stärker umgangssprachlich oder sozial markiert wahrgenommen werden, während *tú* in neutraleren oder öffentlichkeitsnahen Kontexten bevorzugt wird. Solche Varietäten machen besonders deutlich, dass der *voseo* nicht einfach ‚vorhanden‘ oder ‚nicht vorhanden‘ ist, sondern innerhalb eines Systems unterschiedliche Funktionen übernehmen kann.
+
+Schließlich gibt es Regionen, in denen *vos* nur eine randständige oder regional begrenzte Rolle spielt. In Ländern wie Mexiko, Peru oder Ecuador wird der Nähebereich überwiegend über *tú* organisiert. *Vos* tritt dort meist nur in bestimmten Regionen auf (etwa im Süden Mexikos oder in Teilen der Anden) und ist häufig sozial oder stilistisch markiert: Es kommt eher in ländlichen Gebieten, in lokalen Varietäten oder in informellen Kontexten vor, während im städtischen, öffentlichen oder standardnahen Sprachgebrauch in der Regel *tú* bevorzugt wird.
+
+Insgesamt zeigt sich damit, dass der *voseo* zwar in weiten Teilen Hispanoamerikas verbreitet ist, jedoch sehr unterschiedlich in die jeweiligen Anredesysteme eingebunden ist. Während *vos* in manchen Regionen die unmarkierte Standardform des *trato de confianza* darstellt, koexistiert es andernorts mit *tú* oder spielt nur eine untergeordnete Rolle. Gerade diese Vielfalt erklärt, warum die Gleichsetzung von *vos* mit Argentinien zu kurz greift.
+
 ??? hoermal "*Voseo*: Beispiele aus verschiedenen Regionen Hispanoamerikas"
     Die folgenden Ausschnitte aus Radiosendungen zeigen den Gebrauch des *voseo*, also der Anrede mit *vos* und den dazugehörigen Verbformen. Besonders typisch sind Formen wie *sabés*, *querés*, *tenés* oder *cantás*, bei denen die Betonung auf der letzten Silbe liegt. Während der *voseo* häufig mit Argentinien oder Uruguay verbunden wird, kommt er tatsächlich in vielen Regionen Hispanoamerikas vor, wie die Beispiele aus Paraguay oder El Salvador zeigen.
 
 
     <div class="audio-grid">
     <div class="audio-block">
-    <p class="audio-label">Paraguay:</p>
-    <span class="example">„¿Y <strong>vos</strong> <strong>sabés</strong> qué estoy leyendo?“ (PRY056c6e190)</span>
-    <audio controls preload="metadata">
-    <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/PRY056c6e190.mp3" type="audio/mpeg">
-    <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/PRY056c6e190.m4a" type="audio/mp4">
-    Dein Browser unterstützt das Audio-Format nicht.
-    </audio>
-    </div>
-    <div class="audio-block">
     <p class="audio-label">El Salvador:</p>
-    <span class="example">„Entonces <strong>vos</strong> cómo <strong>imaginás</strong> que eso puede ser posible.“ (SLVd96cd5aec)</span>
+    <div class="example">
+    „Entonces <strong>vos</strong> cómo <strong>imaginás</strong> que eso puede ser posible.“
+    <span class="token-id">(SLVd96cd5aec)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/SLVd96cd5aec.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/SLVd96cd5aec.m4a" type="audio/mp4">
@@ -78,8 +85,23 @@ Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 1:</p>
-    <span class="example">„Si te estás despertando, <strong>querés</strong> que te hablen despacito.“ (ARG0e9041c54)</span>
+    <h4>Paraguay:</h4>
+    <div class="example">
+    „¿Y <strong>vos</strong> <strong>sabés</strong> qué estoy leyendo?“
+    <span class="token-id">(PRY056c6e190)</span>
+    </div>
+    <audio controls preload="metadata">
+    <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/PRY056c6e190.mp3" type="audio/mpeg">
+    <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/PRY056c6e190.m4a" type="audio/mp4">
+    Dein Browser unterstützt das Audio-Format nicht.
+    </audio>
+    </div>
+    <div class="audio-block">
+    <h4>Argentinien, Bsp. 1:</h4>
+    <div class="example">
+    „Si te estás despertando, <strong>querés</strong> que te hablen despacito.“
+    <span class="token-id">(ARG0e9041c54)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG0e9041c54.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG0e9041c54.m4a" type="audio/mp4">
@@ -87,8 +109,11 @@ Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 2:</p>
-    <span class="example">„¿<strong>Tenés</strong> un presidente decorativo?“ (ARG161dd0304)</span>
+    <h4>Argentinien, Bsp. 2:</h4>
+    <div class="example">
+    „¿<strong>Tenés</strong> un presidente decorativo?“
+    <span class="token-id">(ARG161dd0304)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG161dd0304.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG161dd0304.m4a" type="audio/mp4">
@@ -96,8 +121,11 @@ Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Uruguay:</p>
-    <span class="example">„No es que <strong>vos</strong> <strong>podés</strong> elegir dormir en una ciudad y entrenar en otra.“ (URY0f1c01cd7)</span>
+    <h4>Uruguay:</h4>
+    <div class="example">
+    „No es que <strong>vos</strong> <strong>podés</strong> elegir dormir en una ciudad y entrenar en otra.“
+    <span class="token-id">(URY0f1c01cd7)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/URY0f1c01cd7.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/URY0f1c01cd7.m4a" type="audio/mp4">
@@ -105,8 +133,11 @@ Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Uruguay, Bsp. 2:</p>
-    <span class="example">„Las noticias y <strong>vos</strong> se encuentran en el Informativo Sarandí a las 7.“ (URY8b580411c)</span>
+    <h4>Uruguay, Bsp. 2:</h4>
+    <div class="example">
+    „Las noticias y <strong>vos</strong> se encuentran en el Informativo Sarandí a las 7.“
+    <span class="token-id">(URY8b580411c)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/URY8b580411c.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/URY8b580411c.m4a" type="audio/mp4">
@@ -117,17 +148,6 @@ Wenn vom *voseo* die Rede ist, wird dieser häufig mit Argentinien gleichgesetzt
 
     <p class="audio-source">Audios aus <a href="https://corapan.online.uni-marburg.de">CO.RA.PAN</a></p>
 
-Dieser Komplexität kann ein Lehrbuch kaum vollständig gerecht werden, doch lassen sich zumindest grob einige Typen von Anredesystemen im hispanoamerikanischen Spanisch unterscheiden – danach, wie groß die Rolle von *vos* in der Kommunikation ist und wie es sich zum Gebrauch von *tú* verhält.
-
-Der bekannteste, geradezu prototypische Vertreter des ersten Typs ist der Río de la Plata-Raum, insbesondere Argentinien und Uruguay. Hier ist *vos* die konkurrenzlose Vertrautheitsform und übernimmt die Funktion, die in anderen Varietäten *tú* erfüllt. *Tú* spielt demgegenüber praktisch keine Rolle in der Alltagskommunikation. Charakteristisch für diese Varietäten ist zudem, dass *vos* nicht nur in der gesprochenen Sprache, sondern auch in Medien, Werbung und in der geschriebenen Standardsprache verwendet wird. Gerade diese Standardnähe erklärt, warum der argentinische *voseo* international besonders präsent ist, ohne jedoch repräsentativ für alle Varietäten mit *voseo* zu sein.
-
-In einem zweiten Typ von Varietäten koexistieren *vos* und *tú* im Bereich des *trato de confianza*. Welche der beiden Formen verwendet wird, hängt stärker vom sozialen Kontext, von der Situation oder von regionalen Faktoren ab. In vielen Teilen Mittelamerikas, etwa in Guatemala, Honduras oder Nicaragua, ist *vos* im informellen Umgang unter Gleichaltrigen oder im Freundeskreis verbreitet (z.B. *¿vos querés venir?*). *Tú* kann in diesen Varietäten eine neutralere oder standardnähere Option darstellen und tritt etwa in schulischen oder institutionellen Kontexten häufiger auf. Die Wahl zwischen *vos* und *tú* folgt hier weniger festen Regeln als vielmehr sozialen Konventionen und Erwartungen.
-
-Ähnliche Koexistenzsysteme finden sich auch in anderen Regionen Hispanoamerikas, etwa in Teilen Kolumbiens oder Chiles. In Chile z.B. ist *vos* in vertrauten Kontexten durchaus präsent, kann jedoch je nach Situation als stärker umgangssprachlich oder sozial markiert wahrgenommen werden, während *tú* in neutraleren oder öffentlichkeitsnahen Kontexten bevorzugt wird. Solche Varietäten machen besonders deutlich, dass der *voseo* nicht einfach ‚vorhanden oder nicht vorhanden‘ ist, sondern innerhalb eines Systems unterschiedliche Funktionen übernehmen kann.
-
-Schließlich gibt es Regionen, in denen *vos* nur eine randständige oder regional begrenzte Rolle spielt. In diesen Varietäten wird der Nähebereich primär über *tú* organisiert, während *vos* allenfalls in bestimmten ländlichen Gebieten oder als regional gefärbte Form auftritt und im öffentlichen oder standardnahen Sprachgebrauch oft vermieden wird.
-
-Insgesamt zeigt sich damit, dass der *voseo* zwar in weiten Teilen Hispanoamerikas verbreitet ist, jedoch sehr unterschiedlich in die jeweiligen Anredesysteme eingebunden ist. Während *vos* in manchen Regionen die unmarkierte Standardform des *trato de confianza* darstellt, koexistiert es andernorts mit *tú* oder spielt nur eine untergeordnete Rolle. Gerade diese Vielfalt erklärt, warum die Gleichsetzung von *vos* mit Argentinien zu kurz greift.
 
 ## Pluralanrede: *vosotros* vs. *ustedes*
 
@@ -162,14 +182,27 @@ Die Betrachtung der Anredeformen zeigt, dass das Spanische über keine einheitli
 
     Ziel ist nicht, alle Systeme aktiv zu beherrschen, sondern sie zu kennen, einzuordnen und in authentischen Begegnungen souverän damit umzugehen.
 
-??? weiterlesen "Wer mehr wissen will"
-    *[Literaturhinweise werden ergänzt.]*
+??? weiterlesen "Wer mehr wissen will …"
+    Einen umfassenden Überblick über die Anredesysteme des Spanischen bietet die *Nueva gramática de la lengua española* (RAE / ASALE 2009–2011; aktualisierte Ausgabe 2025). Sie beschreibt die Verteilung von *tú*, *vos* und *usted* sowie von *vosotros* und *ustedes* im gesamten spanischsprachigen Raum und dokumentiert auch regionale Unterschiede in den zugehörigen Verbformen.
+
+    Für die variationslinguistische Forschung zu Anredeformen gilt der Sammelband *Formas y fórmulas de tratamiento en el mundo hispánico* (Hummel / Kluge / Vázquez Laslop 2010) als zentrale Referenz. Er versammelt Studien zu den verschiedenen Systemen von *tuteo*, *voseo* und *ustedeo* in Europa und Amerika und zeigt, wie stark Anredeformen von regionalen Traditionen, sozialen Beziehungen und situativen Kontexten abhängen. Historische Grundlagenarbeiten zum *voseo* und zur Entwicklung der spanischen Anredesysteme finden sich bereits bei Fontanella de Weinberg (z.B. 1976, 1999), deren Studien bis heute häufig als Referenz dienen. Neuere diachrone Perspektiven bieten etwa die Beiträge im Sammelband *Address in Portuguese and Spanish. Studies in Diachrony and Diachronic Reconstruction* (Hummel / Lopes 2020), der die historische Entwicklung der Anredesysteme im Spanischen und Portugiesischen vergleichend untersucht.
+
+    Für den Unterricht stellt sich weniger die Frage nach der vollständigen Beschreibung aller Varianten als nach einem reflektierten Umgang mit Variation. Arbeiten zur Varietätenvermittlung im Spanischunterricht – etwa im Band *Varietäten des Spanischen im Fremdsprachenunterricht* (Leitzke-Ungerer / Polzin-Haumann 2017) – zeigen, dass Lehrwerke häufig nur einen Teil der Anredevariation abbilden und dass Lehrkräfte daher eigene Entscheidungen über Zielvarietät und Variantenbehandlung treffen müssen. Beiträge aus der ELE-Didaktik (z.B. Navarro Gala 2000; Potvin 2022) plädieren deshalb dafür, Anredeformen nicht nur als grammatische Paradigmen zu behandeln, sondern ihre regionale Verteilung und pragmatische Bedeutung transparent zu machen.
 
 ## Literatur
 
 <div class="literatur" markdown="1">
 
-*[Literatur wird ergänzt.]*
+* Fontanella de Weinberg, María Beatriz (1976): *El voseo en la historia social de la lengua española.* México: Universidad Nacional Autónoma de México.
+* Fontanella de Weinberg, María Beatriz (1999): „Sistemas pronominales de tratamiento usados en el mundo hispánico“. In: Bosque, Ignacio / Demonte, Violeta (Hg.): *Gramática descriptiva de la lengua española.* Bd. 1. Madrid: Espasa, 1399–1425.
+* Hummel, Martin / Kluge, Bettina / Vázquez Laslop, María Eugenia (Hg.) (2010): *Formas y fórmulas de tratamiento en el mundo hispánico.* México / Graz: El Colegio de México / Karl-Franzens-Universität Graz.
+* Hummel, Martin / Lopes, Célia Regina dos Santos (Hg.) (2020): *Address in Portuguese and Spanish. Studies in Diachrony and Diachronic Reconstruction.* Berlin / Boston: De Gruyter.
+  DOI: [https://doi.org/10.1515/9783110701234](https://doi.org/10.1515/9783110701234)
+* Leitzke-Ungerer, Eva / Polzin-Haumann, Claudia (Hg.) (2017): *Varietäten des Spanischen im Fremdsprachenunterricht. Ihre Rolle in Schule, Hochschule, Lehrerbildung und Sprachenzertifikaten.* Stuttgart: ibidem.
+* Navarro Gala, Rosario (2000): „Una propuesta teórico-práctica para la enseñanza de las formas de tratamiento de segunda persona en las clases de ELE“. In: Martín Zorraquino, María Antonia / Díez Pellegrín, Cristina (Hg.): *¿Qué español enseñar? Norma y variación lingüísticas en la enseñanza del español a extranjeros.* Zaragoza: Universidad de Zaragoza, 551–558.
+* Potvin, Cynthia (2022): „Tuteo, voseo y ustedeo en los manuales de ELE: estado de la cuestión“. *MarcoELE. Revista de Didáctica ELE* 34, 1–22.
+* Real Academia Española / Asociación de Academias de la Lengua Española (2009–2011): *Nueva gramática de la lengua española.* 3 Bde. Madrid: Espasa.
+  — (2025): *Nueva gramática de la lengua española.* Nueva edición actualizada. Madrid: Espasa.
 
 </div>
 

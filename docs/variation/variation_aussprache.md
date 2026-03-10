@@ -40,8 +40,11 @@ Als Lehrkraft trifft man zwangsläufig eine Entscheidung – aber sie sollte bew
 
     <div class="audio-grid">
     <div class="audio-block">
-    <p class="audio-label">Mexiko:</p>
-    <span class="example">„(...) esta mujer que se hi<strong>z</strong>o famosa en 2017 gra<strong>c</strong>ias a un video que se hi<strong>z</strong>o viral.“ (MEXb80def27c)</span>
+    <h4>Mexiko:</h4>
+    <div class="example">
+    „(...) esta mujer que se hi<strong>z</strong>o famosa en 2017 gra<strong>c</strong>ias a un video que se hi<strong>z</strong>o viral.“
+    <span class="token-id">(MEXb80def27c)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/MEXc5bc0.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/MEXc5bc0.m4a" type="audio/mp4">
@@ -49,8 +52,11 @@ Als Lehrkraft trifft man zwangsläufig eine Entscheidung – aber sie sollte bew
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Costa Rica:</p>
-    <span class="example">„Gana una <strong>c</strong>ena para cuatro personas (...)“ (CRI61d9dc2dc)</span>
+    <h4>Costa Rica:</h4>
+    <div class="example">
+    „Gana una <strong>c</strong>ena para cuatro personas (...)"
+    <span class="token-id">(CRI61d9dc2dc)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CRce1ef.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CRce1ef.m4a" type="audio/mp4">
@@ -58,8 +64,11 @@ Als Lehrkraft trifft man zwangsläufig eine Entscheidung – aber sie sollte bew
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Chile:</p>
-    <span class="example">„Se ve espectacular y está más <strong>c</strong>erca.“ (CHL8b78ac16b)</span>
+    <h4>Chile:</h4>
+    <div class="example">
+    „Se ve espectacular y está más <strong>c</strong>erca.“
+    <span class="token-id">(CHL8b78ac16b)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHI052bc.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHI052bc.m4a" type="audio/mp4">
@@ -67,8 +76,11 @@ Als Lehrkraft trifft man zwangsläufig eine Entscheidung – aber sie sollte bew
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien:</p>
-    <span class="example">„(...) <strong>c</strong>erca de Miami.“ (ARGCBAeca46a987)</span>
+    <h4>Argentinien:</h4>
+    <div class="example">
+    „(...) <strong>c</strong>erca de Miami.“
+    <span class="token-id">(ARGCBAeca46a987)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG-Cba2154c.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG-Cba2154c.m4a" type="audio/mp4">
@@ -76,8 +88,11 @@ Als Lehrkraft trifft man zwangsläufig eine Entscheidung – aber sie sollte bew
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Spanien, Bsp. 1:</p>
-    <span class="example">„(...) los que conectan la propia capital con Gali<strong>c</strong>ia, Bar<strong>c</strong>elona o <strong>Z</strong>arago<strong>z</strong>a y el resto del corredor del Levante.“ (ESPf05b1f805)</span>
+    <h4>Spanien, Bsp. 1:</h4>
+    <div class="example">
+    „(...) los que conectan la propia capital con Gali<strong>c</strong>ia, Bar<strong>c</strong>elona o <strong>Z</strong>arago<strong>z</strong>a y el resto del corredor del Levante.“
+    <span class="token-id">(ESPf05b1f805)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-MADaa126.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-MADaa126.m4a" type="audio/mp4">
@@ -85,8 +100,11 @@ Als Lehrkraft trifft man zwangsläufig eine Entscheidung – aber sie sollte bew
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Spanien, Bsp. 2:</p>
-    <span class="example">„El pla<strong>z</strong>o para ha<strong>c</strong>erlo acaba el tre<strong>c</strong>e de septiembre.“ (ESPf1a6cf8f9)</span>
+    <h4>Spanien, Bsp. 2:</h4>
+    <div class="example">
+    „El pla<strong>z</strong>o para ha<strong>c</strong>erlo acaba el tre<strong>c</strong>e de septiembre.“
+    <span class="token-id">(ESPf1a6cf8f9)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-MAD759f8.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-MAD759f8.m4a" type="audio/mp4">
@@ -116,8 +134,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
 
     <div class="audio-grid">
     <div class="audio-block">
-    <p class="audio-label">Spanien:</p>
-    <span class="example">„Se <strong>ll</strong>amaba Raquel, tenía 54 años y su cuerpo ha aparecido en un domicilio de Vi<strong>ll</strong>albi<strong>ll</strong>a.“ (ESP468f8cda7)</span>
+    <h4>Spanien:</h4>
+    <div class="example">
+    „Se <strong>ll</strong>amaba Raquel, tenía 54 años y su cuerpo ha aparecido en un domicilio de Vi<strong>ll</strong>albi<strong>ll</strong>a.“
+    <span class="token-id">(ESP468f8cda7)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-MAD7d2fe.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-MAD7d2fe.m4a" type="audio/mp4">
@@ -125,8 +146,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Nicaragua:</p>
-    <span class="example">„(...) estamos experimentando este tipo de <strong>ll</strong>uvias en distintas partes del país (...)“ (NIC9cc4332e7)</span>
+    <h4>Nicaragua:</h4>
+    <div class="example">
+    „(...) estamos experimentando este tipo de <strong>ll</strong>uvias en distintas partes del país (...)"
+    <span class="token-id">(NIC9cc4332e7)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/NICa941c.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/NICa941c.m4a" type="audio/mp4">
@@ -134,8 +158,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Chile:</p>
-    <span class="example">„Todos los deta<strong>ll</strong>es los conocemos con Daniela Forero Ortiz.“ (CHLcca547c4d)</span>
+    <h4>Chile:</h4>
+    <div class="example">
+    „Todos los deta<strong>ll</strong>es los conocemos con Daniela Forero Ortiz.“
+    <span class="token-id">(CHLcca547c4d)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHIf24b4.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHIf24b4.m4a" type="audio/mp4">
@@ -143,8 +170,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Peru:</p>
-    <span class="example">„En RPP nos sentimos orgu<strong>ll</strong>osos de nuestros líderes (...).“ (PERfb855ad5f)</span>
+    <h4>Peru:</h4>
+    <div class="example">
+    „En RPP nos sentimos orgu<strong>ll</strong>osos de nuestros líderes (...).“
+    <span class="token-id">(PERfb855ad5f)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/PER44938.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/PER44938.m4a" type="audio/mp4">
@@ -152,8 +182,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 1:</p>
-    <span class="example">„El sábado 22 de abril, <strong>ll</strong>egó la policía.“ (ARG4b08885ac)</span>
+    <h4>Argentinien, Bsp. 1:</h4>
+    <div class="example">
+    „El sábado 22 de abril, <strong>ll</strong>egó la policía.“
+    <span class="token-id">(ARG4b08885ac)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG90e51.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG90e51.m4a" type="audio/mp4">
@@ -161,8 +194,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 2:</p>
-    <span class="example">„(...) gente que nos <strong>ll</strong>ena de orgu<strong>ll</strong>o (...)“ (ARG83d8dcded)</span>
+    <h4>Argentinien, Bsp. 2:</h4>
+    <div class="example">
+    „(...) gente que nos <strong>ll</strong>ena de orgu<strong>ll</strong>o (...)"
+    <span class="token-id">(ARG83d8dcded)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARGa2403.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARGa2403.m4a" type="audio/mp4">
@@ -170,8 +206,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 3:</p>
-    <span class="example">„Friedrich Merz es el próximo canci<strong>ll</strong>er alemán (...)“ (ARG6f0773898)</span>
+    <h4>Argentinien, Bsp. 3:</h4>
+    <div class="example">
+    „Friedrich Merz es el próximo canci<strong>ll</strong>er alemán (...)"
+    <span class="token-id">(ARG6f0773898)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG4a55e.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG4a55e.m4a" type="audio/mp4">
@@ -179,8 +218,11 @@ Je nach Region klingt der *yeísmo* unterschiedlich: In Mexiko oder Kolumbien h�
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 4:</p>
-    <span class="example">„Bueno, mañana también está previsto que <strong>ll</strong>ueva todo el día, mañana miércoles (...)“ (ARG976a70db8)</span>
+    <h4>Argentinien, Bsp. 4:</h4>
+    <div class="example">
+    „Bueno, mañana también está previsto que <strong>ll</strong>ueva todo el día, mañana miércoles (...)"
+    <span class="token-id">(ARG976a70db8)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG5e590.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG5e590.m4a" type="audio/mp4">
@@ -219,8 +261,11 @@ Dabei ist zu berücksichtigen, dass die Abschwächung heute in vielen dieser Geb
 
     <div class="audio-grid">
     <div class="audio-block">
-    <p class="audio-label">Chile, Bsp. 1:</p>
-    <span class="example">„(...) revisamo<strong>s</strong> alguna<strong>s</strong> de la<strong>s</strong> informacione<strong>s</strong> internacionale<strong>s</strong> que han marcado la<strong>s</strong> última<strong>s</strong> hora<strong>s</strong> (...)“ (CHL70dd886f7)</span>
+    <h4>Chile, Bsp. 1:</h4>
+    <div class="example">
+    „(...) revisamo<strong>s</strong> alguna<strong>s</strong> de la<strong>s</strong> informacione<strong>s</strong> internacionale<strong>s</strong> que han marcado la<strong>s</strong> última<strong>s</strong> hora<strong>s</strong> (...)"
+    <span class="token-id">(CHL70dd886f7)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHI124b8.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHI124b8.m4a" type="audio/mp4">
@@ -228,8 +273,11 @@ Dabei ist zu berücksichtigen, dass die Abschwächung heute in vielen dieser Geb
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Chile, Bsp. 2:</p>
-    <span class="example">„Cinco delincuente<strong>s</strong>, todo<strong>s</strong> menore<strong>s</strong> de edad, serían lo<strong>s</strong> re<strong>s</strong>ponsable<strong>s</strong> de e<strong>s</strong>ta agresión.“ (CHL677fe3caa)</span>
+    <h4>Chile, Bsp. 2:</h4>
+    <div class="example">
+    „Cinco delincuente<strong>s</strong>, todo<strong>s</strong> menore<strong>s</strong> de edad, serían lo<strong>s</strong> re<strong>s</strong>ponsable<strong>s</strong> de e<strong>s</strong>ta agresión.“
+    <span class="token-id">(CHL677fe3caa)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHI4b4dd.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/CHI4b4dd.m4a" type="audio/mp4">
@@ -237,8 +285,11 @@ Dabei ist zu berücksichtigen, dass die Abschwächung heute in vielen dieser Geb
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 1:</p>
-    <span class="example">„(...) para las má<strong>s</strong> pre<strong>s</strong>tigiosa<strong>s</strong> marca<strong>s</strong> y a iluminar la<strong>s</strong> portada<strong>s</strong> de revi<strong>s</strong>ta<strong>s</strong> de moda internacionale<strong>s</strong>.“ (ARG6b4b5aaa0)</span>
+    <h4>Argentinien, Bsp. 1:</h4>
+    <div class="example">
+    „(...) para las má<strong>s</strong> pre<strong>s</strong>tigiosa<strong>s</strong> marca<strong>s</strong> y a iluminar la<strong>s</strong> portada<strong>s</strong> de revi<strong>s</strong>ta<strong>s</strong> de moda internacionale<strong>s</strong>.“
+    <span class="token-id">(ARG6b4b5aaa0)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG1a934.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG1a934.m4a" type="audio/mp4">
@@ -246,8 +297,11 @@ Dabei ist zu berücksichtigen, dass die Abschwächung heute in vielen dieser Geb
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Argentinien, Bsp. 2:</p>
-    <span class="example">„Mucho<strong>s</strong> de lo<strong>s</strong> votante<strong>s</strong> de Javier Milei no e<strong>s</strong>tán de acuerdo con su negacioni<strong>s</strong>mo del cambio climático (...)“ (ARGad0b6f8c6)</span>
+    <h4>Argentinien, Bsp. 2:</h4>
+    <div class="example">
+    „Mucho<strong>s</strong> de lo<strong>s</strong> votante<strong>s</strong> de Javier Milei no e<strong>s</strong>tán de acuerdo con su negacioni<strong>s</strong>mo del cambio climático (...)"
+    <span class="token-id">(ARGad0b6f8c6)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG7a5fc.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ARG7a5fc.m4a" type="audio/mp4">
@@ -255,8 +309,11 @@ Dabei ist zu berücksichtigen, dass die Abschwächung heute in vielen dieser Geb
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Kanaren (Spanien), Bsp. 1:</p>
-    <span class="example">„(...) el reparto de lo<strong>s</strong> menore<strong>s</strong> no acompañado<strong>s</strong> entre toda<strong>s</strong> la<strong>s</strong> comunidade<strong>s</strong> autónoma<strong>s</strong> (...)“ (ESPCANdd7e69c6a)</span>
+    <h4>Kanaren (Spanien), Bsp. 1:</h4>
+    <div class="example">
+    „(...) el reparto de lo<strong>s</strong> menore<strong>s</strong> no acompañado<strong>s</strong> entre toda<strong>s</strong> la<strong>s</strong> comunidade<strong>s</strong> autónoma<strong>s</strong> (...)"
+    <span class="token-id">(ESPCANdd7e69c6a)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-CAN3a6b4.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-CAN3a6b4.m4a" type="audio/mp4">
@@ -264,8 +321,11 @@ Dabei ist zu berücksichtigen, dass die Abschwächung heute in vielen dieser Geb
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Kanaren (Spanien), Bsp. 2:</p>
-    <span class="example">„Ademá<strong>s</strong>, la<strong>s</strong> temperatura<strong>s</strong> media<strong>s</strong> que han llegado a ser de un grado y (...)“ (ESPCAN27f974cca)</span>
+    <h4>Kanaren (Spanien), Bsp. 2:</h4>
+    <div class="example">
+    „Ademá<strong>s</strong>, la<strong>s</strong> temperatura<strong>s</strong> media<strong>s</strong> que han llegado a ser de un grado y (...)"
+    <span class="token-id">(ESPCAN27f974cca)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-CANe8498.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ES-CANe8498.m4a" type="audio/mp4">
@@ -286,8 +346,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
 
     <div class="audio-grid">
     <div class="audio-block">
-    <p class="audio-label">Mexiko, Bsp. 1:</p>
-    <span class="example">„Ha<strong>s</strong>ta aquí lo<strong>s</strong> e<strong>s</strong>pectáculo<strong>s</strong>, regresamo<strong>s</strong> al e<strong>s</strong>tudio.“ (MEXeb9444db6)</span>
+    <h4>Mexiko, Bsp. 1:</h4>
+    <div class="example">
+    „Ha<strong>s</strong>ta aquí lo<strong>s</strong> e<strong>s</strong>pectáculo<strong>s</strong>, regresamo<strong>s</strong> al e<strong>s</strong>tudio.“
+    <span class="token-id">(MEXeb9444db6)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/MEXa9322.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/MEXa9322.m4a" type="audio/mp4">
@@ -295,8 +358,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Mexiko, Bsp. 2:</p>
-    <span class="example">„¿Quiere<strong>s</strong> anunciarte en e<strong>s</strong>te y en mucho<strong>s</strong> otro<strong>s</strong> podca<strong>s</strong>t<strong>s</strong>?“ (MEX2c8baf584)</span>
+    <h4>Mexiko, Bsp. 2:</h4>
+    <div class="example">
+    „¿Quiere<strong>s</strong> anunciarte en e<strong>s</strong>te y en mucho<strong>s</strong> otro<strong>s</strong> podca<strong>s</strong>t<strong>s</strong>?“
+    <span class="token-id">(MEX2c8baf584)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/MEX23a52.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/MEX23a52.m4a" type="audio/mp4">
@@ -304,8 +370,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Kolumbien, Bsp. 1:</p>
-    <span class="example">„Queremo<strong>s</strong> que e<strong>s</strong>té<strong>s</strong> informado en todo momento.“ (COL85d7dd9c5)</span>
+    <h4>Kolumbien, Bsp. 1:</h4>
+    <div class="example">
+    „Queremo<strong>s</strong> que e<strong>s</strong>té<strong>s</strong> informado en todo momento.“
+    <span class="token-id">(COL85d7dd9c5)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/COL3a2b4.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/COL3a2b4.m4a" type="audio/mp4">
@@ -313,8 +382,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Kolumbien, Bsp. 2:</p>
-    <span class="example">„La ONU e<strong>s</strong>tá pidiendo la inve<strong>s</strong>tigación internacional sobre la<strong>s</strong> vulneracione<strong>s</strong> a lo<strong>s</strong> derecho<strong>s</strong> humano<strong>s</strong> en la guerra entre Hama<strong>s</strong> e I<strong>s</strong>rael.“ (COL67ae8c87e)</span>
+    <h4>Kolumbien, Bsp. 2:</h4>
+    <div class="example">
+    „La ONU e<strong>s</strong>tá pidiendo la inve<strong>s</strong>tigación internacional sobre la<strong>s</strong> vulneracione<strong>s</strong> a lo<strong>s</strong> derecho<strong>s</strong> humano<strong>s</strong> en la guerra entre Hama<strong>s</strong> e I<strong>s</strong>rael.“
+    <span class="token-id">(COL67ae8c87e)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/COL807c6.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/COL807c6.m4a" type="audio/mp4">
@@ -322,8 +394,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Ecuador, Bsp. 1:</p>
-    <span class="example">„Li<strong>s</strong>to<strong>s</strong>, entonce<strong>s</strong>, para llevarle<strong>s</strong> a u<strong>s</strong>tede<strong>s</strong> toda<strong>s</strong> las noticia<strong>s</strong> del Ecuador y del mundo.“ (ECU6a890d14d)</span>
+    <h4>Ecuador, Bsp. 1:</h4>
+    <div class="example">
+    „Li<strong>s</strong>to<strong>s</strong>, entonce<strong>s</strong>, para llevarle<strong>s</strong> a u<strong>s</strong>tede<strong>s</strong> toda<strong>s</strong> las noticia<strong>s</strong> del Ecuador y del mundo.“
+    <span class="token-id">(ECU6a890d14d)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ECU73261.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ECU73261.m4a" type="audio/mp4">
@@ -331,8 +406,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Ecuador, Bsp. 2:</p>
-    <span class="example">„Lo<strong>s</strong> di<strong>s</strong>paro<strong>s</strong> se e<strong>s</strong>cucharon mientra<strong>s</strong> Trump e<strong>s</strong>taba criticando la migración ilegal.“ (ECU73ad76bb5)</span>
+    <h4>Ecuador, Bsp. 2:</h4>
+    <div class="example">
+    „Lo<strong>s</strong> di<strong>s</strong>paro<strong>s</strong> se e<strong>s</strong>cucharon mientra<strong>s</strong> Trump e<strong>s</strong>taba criticando la migración ilegal.“
+    <span class="token-id">(ECU73ad76bb5)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ECU46847.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/ECU46847.m4a" type="audio/mp4">
@@ -340,8 +418,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Bolivien, Bsp. 1:</p>
-    <span class="example">„Bienvenido<strong>s</strong> a la<strong>s</strong> noticia<strong>s</strong> de la hora.“ (BOL3c25ed786)</span>
+    <h4>Bolivien, Bsp. 1:</h4>
+    <div class="example">
+    „Bienvenido<strong>s</strong> a la<strong>s</strong> noticia<strong>s</strong> de la hora.“
+    <span class="token-id">(BOL3c25ed786)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/BOLc1dbc.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/BOLc1dbc.m4a" type="audio/mp4">
@@ -349,8 +430,11 @@ Die Hochlandregionen hingegen – Mexiko-Stadt, Bogotá, Quito, La Paz – zeich
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Bolivien, Bsp. 2:</p>
-    <span class="example">„(...) un bochorno que pasaría a la hi<strong>s</strong>toria del abuso de la ju<strong>s</strong>ticia con<strong>s</strong>titucional.“ (BOL1d4225d5f)</span>
+    <h4>Bolivien, Bsp. 2:</h4>
+    <div class="example">
+    „(...) un bochorno que pasaría a la hi<strong>s</strong>toria del abuso de la ju<strong>s</strong>ticia con<strong>s</strong>titucional.“
+    <span class="token-id">(BOL1d4225d5f)</span>
+    </div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/BOLe17df.mp3" type="audio/mpeg">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/corapan/BOLe17df.m4a" type="audio/mp4">

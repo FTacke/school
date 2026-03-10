@@ -101,16 +101,16 @@ Ein besonders anschaulicher Fall betrifft die Aussprache des Graphems `<eu>`. De
     <div class="audio-comparison">
     <div class="audio-pair">
     <div class="audio-block">
-    <p class="audio-label">Zielaussprache:</p>
-    <span class="example-ipa">[ew.ˈɾo.pa]</span>
+    <h4>Zielaussprache:</h4>
+    <div class="example-ipa">[ew.ˈɾo.pa]</div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/marele/europa_l1.mp3" type="audio/mpeg">
     Dein Browser unterstützt das Audio-Format nicht.
     </audio>
     </div>
     <div class="audio-block">
-    <p class="audio-label">Lernendenaussprache:</p>
-    <span class="example-ipa">&#42;[ɔɪ.ˈɾo.pa]</span>
+    <h4>Lernendenaussprache:</h4>
+    <div class="example-ipa">&#42;[ɔɪ.ˈɾo.pa]</div>
     <audio controls preload="metadata">
     <source class="zc-audio-src" data-zc-src="assets/audiofiles/promat/europa_ele.mp3" type="audio/mpeg">
     Dein Browser unterstützt das Audio-Format nicht.
