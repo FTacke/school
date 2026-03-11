@@ -119,13 +119,16 @@
   line-height: var(--cover-base-lh);
 }
 
-.md-sidebar {
-  align-self: flex-start;
-  flex-shrink: 0;
-  padding: 1.1rem 0;
-  position: sticky;
-  top: 2.4rem;
-  width: 12.5rem;
+/* .md-sidebar nur für Desktop, wo die Sidebar permanent sichtbar ist */
+@media (min-width: 1216px) {
+  .md-sidebar {
+    align-self: flex-start;
+    flex-shrink: 0;
+    padding: 1.1rem 0;
+    position: sticky;
+    top: 2.4rem;
+    width: 13rem;
+  }
 }
 
 /* 3) Admonition chrome aus (Zensical/Material safe) */
