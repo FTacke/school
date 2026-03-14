@@ -1,107 +1,110 @@
 // docs/assets/javascripts/map.js
+// Herkunftssprachen-Karte.
 
-// --- Vollbild-Handling & Map für Herkunftssprachen ---
-// Initialisiert nur, wenn die Seite ein entsprechendes data-map="herkunft" Container hat
+(function () {
+  const MAP_TYPE = 'herkunft';
+  const DATA_PATH = 'assets/data/herkunftssprachen.json';
 
-function initHerkunftMap() {
-  const herkunftContainer = document.querySelector('[data-map="herkunft"]');
-  
-  if (!herkunftContainer) {
-    return; // Kein Container auf dieser Seite
+  function isCoordinatePair(value) {
+    return Array.isArray(value) && value.length === 2 && value.every((item) => typeof item === 'number');
   }
 
-  // Verhindere doppelte Initialisierung
-  if (window.MapUI && window.MapUI.isMapInitialized(herkunftContainer)) {
-    return;
+  function normalizeLanguageItem(raw) {
+    return {
+      title: raw.sprache ?? '',
+      family: raw.sprachfamilie ?? '',
+      origins: Array.isArray(raw.herkunft) ? raw.herkunft : [],
+      points: Array.isArray(raw.koordinaten) ? raw.koordinaten.filter(isCoordinatePair) : [],
+      markerOptions: {
+        color: raw.farbe,
+        fillColor: raw.farbe,
+        radius: 8,
+        fillOpacity: 0.7,
+        weight: 2
+      }
+    };
   }
 
-  function toggleFullscreen() {
-    const container = herkunftContainer;
-    const btn = container.querySelector('#fullscreen-btn');
-    container.classList.toggle('fullscreen');
-    btn.innerHTML = container.classList.contains('fullscreen')
-      ? '<span class="material-icons">fullscreen_exit</span>'
-      : '<span class="material-icons">fullscreen</span>';
-    if (window.herkunftMap) setTimeout(() => window.herkunftMap.invalidateSize(), 350);
+  function buildPopupHtml(item, index) {
+    return `
+      <div class="popup-sprachenkarte">
+        <span class="popup-title">${item.title}</span>
+        <span class="popup-familie">${item.family}</span>
+        <div class="popup-herkunft">${item.origins[index] ?? ''}</div>
+      </div>`;
   }
 
-  // Expose toggle to global scope for the button onclick
-  window.toggleFullscreen = toggleFullscreen;
-
-  // --- Leaflet Map ---
-  const mapEl = herkunftContainer.querySelector('#mapid');
-  if (mapEl) {
-    const map = L.map(mapEl).setView([45, 15], 3);
-    window.herkunftMap = map;
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  function createTileLayer() {
+    return L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a>'
-    }).addTo(map);
+    });
+  }
 
-    // Aktiviere UX-Funktionen (Popup-Schließen, Responsive Invalidation)
+  function initContainer(container) {
+    if (!container || (window.MapUI && window.MapUI.isMapInitialized(container))) {
+      return;
+    }
+
+    const mapCanvas = container.querySelector('.book-map__canvas');
+    const fullscreenButton = container.querySelector('.book-map__control--fullscreen');
+
+    if (!mapCanvas) {
+      return;
+    }
+
+    const map = L.map(mapCanvas).setView([45, 15], 3);
+    createTileLayer().addTo(map);
+
     if (window.MapUI) {
       window.MapUI.enablePopupCloseUX(map);
       window.MapUI.enableResponsiveInvalidation(map);
+      window.MapUI.enableFullscreenUI(container, map, fullscreenButton);
+      window.MapUI.markMapInitialized(container);
     }
 
-    // Daten laden und Marker setzen
-    const base = window.ZENSICAL_BASE_PATH || "/";
-    fetch(base + 'assets/data/herkunftssprachen.json')
-      .then(r => r.json())
-      .then(sprachen => {
+    const base = window.ZENSICAL_BASE_PATH || '/';
+    fetch(`${base}${DATA_PATH}`)
+      .then((response) => response.json())
+      .then((entries) => {
         const bounds = L.latLngBounds([]);
 
-        sprachen.forEach(eintrag => {
-          (eintrag.koordinaten || []).forEach((coord, i) => {
-            if (!coord || coord.length !== 2) return;
-            
-            const marker = L.circleMarker(coord, {
-              color: eintrag.farbe,
-              radius: 8,
-              fillOpacity: 0.7,
-              weight: 2
-            }).addTo(map);
+        entries.map(normalizeLanguageItem).forEach((item) => {
+          item.points.forEach((point, index) => {
+            const marker = L.circleMarker(point, item.markerOptions).addTo(map);
+            const popupHtml = buildPopupHtml(item, index);
 
-            const popupHtml = `
-              <div class="popup-sprachenkarte">
-                <span class="popup-title">${eintrag.sprache}</span><br>
-                <span class="popup-familie">${eintrag.sprachfamilie}</span><br>
-                <div class="popup-herkunft">${eintrag.herkunft?.[i] ?? ''}</div>
-              </div>`;
-
-            // Nutze MapUI für konsistentes Click-Popup-Verhalten
             if (window.MapUI) {
               window.MapUI.bindClickPopup(map, marker, popupHtml, 'corapan-popup');
             } else {
-              // Fallback wenn MapUI nicht geladen
               marker.bindPopup(popupHtml);
             }
 
-            bounds.extend(coord);
+            bounds.extend(point);
           });
         });
 
-        if (bounds.isValid()) map.fitBounds(bounds.pad(0.1));
+        if (bounds.isValid()) {
+          map.fitBounds(bounds.pad(0.1));
+        }
       })
-      .catch(err => console.error('Fehler beim Laden der Herkunftssprachen-Daten:', err));
-
-    // Markiere als initialisiert
-    if (window.MapUI) {
-      window.MapUI.markMapInitialized(herkunftContainer);
-    }
+      .catch((error) => {
+        console.error('Fehler beim Laden der Herkunftssprachen-Daten:', error);
+      });
   }
-}
 
-// Initialisiere bei DOMContentLoaded
-if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initHerkunftMap);
-} else {
-  initHerkunftMap();
-}
+  function initHerkunftMaps() {
+    document.querySelectorAll(`.book-map[data-map="${MAP_TYPE}"]`).forEach(initContainer);
+  }
 
-// Material for MkDocs: Instant Navigation Support
-if (typeof document$ !== 'undefined') {
-  document$.subscribe(() => {
-    initHerkunftMap();
-  });
-}
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initHerkunftMaps);
+  } else {
+    initHerkunftMaps();
+  }
+
+  if (typeof document$ !== 'undefined') {
+    document$.subscribe(() => {
+      initHerkunftMaps();
+    });
+  }
+})();

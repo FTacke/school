@@ -76,9 +76,9 @@ extra_css = [
   "assets/styles/10_typography.css",
   "assets/styles/20_book.css",
   "assets/styles/30_components.css",
-  "assets/styles/40_custom.css",
   "https://unpkg.com/leaflet/dist/leaflet.css",
-  "https://fonts.googleapis.com/icon?family=Material+Icons",
+  "assets/styles/40_custom.css",
+  "assets/styles/50_map.css",
 ]
 
 # With the `extra_javascript` option you can add your own JavaScript to your

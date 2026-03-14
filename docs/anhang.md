@@ -7,11 +7,13 @@ Die Karte und die Tabelle zeigen die Zahl der spanischen Muttersprachlerinnen un
 
 
 
-<div id="map-container" data-map="variation">
-  <button id="fullscreen-btn" onclick="toggleFullscreenVariation()">
-    <span class="material-icons">fullscreen</span>
-  </button>
-  <div id="mapid"></div>
+<div class="book-map" data-map="variation">
+  <div class="book-map__canvas"></div>
+  <button
+    type="button"
+    class="book-map__control book-map__control--fullscreen"
+    aria-label="Karte im Vollbild öffnen"
+    aria-pressed="false"></button>
 </div>
 > Legende: Die Punktgröße steht für die Anzahl der Sprecher:innen (nur „Grupo de Dominio Nativo“), die Farbintensität für deren prozentualen Anteil an der Gesamtzahl weltweit.
   

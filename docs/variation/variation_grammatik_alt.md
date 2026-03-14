@@ -65,11 +65,13 @@ Trotz der beschriebenen Unterschiede gibt es Verwendungen des *Perfecto Compuest
 
 Diese gemeinsamen Verwendungen zeigen, dass das *Perfecto Compuesto* auch dort, wo andere Vergangenheitsformen dominieren, feste und klar umrissene Funktionen behält.
 
-<div id="map-container" data-map="variation_tempora">
-  <button id="fullscreen-btn" onclick="toggleFullscreenTempora()">
-    <span class="material-icons">fullscreen</span>
-  </button>
-  <div id="mapid"></div>
+<div class="book-map" data-map="variation_tempora">
+  <div class="book-map__canvas"></div>
+  <button
+    type="button"
+    class="book-map__control book-map__control--fullscreen"
+    aria-label="Karte im Vollbild öffnen"
+    aria-pressed="false"></button>
 </div>
 
 #### Variation als Normalfall

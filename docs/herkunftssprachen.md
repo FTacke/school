@@ -28,11 +28,13 @@ Unter den am häufigsten in Deutschland gesprochenen Herkunftssprachen befinden 
 
 Die folgende Karte gibt einen geographischen Überblick:
 
-<div id="map-container" data-map="herkunft">
-  <button id="fullscreen-btn" onclick="toggleFullscreen()">
-    <span class="material-icons">fullscreen</span>
-  </button>
-  <div id="mapid"></div>
+<div class="book-map" data-map="herkunft">
+    <div class="book-map__canvas"></div>
+    <button
+        type="button"
+        class="book-map__control book-map__control--fullscreen"
+        aria-label="Karte im Vollbild öffnen"
+        aria-pressed="false"></button>
 </div>
 
 Die geographische Nähe oder Distanz sagt jedoch nur bedingt etwas über die sprachstrukturelle ‚Nähe‘ aus. In der folgenden Tabelle haben wir daher ‚Nähe‘ zum Spanischen als unserer Zielsprache im Sinne der Verwandtschaft der Sprachfamilien geordnet, der meist auch geringere oder größere ‚Nähe‘ bei den Sprachstrukturen entspricht. Das Spanische ist eine (ibero-)romanische Sprache und somit Teil der indoeuropäischen Sprachfamilie wie auch die meisten Herkunftssprachen:  
