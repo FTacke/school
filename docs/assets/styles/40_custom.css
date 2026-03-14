@@ -9,55 +9,60 @@
    
    Ladereihenfolge: 00 → 10 → 20 → 30 → 40
    ========================================================================== */
+/* ──────────────────────────────────────────────────────────────────────────
+   HEADING PERMALINKS
+   ────────────────────────────────────────────────────────────────────────── */
 
+.md-typeset h1 .headerlink,
+.md-typeset h1 a.headerlink {
+  display: none;
+}
 
-/* ─────────────────────────────────────────────────────────────
-   COVER – fully frozen (no rem/vw/clamp)
-   Teil 1/4: COVER-Container + Tokens (ohne Zone 1/2/3)
-   Ziele:
-   - Desktop: exakt 460×750, stabil
-   - Mobile: Sprung auf 360×588, stabil (unter 560px)
-   - Keine rem/vw/clamp
-   - Keine "Global-Reset"-Regel, die H1 etc. kaputtmacht
-   ───────────────────────────────────────────────────────────── */
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  position: relative;
+}
 
-/* 1) Tokens (Desktop + Mobile proportional) */
-.md-typeset .admonition.cover {
-  /* Dimensions */
-  --cover-w: 460px;
-  --cover-h: 790px;
+@media (min-width: 768px) {
+  .md-typeset h2 .headerlink,
+  .md-typeset h2 a.headerlink,
+  .md-typeset h3 .headerlink,
+  .md-typeset h3 a.headerlink,
+  .md-typeset h4 .headerlink,
+  .md-typeset h4 a.headerlink {
+    position: absolute;
+    font-size: 0.75em;
+    left: -1.45rem;
+    top: 0.4rem;
+    line-height: 1;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 120ms ease;
+  }
 
-  --cover-w-sm: 360px;
-  --cover-h-sm: 620px; /* 750 * (360/460) ≈ 588 */
+  .md-typeset h2:hover .headerlink,
+  .md-typeset h2:hover a.headerlink,
+  .md-typeset h3:hover .headerlink,
+  .md-typeset h3:hover a.headerlink,
+  .md-typeset h4:hover .headerlink,
+  .md-typeset h4:hover a.headerlink {
+    opacity: 0.55;
+  }
+}
 
-  /* Layout */
-  --cover-radius: 18px;
-  --cover-radius-sm: 14px;
+@media (max-width: 767px) {
+  .md-typeset h2,
+  .md-typeset h3,
+  .md-typeset h4 {
+    padding-right: 1.6em;
+  }
 
-  /* Spacing (Desktop) */
-  --cover-gap-md: 10px;
-  --cover-gap-sm: 6px;
-
-  --cover-pad-top: 36px;
-  --cover-pad-x: 48px;
-  --cover-pad-bottom: 48px;
-
-  /* Spacing (Mobile, proportional s≈0.7826) */
-  --cover-gap-md-sm: 8px;
-  --cover-gap-sm-sm: 5px;
-
-  --cover-pad-top-sm: 22px;
-  --cover-pad-x-sm: 38px;
-  --cover-pad-bottom-sm: 20px;
-
-  /* Typography base (frozen) */
-  --cover-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-  --cover-base-size: 16px;
-  --cover-base-size-sm: 13px;
-  --cover-base-lh: 1.2;
-
-  /* Colors */
-  --cover-bg: #243041;
+  .md-typeset h2 .headerlink,
+  .md-typeset h2 a.headerlink,
+  .md-typeset h3 .headerlink,
+  .md-typeset h3 a.headerlink,
+  .md-typeset h4 .headerlink,
   .md-typeset h4 a.headerlink {
     position: absolute;
     right: 0;
@@ -1336,82 +1341,6 @@ body[data-md-color-scheme="slate"] .md-typeset details.weiterlesen {
 .md-typeset .literatur-abkuerzungen li:last-child {
   margin-bottom: 0;
 }
-
-/* ──────────────────────────────────────────────────────────────────────────
-   COVER Stage (index): Sticky läuft in begrenztem Abschnitt, ohne Content-Gap
-   Die Stage wird dynamisch per JS eingesetzt (kein Wrapper in index.md nötig)
-   ────────────────────────────────────────────────────────────────────────── */
-
-
-
-body.has-cover-scroll .md-typeset .cover-stage {
-  --cover-stage-scroll: 22vh;
-  /* wird per JS gesetzt; Fallback, falls JS noch nicht gelaufen ist */
-  --cover-stage-coverh: 620px;
-
-  position: relative;
-
-  /*
-    Trick:
-    - height gibt der Stage extra Platz, damit sticky “Zeit” hat.
-    - margin-bottom zieht den Extra-Platz wieder ab → kein Gap im Layout.
-    - ABER: nicht 100vh verwenden, sonst ist Vorwort immer weit weg.
-    - Daher: Cover-Höhe + Scroll-Strecke.
-  */
-  height: calc(var(--cover-stage-coverh) + var(--cover-stage-scroll));
-  margin-bottom: calc(-1 * var(--cover-stage-scroll));
-}
-
-body.has-cover-scroll .md-typeset .cover-stage .admonition.cover {
-  position: sticky;
-  top: 88px;
-  z-index: 0;
-
-  opacity: var(--cover-opacity, 1);
-  transform: none;
-  transition: none;
-  will-change: opacity;
-}
-
-/* Content nach der Stage liegt über dem Cover */
-body.has-cover-scroll .md-typeset .cover-stage ~ * {
-  position: relative;
-  z-index: 1;
-}
-
-/* Overlap: erstes Element nach der Stage zieht hoch */
-body.has-cover-scroll .md-typeset .cover-stage + * {
-  margin-top: -240px;
-  padding-top: 240px;
-}
-
-/* Mobile */
-@media (max-width: 768px) {
-  body.has-cover-scroll .md-typeset .cover-stage {
-    --cover-stage-scroll: 22vh;
-    --cover-stage-coverh: 520px;
-    height: calc(var(--cover-stage-coverh) + var(--cover-stage-scroll));
-    margin-bottom: calc(-1 * var(--cover-stage-scroll));
-  }
-
-  body.has-cover-scroll .md-typeset .cover-stage .admonition.cover {
-    top: 72px;
-  }
-
-  body.has-cover-scroll .md-typeset .cover-stage + * {
-    margin-top: -160px;
-    padding-top: 160px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  body.has-cover-scroll .md-typeset .cover-stage .admonition.cover {
-    transform: none !important;
-    opacity: 1 !important;
-    transition: none !important;
-  }
-}
-
 
 /* ──────────────────────────────────────────────────────────────────────── */
 /*  doc-chapter-meta: Responsive Dates Alignment + Unified Brightness       */

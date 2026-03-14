@@ -75,6 +75,7 @@ extra_css = [
   "assets/styles/00_tokens.css",
   "assets/styles/10_typography.css",
   "assets/styles/20_book.css",
+  "assets/styles/25_cover.css",
   "assets/styles/30_components.css",
   "https://unpkg.com/leaflet/dist/leaflet.css",
   "assets/styles/40_custom.css",
